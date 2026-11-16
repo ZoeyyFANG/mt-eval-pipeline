@@ -1,0 +1,46 @@
+name: MT Evaluation Pipeline
+
+# Three ways this fires:
+#  - push to main that touches locales/en.json  -> "new keys / PR changes" trigger
+#  - weekly schedule                             -> keeps it "continuous" even with no commits
+#  - workflow_dispatch                            -> manual button in the Actions tab, for demos
+on:
+  push:
+    branches: [main]
+    paths:
+      - "locales/en.json"
+  schedule:
+    - cron: "0 6 * * 1"   # Monday 06:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline (diff -> gate -> MT -> metrics -> judge -> db)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: python scripts/run_pipeline.py
+
+      - name: Commit updated db, snapshot and exports back to the repo
+        run: |
+          git config user.name "mt-eval-pipeline-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add db/pipeline.db data/last_processed_en.json data/exports/
+          git diff --cached --quiet || git commit -m "chore: pipeline run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

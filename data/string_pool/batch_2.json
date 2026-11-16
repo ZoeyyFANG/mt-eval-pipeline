@@ -1,0 +1,22 @@
+{
+  "alerts.collabOfflineWarning": "No internet connection available.\nYour changes will not be saved!",
+  "buttons.copyLink": "Copy link",
+  "canvasError.cannotShowPreview": "Cannot show preview",
+  "chat.rateLimit.generalRateLimit": "Hold your horses, you're too fast for us! Please wait a moment before trying again.",
+  "chat.role.assistant": "AI Assistant",
+  "colorPicker.invalidHexLength": "Hex code must be 3, 4, 6, or 8 characters",
+  "errors.brave_measure_text_error.line1": "Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.",
+  "errors.unsupportedFileType": "Unsupported file type.",
+  "fileDrop.replace": "Drop to replace content",
+  "hints.disableSnapping": "Hold {{shortcut}} to disable snapping",
+  "hints.resizeStickyNote": "hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center",
+  "imageExportDialog.label.embedScene": "Embed scene",
+  "labels.increaseFontSize": "Increase font size",
+  "labels.share": "Share",
+  "labels.untitled": "Untitled",
+  "mermaid.description": "Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",
+  "overwriteConfirm.action.exportToImage.button": "Export as image",
+  "publishDialog.republishWarning": "Note: some of the selected items are marked as already published/submitted. You should only resubmit items when updating an existing library or submission.",
+  "toolBar.lasso": "Lasso selection",
+  "userList.hint.isSpeaking": "User is speaking"
+}

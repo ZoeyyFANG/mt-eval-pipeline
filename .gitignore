@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# OS / Python clutter
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# scratch files passed between pipeline steps
+data/_*.json
+
+# old placeholder data kept locally only
+data/_placeholder_backup/

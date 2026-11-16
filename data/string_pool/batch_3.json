@@ -1,0 +1,22 @@
+{
+  "alerts.couldNotCopyToClipboard": "Couldn't copy to clipboard.",
+  "buttons.fullScreen": "Full screen",
+  "canvasError.canvasTooBig": "The canvas may be too big.",
+  "chat.rateLimit.messageLimit": "You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.",
+  "colorPicker.colors": "Colors",
+  "colorPicker.noShades": "No shades available for this color",
+  "errors.brave_measure_text_error.line3": "We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.",
+  "fontList.empty": "No fonts found",
+  "hints.dismissSearch": "{{shortcut}} to dismiss search",
+  "hints.rotate": "You can constrain angles by holding {{shortcut}} while rotating",
+  "imageExportDialog.label.scale": "Scale",
+  "labels.linkToElement": "Link to object",
+  "labels.sharp": "Sharp",
+  "library.search.inputPlaceholder": "Search library",
+  "overwriteConfirm.modal.loadFromFile.description": "Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below.",
+  "overwriteConfirm.modal.loadFromFile.title": "Load from file",
+  "roomDialog.desc_exitSession": "Stopping the session will disconnect you from the room, but you'll be able to continue working with the scene, locally. Note that this won't affect other people, and they'll still be able to collaborate on their version.",
+  "toast.copyStyles": "Copied styles.",
+  "toolBar.selection": "Selection",
+  "welcomeScreen.app.center_heading_plus": "Did you want to go to the Excalidraw+ instead?"
+}

@@ -1,0 +1,22 @@
+{
+  "alerts.confirmAddLibrary": "This will add {{numShapes}} shape(s) to your library. Are you sure?",
+  "alerts.couldNotCreateShareableLink": "Couldn't create shareable link.",
+  "buttons.lightMode": "Light mode",
+  "canvasError.canvasTooBigTip": "Tip: try moving the farthest elements a bit closer together.",
+  "colorPicker.hexCode": "Hex code",
+  "commandPalette.search.placeholder": "Search menus, commands, and discover hidden gems",
+  "errors.brave_measure_text_error.line4": "If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>",
+  "errors.collabSaveFailed": "Couldn't save to the backend database. If problems persist, you should save your file locally to ensure you don't lose your work.",
+  "helpDialog.deepBoxSelect": "Deep select within box, and prevent dragging",
+  "hints.enterCropEditor": "Double click the image or press {{shortcut}} to crop the image",
+  "imageExportDialog.button.copyPngToClipboard": "Copy to clipboard",
+  "labels.arrowhead_cardinality_many": "Cardinality (many)",
+  "labels.plusFreeTrial": "14-day free trial",
+  "labels.showHints": "Show hints",
+  "overwriteConfirm.action.excalidrawPlus.title": "Excalidraw+",
+  "overwriteConfirm.modal.shareableLink.description": "Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below.",
+  "publishDialog.atleastOneLibItem": "Please select at least one library item to get started",
+  "roomDialog.desc_privacy": "Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",
+  "toast.elementLinkCopied": "Link copied to clipboard",
+  "toolBar.text": "Text"
+}
