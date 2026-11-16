@@ -1,1 +1,482 @@
-{}
+{
+  "alerts.clearReset": {
+    "text_hash": "62861f384cae",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.collabStopOverridePrompt": {
+    "text_hash": "8bee5598736a",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.couldNotCreateShareableLinkTooBig": {
+    "text_hash": "7044c3d3efc4",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.couldNotLoadInvalidFile": {
+    "text_hash": "61d9f2aef448",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.errorRemovingFromLibrary": {
+    "text_hash": "8ae9abaca3cc",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.imageDoesNotContainScene": {
+    "text_hash": "e6e1d63e318c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.invalidEncryptionKey": {
+    "text_hash": "2d6d53312ad7",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.invalidSceneUrl": {
+    "text_hash": "e8803bfd137b",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.loadSceneOverridePrompt": {
+    "text_hash": "34a9a185d287",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.resetLibrary": {
+    "text_hash": "7940a4ef9055",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "alerts.uploadedSecurly": {
+    "text_hash": "9a0ba4a02e34",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "bucketfill.noRegion": {
+    "text_hash": "3d3276d78e7b",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.cancel": {
+    "text_hash": "19766ed6ccb2",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.confirm": {
+    "text_hash": "eebdd24a77d9",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.embeddableInteractionButton": {
+    "text_hash": "d29c6947ad68",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.redo": {
+    "text_hash": "74273989b096",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.submit": {
+    "text_hash": "155f816c0407",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "buttons.undo": {
+    "text_hash": "a8283ade3185",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.deleteChat": {
+    "text_hash": "93291d9c41dd",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.deleteMessage": {
+    "text_hash": "87e7176a7ce7",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.errors.fixInMermaid": {
+    "text_hash": "8c23c1598f6c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.errors.invalidDiagram": {
+    "text_hash": "8fcb84c4d9f8",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.errors.promptTooShort": {
+    "text_hash": "ba1a80481952",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.errors.requestAborted": {
+    "text_hash": "ad320780ba4d",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.inputPlaceholder": {
+    "text_hash": "d7b3331376bf",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.rateLimitRemaining": {
+    "text_hash": "d60f16226230",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "chat.viewAsMermaid": {
+    "text_hash": "d4c0db7fcc2a",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "colors.gray": {
+    "text_hash": "0d5adda3cdcc",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "colors.teal": {
+    "text_hash": "fa15a5c1d610",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "colors.transparent": {
+    "text_hash": "aac7e89fcd0e",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "commandPalette.recents": {
+    "text_hash": "1e7cf8df9b6a",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "commandPalette.shortcuts.close": {
+    "text_hash": "7d9eb7acb13e",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "confirmDialog.removeItemsFromLib": {
+    "text_hash": "99b4811bf633",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "element.embeddable": {
+    "text_hash": "ec1b4ffcbed5",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "element.line": {
+    "text_hash": "d7852cd0d245",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errorSplash.clearCanvasMessage": {
+    "text_hash": "ad87727ae03d",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errorSplash.openIssueMessage": {
+    "text_hash": "3cbc000dab11",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errorSplash.trackedToSentry": {
+    "text_hash": "e661e81d105c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.asyncPasteFailedOnParse": {
+    "text_hash": "eea3651df8c2",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.collabSaveFailed_sizeExceeded": {
+    "text_hash": "a3a7fd031471",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.copyToSystemClipboardFailed": {
+    "text_hash": "33a74a09d057",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.failedToFetchImage": {
+    "text_hash": "d853adcd8280",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.imageToolNotSupported": {
+    "text_hash": "baa4691f9a5c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.importLibraryError": {
+    "text_hash": "647db94b58de",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.libraryElementTypeError.image": {
+    "text_hash": "36c2976a68ec",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "errors.saveLibraryError": {
+    "text_hash": "eccace5eccab",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "exportDialog.disk_button": {
+    "text_hash": "396afe74b64b",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "exportDialog.disk_details": {
+    "text_hash": "812542feb419",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "exportDialog.excalidrawplus_description": {
+    "text_hash": "039156e3411f",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "exportDialog.link_button": {
+    "text_hash": "8bbe3a057203",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "fileDrop.keepHint": {
+    "text_hash": "7756a6d94d8a",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "fileDrop.replacedToast": {
+    "text_hash": "bb4b45ca870e",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "headings.shapes": {
+    "text_hash": "75e8028a7913",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "helpDialog.editor": {
+    "text_hash": "936a161c3931",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "helpDialog.github": {
+    "text_hash": "55565b14831f",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "helpDialog.textNewLine": {
+    "text_hash": "146d2dea39d6",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "helpDialog.zoomToSelection": {
+    "text_hash": "423d77162592",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.arrowBindModifiers": {
+    "text_hash": "0e4067d5dda2",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.arrowTool": {
+    "text_hash": "21abfb7dba6e",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.bindTextToElement": {
+    "text_hash": "e65abab122a8",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.canvasPanning": {
+    "text_hash": "0937d42de3b1",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.cycleSelection": {
+    "text_hash": "5d8361974043",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.firefox_clipboard_write": {
+    "text_hash": "bbf46dd10f0e",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.freeDraw": {
+    "text_hash": "7ac4f0512559",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.leaveCropEditor": {
+    "text_hash": "498521c231cd",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.lineEditor_info": {
+    "text_hash": "1c9feb52d587",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.lineEditor_line_info": {
+    "text_hash": "dc09431f1ca8",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.linearElement": {
+    "text_hash": "b0a79317e7a9",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.lockAngle": {
+    "text_hash": "7e78b24c9ab9",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.resizeImage": {
+    "text_hash": "8c76f5916f0c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.text_editing": {
+    "text_hash": "67df8e54b1f7",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "hints.text_selected": {
+    "text_hash": "c65c26c4c6c7",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "imageExportDialog.tooltip.embedScene": {
+    "text_hash": "02d1a047eadf",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "keys.cmd": {
+    "text_hash": "1695b48bccfe",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "keys.delete": {
+    "text_hash": "e2d0a54968ea",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "keys.enter": {
+    "text_hash": "dc8659db6d41",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.addWatermark": {
+    "text_hash": "25ed375d84a5",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.arrowhead_cardinality_exactly_one": {
+    "text_hash": "892067d04fe5",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.arrowhead_cardinality_one_or_many": {
+    "text_hash": "69ad33f35b3b",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.changeBackground": {
+    "text_hash": "f97fd1bcf6fa",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.copyElementLink": {
+    "text_hash": "b7ae275f213b",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.discordChat": {
+    "text_hash": "c4f117672af6",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.elementLock.unlock": {
+    "text_hash": "4ac709aa58bc",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.eyeDropper": {
+    "text_hash": "c3696cb3d9a8",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.group": {
+    "text_hash": "76fb5a349324",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.large": {
+    "text_hash": "ab80540d98d2",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.name": {
+    "text_hash": "dcd1d5223f73",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.pressure": {
+    "text_hash": "1f8407f9eeb1",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.removeFromLibrary": {
+    "text_hash": "8e7161a5b8ab",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.selectAllElementsInFrame": {
+    "text_hash": "58dcd5d430c1",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.signUp": {
+    "text_hash": "5e2b8e96503d",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.small": {
+    "text_hash": "5263293fc202",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.statusPublished": {
+    "text_hash": "2ef42ec21d93",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.strokeStyle_dashed": {
+    "text_hash": "2fe14adec27a",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.thin": {
+    "text_hash": "da68daaecfea",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.toggleTheme": {
+    "text_hash": "d2d677004182",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.unbindText": {
+    "text_hash": "776300b43474",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "labels.zoomToFitViewport": {
+    "text_hash": "72da91c1e3eb",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "library.hint_emptyLibrary": {
+    "text_hash": "78b836932ff5",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "library.hint_emptyPrivateLibrary": {
+    "text_hash": "2e62342014b8",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "mermaid.loadError": {
+    "text_hash": "21496d609e0f",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "progressDialog.title": {
+    "text_hash": "096b73624b09",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "publishDialog.errors.required": {
+    "text_hash": "4850b174b713",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "publishDialog.noteItems": {
+    "text_hash": "613c5696641d",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "publishDialog.noteLicense": {
+    "text_hash": "157897a6c8b4",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "publishDialog.placeholder.githubHandle": {
+    "text_hash": "4d0ea2bdda84",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "publishSuccessDialog.content": {
+    "text_hash": "30dc04747504",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "roomDialog.desc_inProgressIntro": {
+    "text_hash": "4f6d057a7857",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "roomDialog.shareTitle": {
+    "text_hash": "be3ccc57a21c",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "stats.storage": {
+    "text_hash": "a69c4dece144",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "stats.total": {
+    "text_hash": "c9b3c38247f7",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "stats.versionNotAvailable": {
+    "text_hash": "440e0002891f",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toast.copyToClipboardAsPng": {
+    "text_hash": "7873927dcff4",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toast.fileSaved": {
+    "text_hash": "a94305abb228",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toast.pasteAsSingleElement": {
+    "text_hash": "c6bf82b87f4d",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toast.unrecognizedLinkFormat": {
+    "text_hash": "c605dc4ee175",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toolBar.arrow": {
+    "text_hash": "05800e70aa10",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toolBar.convertElementType": {
+    "text_hash": "592de50ad8a3",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toolBar.image": {
+    "text_hash": "cf3a92dadb38",
+    "last_run_id": "20261116T185752Z_c060899"
+  },
+  "toolBar.penMode": {
+    "text_hash": "b540d04a8841",
+    "last_run_id": "20261116T185752Z_c060899"
+  }
+}

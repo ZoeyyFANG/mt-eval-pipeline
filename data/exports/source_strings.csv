@@ -1,0 +1,127 @@
+﻿string_id,source_text,text_hash,stratum,tags,batch,has_placeholder,tier,first_seen_run_id
+alerts.clearReset,This will clear the whole canvas. Are you sure?,62861f384cae,medium,error_message,1,0,,20261116T185752Z_c060899
+alerts.collabStopOverridePrompt,"Stopping the session will overwrite your previous, locally stored drawing. Are you sure?
+
+(If you want to keep your local drawing, simply close the browser tab instead.)",8bee5598736a,long,long;error_message,1,0,,20261116T185752Z_c060899
+alerts.couldNotCreateShareableLinkTooBig,Couldn't create shareable link: the scene is too big,7044c3d3efc4,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.couldNotLoadInvalidFile,Couldn't load invalid file,61d9f2aef448,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.errorRemovingFromLibrary,Couldn't remove item from the library,8ae9abaca3cc,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.imageDoesNotContainScene,This image does not seem to contain any scene data. Have you enabled scene embedding during export?,e6e1d63e318c,long,long;error_message,1,0,,20261116T185752Z_c060899
+alerts.invalidEncryptionKey,Encryption key must be of 22 characters. Live collaboration is disabled.,2d6d53312ad7,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.invalidSceneUrl,"Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",e8803bfd137b,long,long;error_message,1,0,,20261116T185752Z_c060899
+alerts.loadSceneOverridePrompt,Loading external drawing will replace your existing content. Do you wish to continue?,34a9a185d287,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.resetLibrary,This will clear your library. Are you sure?,7940a4ef9055,error,error_message,1,0,,20261116T185752Z_c060899
+alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server and third parties can't read the content.",9a0ba4a02e34,long,long;error_message,1,0,,20261116T185752Z_c060899
+bucketfill.noRegion,Couldn't find an enclosed region to fill here.,3d3276d78e7b,medium,,1,0,,20261116T185752Z_c060899
+buttons.cancel,Cancel,19766ed6ccb2,short,short,1,0,,20261116T185752Z_c060899
+buttons.confirm,Confirm,eebdd24a77d9,short,short,1,0,,20261116T185752Z_c060899
+buttons.embeddableInteractionButton,Click to interact,d29c6947ad68,medium,,1,0,,20261116T185752Z_c060899
+buttons.redo,Redo,74273989b096,short,short,1,0,,20261116T185752Z_c060899
+buttons.submit,Submit,155f816c0407,short,short,1,0,,20261116T185752Z_c060899
+buttons.undo,Undo,a8283ade3185,short,short,1,0,,20261116T185752Z_c060899
+chat.deleteChat,Delete chat,93291d9c41dd,short,short,1,0,,20261116T185752Z_c060899
+chat.deleteMessage,Delete message,87e7176a7ce7,short,short,1,0,,20261116T185752Z_c060899
+chat.errors.fixInMermaid,Edit Mermaid manually →,8c23c1598f6c,medium,,1,0,,20261116T185752Z_c060899
+chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",8fcb84c4d9f8,long,long,1,0,,20261116T185752Z_c060899
+chat.errors.promptTooShort,Prompt is too short (min {{min}} characters),ba1a80481952,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+chat.errors.requestAborted,Request aborted,ad320780ba4d,short,short,1,0,,20261116T185752Z_c060899
+chat.inputPlaceholder,Start typing your diagram idea here... ({{shortcut}} for new line),d7b3331376bf,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+chat.rateLimitRemaining,{{count}} requests left today,d60f16226230,placeholder_markup,placeholder;plural,1,1,,20261116T185752Z_c060899
+chat.viewAsMermaid,View as Mermaid,d4c0db7fcc2a,medium,,1,0,,20261116T185752Z_c060899
+colors.gray,Gray,0d5adda3cdcc,colors,short,1,0,,20261116T185752Z_c060899
+colors.teal,Teal,fa15a5c1d610,colors,short,1,0,,20261116T185752Z_c060899
+colors.transparent,Transparent,aac7e89fcd0e,colors,short,1,0,,20261116T185752Z_c060899
+commandPalette.recents,Recently used,1e7cf8df9b6a,short,short,1,0,,20261116T185752Z_c060899
+commandPalette.shortcuts.close,Close,7d9eb7acb13e,short,short,1,0,,20261116T185752Z_c060899
+confirmDialog.removeItemsFromLib,Remove selected items from library,99b4811bf633,medium,,1,0,,20261116T185752Z_c060899
+element.embeddable,Web Embed,ec1b4ffcbed5,short,short,1,0,,20261116T185752Z_c060899
+element.line,Line,d7852cd0d245,short,short,1,0,,20261116T185752Z_c060899
+errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",ad87727ae03d,placeholder_markup,markup;error_message,1,1,,20261116T185752Z_c060899
+errorSplash.openIssueMessage,"We were very cautious not to include your scene information on the error. If your scene is not private, please consider following up on our <button>bug tracker</button>. Please include information below by copying and pasting into the GitHub issue.",3cbc000dab11,placeholder_markup,markup;long;error_message,1,1,,20261116T185752Z_c060899
+errorSplash.trackedToSentry,The error with identifier {{eventId}} was tracked on our system.,e661e81d105c,placeholder_markup,placeholder;error_message,1,1,,20261116T185752Z_c060899
+errors.asyncPasteFailedOnParse,Couldn't paste.,eea3651df8c2,error,short;error_message,1,0,,20261116T185752Z_c060899
+errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database, the canvas seems to be too big. You should save the file locally to ensure you don't lose your work.",a3a7fd031471,long,long;error_message,1,0,,20261116T185752Z_c060899
+errors.copyToSystemClipboardFailed,Couldn't copy to clipboard.,33a74a09d057,error,error_message,1,0,,20261116T185752Z_c060899
+errors.failedToFetchImage,Failed to fetch image.,d853adcd8280,error,error_message,1,0,,20261116T185752Z_c060899
+errors.imageToolNotSupported,Images are disabled.,baa4691f9a5c,error,error_message,1,0,,20261116T185752Z_c060899
+errors.importLibraryError,Couldn't load library,647db94b58de,error,error_message,1,0,,20261116T185752Z_c060899
+errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,36c2976a68ec,error,error_message,1,0,,20261116T185752Z_c060899
+errors.saveLibraryError,Couldn't save library to storage. Please save your library to a file locally to make sure you don't lose changes.,eccace5eccab,long,long;error_message,1,0,,20261116T185752Z_c060899
+exportDialog.disk_button,Save to file,396afe74b64b,medium,,1,0,,20261116T185752Z_c060899
+exportDialog.disk_details,Export the scene data to a file from which you can import later.,812542feb419,medium,,1,0,,20261116T185752Z_c060899
+exportDialog.excalidrawplus_description,Save the scene to your Excalidraw+ workspace.,039156e3411f,medium,,1,0,,20261116T185752Z_c060899
+exportDialog.link_button,Export to Link,8bbe3a057203,medium,,1,0,,20261116T185752Z_c060899
+fileDrop.keepHint,Your existing content will be kept,7756a6d94d8a,medium,,1,0,,20261116T185752Z_c060899
+fileDrop.replacedToast,Content replaced. {{shortcut}} to undo,bb4b45ca870e,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+headings.shapes,Shapes,75e8028a7913,short,short,1,0,,20261116T185752Z_c060899
+helpDialog.editor,Editor,936a161c3931,short,short,1,0,,20261116T185752Z_c060899
+helpDialog.github,Found an issue? Submit,55565b14831f,medium,,1,0,,20261116T185752Z_c060899
+helpDialog.textNewLine,Add new line (text editor),146d2dea39d6,medium,,1,0,,20261116T185752Z_c060899
+helpDialog.zoomToSelection,Zoom to selection,423d77162592,medium,,1,0,,20261116T185752Z_c060899
+hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point",0e4067d5dda2,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",21abfb7dba6e,placeholder_markup,placeholder;long,1,1,,20261116T185752Z_c060899
+hints.bindTextToElement,{{shortcut}} to add text,e65abab122a8,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",0937d42de3b1,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.cycleSelection,"{{shortcut}}-click to cycle selection, or drag to duplicate",5d8361974043,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.firefox_clipboard_write,"This feature can likely be enabled by setting the ""dom.events.asyncClipboard.clipboardItem"" flag to ""true"". To change the browser flags in Firefox, visit the ""about:config"" page.",bbf46dd10f0e,long,long,1,0,,20261116T185752Z_c060899
+hints.freeDraw,"Click and drag, release when you're finished",7ac4f0512559,medium,,1,0,,20261116T185752Z_c060899
+hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,498521c231cd,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.lineEditor_info,Hold {{shortcut_1}} and Double-click or press {{shortcut_2}} to edit points,1c9feb52d587,medium,placeholder,1,1,,20261116T185752Z_c060899
+hints.lineEditor_line_info,Double-click or press {{shortcut}} to edit points,dc09431f1ca8,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.linearElement,"Click to start multiple points, drag for single line",b0a79317e7a9,medium,,1,0,,20261116T185752Z_c060899
+hints.lockAngle,You can constrain angle by holding {{shortcut}},7e78b24c9ab9,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.resizeImage,"You can resize freely by holding {{shortcut_1}},
+hold {{shortcut_2}} to resize from the center",8c76f5916f0c,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,67df8e54b1f7,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+hints.text_selected,Double-click or press {{shortcut}} to edit text,c65c26c4c6c7,placeholder_markup,placeholder,1,1,,20261116T185752Z_c060899
+imageExportDialog.tooltip.embedScene,"Scene data will be saved into the exported PNG/SVG file so that the scene can be restored from it.
+Will increase exported file size.",02d1a047eadf,long,long,1,0,,20261116T185752Z_c060899
+keys.cmd,Cmd,1695b48bccfe,dnt,do_not_translate;short,1,0,,20261116T185752Z_c060899
+keys.delete,Delete,e2d0a54968ea,dnt,do_not_translate;short,1,0,,20261116T185752Z_c060899
+keys.enter,Enter,dc8659db6d41,dnt,do_not_translate;short,1,0,,20261116T185752Z_c060899
+labels.addWatermark,"Add ""Made with Excalidraw""",25ed375d84a5,medium,,1,0,,20261116T185752Z_c060899
+labels.arrowhead_cardinality_exactly_one,Cardinality (exactly one),892067d04fe5,medium,,1,0,,20261116T185752Z_c060899
+labels.arrowhead_cardinality_one_or_many,Cardinality (one or many),69ad33f35b3b,medium,,1,0,,20261116T185752Z_c060899
+labels.changeBackground,Change background color,f97fd1bcf6fa,medium,,1,0,,20261116T185752Z_c060899
+labels.copyElementLink,Copy link to object,b7ae275f213b,medium,,1,0,,20261116T185752Z_c060899
+labels.discordChat,Discord chat,c4f117672af6,short,short,1,0,,20261116T185752Z_c060899
+labels.elementLock.unlock,Unlock,4ac709aa58bc,short,short,1,0,,20261116T185752Z_c060899
+labels.eyeDropper,Pick color from canvas,c3696cb3d9a8,medium,,1,0,,20261116T185752Z_c060899
+labels.group,Group selection,76fb5a349324,short,short,1,0,,20261116T185752Z_c060899
+labels.large,Large,ab80540d98d2,short,short,1,0,,20261116T185752Z_c060899
+labels.name,Name,dcd1d5223f73,short,short,1,0,,20261116T185752Z_c060899
+labels.pressure,Pressure,1f8407f9eeb1,short,short,1,0,,20261116T185752Z_c060899
+labels.removeFromLibrary,Remove from library,8e7161a5b8ab,medium,,1,0,,20261116T185752Z_c060899
+labels.selectAllElementsInFrame,Select all elements in frame,58dcd5d430c1,medium,,1,0,,20261116T185752Z_c060899
+labels.signUp,Sign up,5e2b8e96503d,short,short,1,0,,20261116T185752Z_c060899
+labels.small,Small,5263293fc202,short,short,1,0,,20261116T185752Z_c060899
+labels.statusPublished,Published,2ef42ec21d93,short,short,1,0,,20261116T185752Z_c060899
+labels.strokeStyle_dashed,Dashed,2fe14adec27a,short,short,1,0,,20261116T185752Z_c060899
+labels.thin,Thin,da68daaecfea,short,short,1,0,,20261116T185752Z_c060899
+labels.toggleTheme,Toggle light/dark theme,d2d677004182,medium,,1,0,,20261116T185752Z_c060899
+labels.unbindText,Unbind text,776300b43474,short,short,1,0,,20261116T185752Z_c060899
+labels.zoomToFitViewport,Zoom to fit in viewport,72da91c1e3eb,medium,,1,0,,20261116T185752Z_c060899
+library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.",78b836932ff5,long,long,1,0,,20261116T185752Z_c060899
+library.hint_emptyPrivateLibrary,Select an item on canvas to add it here.,2e62342014b8,medium,,1,0,,20261116T185752Z_c060899
+mermaid.loadError,Couldn't load Mermaid. Check your internet connection and try again.,21496d609e0f,medium,,1,0,,20261116T185752Z_c060899
+progressDialog.title,Saving,096b73624b09,short,short,1,0,,20261116T185752Z_c060899
+publishDialog.errors.required,Required,4850b174b713,short,short,1,0,,20261116T185752Z_c060899
+publishDialog.noteItems,Each library item must have its own name so it's filterable. The following library items will be included:,613c5696641d,long,long,1,0,,20261116T185752Z_c060899
+publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.",157897a6c8b4,placeholder_markup,markup;long,1,1,,20261116T185752Z_c060899
+publishDialog.placeholder.githubHandle,"GitHub handle (optional), so you can edit the library once submitted for review",4d0ea2bdda84,medium,,1,0,,20261116T185752Z_c060899
+publishSuccessDialog.content,Thank you {{authorName}}. Your library has been submitted for review. You can track the status <link>here</link>,30dc04747504,placeholder_markup,placeholder;markup;long,1,1,,20261116T185752Z_c060899
+roomDialog.desc_inProgressIntro,Live-collaboration session is now in progress.,4f6d057a7857,medium,,1,0,,20261116T185752Z_c060899
+roomDialog.shareTitle,Join a live collaboration session on Excalidraw,be3ccc57a21c,medium,,1,0,,20261116T185752Z_c060899
+stats.storage,Storage,a69c4dece144,short,short,1,0,,20261116T185752Z_c060899
+stats.total,Total,c9b3c38247f7,short,short,1,0,,20261116T185752Z_c060899
+stats.versionNotAvailable,Version not available,440e0002891f,medium,,1,0,,20261116T185752Z_c060899
+toast.copyToClipboardAsPng,"Copied {{exportSelection}} to clipboard as PNG
+({{exportColorScheme}})",7873927dcff4,placeholder_markup,placeholder;error_message,1,1,,20261116T185752Z_c060899
+toast.fileSaved,File saved.,a94305abb228,error,short;error_message,1,0,,20261116T185752Z_c060899
+toast.pasteAsSingleElement,"Use {{shortcut}} to paste as a single element,
+or paste into an existing text editor",c6bf82b87f4d,placeholder_markup,placeholder;long;error_message,1,1,,20261116T185752Z_c060899
+toast.unrecognizedLinkFormat,The link you embedded does not match the expected format. Please try to paste the 'embed' string provided by the source site,c605dc4ee175,long,long;error_message,1,0,,20261116T185752Z_c060899
+toolBar.arrow,Arrow,05800e70aa10,short,short,1,0,,20261116T185752Z_c060899
+toolBar.convertElementType,Toggle shape type,592de50ad8a3,medium,,1,0,,20261116T185752Z_c060899
+toolBar.image,Insert image,cf3a92dadb38,short,short,1,0,,20261116T185752Z_c060899
+toolBar.penMode,Pen mode - prevent touch,b540d04a8841,medium,,1,0,,20261116T185752Z_c060899

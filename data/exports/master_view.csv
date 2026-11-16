@@ -1,0 +1,1 @@
+﻿string_id,stratum,tags,batch,source_text,engine,run_id,timestamp,mt_text,token_ok,token_detail,gate_label,bleu,chrf,ter,comet,cometkiwi,llm_error_type,llm_severity,llm_rationale,human_has_error,human_error_type,human_severity
