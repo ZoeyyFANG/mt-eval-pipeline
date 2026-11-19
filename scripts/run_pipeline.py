@@ -19,7 +19,27 @@ STEPS = [
 SCRIPTS_DIR = Path(__file__).resolve().parent
 
 
+def preflight():
+    """Fail fast instead of producing a run full of failed API calls."""
+    import os
+    sys.path.insert(0, str(SCRIPTS_DIR.parent))
+    sys.path.insert(0, str(SCRIPTS_DIR))
+    import common  # noqa: F401  (loads .env)
+    from config import MOCK, SKIP_LLM, ENGINES
+    if MOCK:
+        return
+    need = {"google": "GOOGLE_TRANSLATE_API_KEY", "deepl": "DEEPL_API_KEY"}
+    missing = [need[e] for e in ENGINES if e in need and not os.environ.get(need[e])]
+    if ("claude" in ENGINES or not SKIP_LLM) and not os.environ.get("ANTHROPIC_API_KEY"):
+        missing.append("ANTHROPIC_API_KEY")
+    if missing:
+        print(f"[pipeline] missing keys: {', '.join(missing)}. Add them to .env (local) or "
+              f"repo Secrets (CI), or use MT_EVAL_SKIP_LLM / MT_EVAL_ENGINES. Nothing was run.")
+        sys.exit(1)
+
+
 def main():
+    preflight()
     for step in STEPS:
         print(f"\n=== running {step} ===")
         result = subprocess.run([sys.executable, str(SCRIPTS_DIR / step)])

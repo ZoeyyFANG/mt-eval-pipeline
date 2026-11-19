@@ -96,9 +96,21 @@ def main():
         )
     con.commit()
 
+    # Only mark a string as processed if this run actually handled it: it got at
+    # least one MT output, or a WORKING gate deliberately held it for review.
+    # A failed API call must never hide a string from the next run.
+    translated = {m["string_id"] for m in load(MT_OUTPUTS_FILE, [])}
+    held = {g["string_id"] for g in load(GATE_RESULTS_FILE, [])
+            if g["gate_label"] == "needs_review" and not str(g.get("reason", "")).startswith("gate call failed")}
     snapshot = load(SNAPSHOT_FILE, {})
+    skipped = 0
     for item in pending:
-        snapshot[item["string_id"]] = {"text_hash": item["text_hash"], "last_run_id": run_id}
+        if item["string_id"] in translated or item["string_id"] in held:
+            snapshot[item["string_id"]] = {"text_hash": item["text_hash"], "last_run_id": run_id}
+        else:
+            skipped += 1
+    if skipped:
+        print(f"[db] {skipped} strings not marked as processed (API failures) — they will be retried next run.")
     Path(SNAPSHOT_FILE).write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
 
     export_csvs(con)

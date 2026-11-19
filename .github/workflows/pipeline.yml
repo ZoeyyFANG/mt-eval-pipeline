@@ -9,8 +9,9 @@ on:
     branches: [main]
     paths:
       - "locales/en.json"
-  schedule:
-    - cron: "0 6 * * 1"   # Monday 06:00 UTC
+  # Weekly schedule paused while the project runs on a small API budget.
+  # schedule:
+  #   - cron: "0 6 * * 1"   # Monday 06:00 UTC
   workflow_dispatch: {}
 
 jobs:
