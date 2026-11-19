@@ -23,14 +23,21 @@ import requests
 
 
 def translate_google(text, target="zh-CN"):
-    key = os.environ["GOOGLE_TRANSLATE_API_KEY"]
+    key = os.environ["GOOGLE_TRANSLATE_API_KEY"].strip()
     resp = requests.post(
         "https://translation.googleapis.com/language/translate/v2",
         params={"key": key},
         json={"q": text, "target": target, "source": "en", "format": "text"},
         timeout=20,
     )
-    resp.raise_for_status()
+    if not resp.ok:  # raise without the URL, so the key never lands in logs
+        try:
+            err = resp.json().get("error", {})
+            reasons = [d.get("reason") for d in err.get("details", []) if d.get("reason")]
+            detail = f"{err.get('status', '')}: {err.get('message', '')} {reasons}"
+        except ValueError:
+            detail = resp.text[:300]
+        raise RuntimeError(f"Google HTTP {resp.status_code} | {detail}")
     return resp.json()["data"]["translations"][0]["translatedText"]
 
 

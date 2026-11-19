@@ -13,7 +13,7 @@ from pathlib import Path
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import PENDING_FILE, GATE_RESULTS_FILE
+from config import PENDING_FILE, GATE_RESULTS_FILE, SKIP_LLM
 from common import ask_json, extract_tokens
 
 GATE_PROMPT = """You are screening a UI source string before it enters a machine-translation pipeline.
@@ -46,6 +46,10 @@ def mock_gate(text):
 
 
 def screen_one(text):
+    if SKIP_LLM:  # rule-based fallback: same labels, no model
+        gate = mock_gate(text)
+        gate["reason"] = "rule-based gate (LLM unavailable)"
+        return gate
     gate = ask_json(GATE_PROMPT.format(text=text), max_tokens=200,
                     mock_reply=lambda _: json.dumps(mock_gate(text)))
     # never trust an unexpected label: unknown -> needs_review

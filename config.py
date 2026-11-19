@@ -32,7 +32,11 @@ EXPORT_DIR = ROOT / "data" / "exports"   # CSVs for Excel / Power BI to read
 # --- model / engines ---
 # Override with the ANTHROPIC_MODEL env var if your account uses a different model.
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
-ENGINES = ["google", "deepl", "claude"]
+ENGINES = [e.strip() for e in os.environ.get("MT_EVAL_ENGINES", "google,deepl,claude").split(",") if e.strip()]
+
+# Set MT_EVAL_SKIP_LLM=1 when no Claude API access: the source gate falls back to
+# rules and the LLM judge is skipped (re-run it later on the stored outputs).
+SKIP_LLM = os.environ.get("MT_EVAL_SKIP_LLM") == "1"
 
 # Set MT_EVAL_MOCK=1 to run the whole pipeline with fake API responses
 # (no keys, no cost) — used for tests and demos.

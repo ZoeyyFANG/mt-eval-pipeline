@@ -12,7 +12,7 @@ from pathlib import Path
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import MT_OUTPUTS_FILE, LLM_JUDGE_FILE, MQM_ERROR_TYPES
+from config import MT_OUTPUTS_FILE, LLM_JUDGE_FILE, MQM_ERROR_TYPES, SKIP_LLM
 from common import ask_json, _stable_int
 
 JUDGE_PROMPT = """You are a Chinese localization QA judge for software UI strings, using an MQM-inspired rubric.
@@ -60,6 +60,10 @@ def judge_one(item):
 
 
 def main():
+    if SKIP_LLM:
+        Path(LLM_JUDGE_FILE).write_text("[]", encoding="utf-8")
+        print("[judge] skipped (MT_EVAL_SKIP_LLM=1).")
+        return
     outputs = json.loads(Path(MT_OUTPUTS_FILE).read_text(encoding="utf-8"))
     judged, failed = [], 0
     for item in outputs:
