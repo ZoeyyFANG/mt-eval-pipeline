@@ -16,8 +16,10 @@ from pathlib import Path
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from config import GATE_RESULTS_FILE, MT_OUTPUTS_FILE, ENGINES, MOCK
+from config import GATE_RESULTS_FILE, MT_OUTPUTS_FILE, ENGINES, MOCK, USE_GLOSSARY
 from common import ask, token_check, extract_tokens, _stable_int
+from terms import prompt_block, deepl_entries, term_adherence
+import hashlib
 
 import requests
 
@@ -41,13 +43,48 @@ def translate_google(text, target="zh-CN"):
     return resp.json()["data"]["translations"][0]["translatedText"]
 
 
-def translate_deepl(text, target="ZH-HANS"):
+def _deepl_host_headers():
     key = os.environ["DEEPL_API_KEY"]
     host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
+    return host, {"Authorization": f"DeepL-Auth-Key {key}"}
+
+
+_DEEPL_GLOSSARY = {}
+
+
+def deepl_glossary_id():
+    """Reuse a DeepL glossary whose name carries the termbase hash; create it if the
+    termbase changed. Old glossaries are left in place (free plan allows several)."""
+    if "id" in _DEEPL_GLOSSARY:
+        return _DEEPL_GLOSSARY["id"]
+    entries = deepl_entries()
+    name = "mt-eval-termbase-" + hashlib.sha1(entries.encode()).hexdigest()[:8]
+    host, headers = _deepl_host_headers()
+    existing = requests.get(f"https://{host}/v2/glossaries", headers=headers, timeout=20)
+    existing.raise_for_status()
+    for g in existing.json().get("glossaries", []):
+        if g["name"] == name and g.get("ready"):
+            _DEEPL_GLOSSARY["id"] = g["glossary_id"]
+            return g["glossary_id"]
+    resp = requests.post(f"https://{host}/v2/glossaries", headers=headers, timeout=20,
+                         json={"name": name, "source_lang": "en", "target_lang": "zh",
+                               "entries": entries, "entries_format": "tsv"})
+    resp.raise_for_status()
+    gid = resp.json()["glossary_id"]
+    print(f"[mt] created DeepL glossary {name} ({resp.json().get('entry_count')} entries)")
+    _DEEPL_GLOSSARY["id"] = gid
+    return gid
+
+
+def translate_deepl(text, target="ZH-HANS"):
+    host, headers = _deepl_host_headers()
+    body = {"text": [text], "source_lang": "EN", "target_lang": target}
+    if USE_GLOSSARY:
+        body["glossary_id"] = deepl_glossary_id()
     resp = requests.post(
         f"https://{host}/v2/translate",
-        headers={"Authorization": f"DeepL-Auth-Key {key}"},
-        json={"text": [text], "source_lang": "EN", "target_lang": target},
+        headers=headers,
+        json=body,
         timeout=20,
     )
     resp.raise_for_status()
@@ -61,11 +98,12 @@ Rules:
 - Keep every placeholder exactly as written, e.g. {{{{count}}}}, {{{{shortcut}}}}, %s.
 - Keep every markup tag exactly as written, e.g. <link>…</link>, <bold>…</bold>, <br></br>; translate the words between tags.
 
-String: {text}"""
+{glossary}String: {text}"""
 
 
 def translate_claude(text):
-    return ask(CLAUDE_PROMPT.format(text=text), max_tokens=400)
+    glossary = prompt_block(text) if USE_GLOSSARY else ""
+    return ask(CLAUDE_PROMPT.format(text=text, glossary=glossary), max_tokens=400)
 
 
 def mock_translate(engine, text):
@@ -104,7 +142,9 @@ def main():
                 "source_text": item["source_text"],
                 "engine": engine,
                 "mt_text": mt_text,
+                "glossary_used": int(USE_GLOSSARY and engine in ("claude", "deepl")),
                 **token_check(item["source_text"], mt_text),
+                **term_adherence(item["source_text"], mt_text, item["string_id"]),
             })
     Path(MT_OUTPUTS_FILE).write_text(
         json.dumps(outputs, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -112,6 +152,12 @@ def main():
     bad = sum(1 for o in outputs if not o["token_ok"])
     print(f"[mt] produced {len(outputs)} translations across {len(ENGINES)} engines "
           f"({failures} failed calls, {bad} with placeholder/markup mismatches).")
+    for engine in ENGINES:
+        rows = [o for o in outputs if o["engine"] == engine]
+        total = sum(o["term_total"] for o in rows)
+        hits = sum(o["term_hits"] for o in rows)
+        if total:
+            print(f"[mt] {engine}: term adherence {hits}/{total} ({hits / total:.0%})")
 
 
 if __name__ == "__main__":

@@ -21,15 +21,15 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import DB_PATH, LABELS_DIR
 
-FIELDS = ["item_id", "source_en", "mt_zh", "has_error", "error_note"]
+FIELDS = ["item_id", "context_key", "source_en", "mt_zh", "has_error", "error_note"]
 
 
 def latest_outputs(con):
     """One row per string x engine: the most recent run."""
-    q = """SELECT m.string_id, m.engine, m.run_id, s.stratum, s.source_text, m.mt_text
+    q = """SELECT m.string_id, m.engine, m.run_id, s.stratum, s.source_text, m.mt_text, s.batch
            FROM mt_outputs m JOIN source_strings s ON s.string_id = m.string_id
            WHERE m.id IN (SELECT MAX(id) FROM mt_outputs GROUP BY string_id, engine)"""
-    return [dict(zip(["string_id", "engine", "run_id", "stratum", "source", "mt"], r))
+    return [dict(zip(["string_id", "engine", "run_id", "stratum", "source", "mt", "batch"], r))
             for r in con.execute(q)]
 
 
@@ -59,7 +59,7 @@ def write(annotator, items):
         w = csv.DictWriter(f, fieldnames=FIELDS)
         w.writeheader()
         for it in items:
-            w.writerow({"item_id": it["item_id"], "source_en": it["source"], "mt_zh": it["mt"],
+            w.writerow({"item_id": it["item_id"], "context_key": it["string_id"], "source_en": it["source"], "mt_zh": it["mt"],
                         "has_error": "", "error_note": ""})
     with open(key, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["item_id", "string_id", "engine", "run_id", "stratum"])
@@ -74,6 +74,7 @@ def main():
     ap.add_argument("--annotator", required=True)
     ap.add_argument("--n", type=int, default=200)
     ap.add_argument("--seed", type=int, default=20261116)
+    ap.add_argument("--batch", help="only sample these batches, e.g. 2,3,4 (held-out validation)")
     ap.add_argument("--from", dest="source_annotator",
                     help="copy the first N items of another annotator's sample (for agreement)")
     a = ap.parse_args()
@@ -89,6 +90,10 @@ def main():
         con = sqlite3.connect(DB_PATH)
         rows = latest_outputs(con)
         con.close()
+        if a.batch:
+            wanted = {b.strip() for b in a.batch.split(",")}
+            rows = [r for r in rows if str(r["batch"]) in wanted]
+            print(f"[labels] {len(rows)} outputs in batch(es) {a.batch}")
         picked = stratified(rows, a.n, random.Random(a.seed))
         items = [{**r, "item_id": f"q{i:03d}"} for i, r in enumerate(picked, 1)]
     write(a.annotator, items)

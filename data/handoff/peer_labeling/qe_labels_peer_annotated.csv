@@ -1,0 +1,54 @@
+item_id,context_key,source_en,mt_zh,has_error,error_note
+q001,labels.large,Large,大,1,fluency: “大”作为独立 UI 标签不自然，应为“大号”等。
+q002,hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",要移动画布，请在拖动时按住 {{shortcut_1}} 或 {{shortcut_2}}，或者使用“抓手工具”,0,
+q003,errors.importLibraryError,Couldn't load library,无法加载素材库,0,
+q004,hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,按 {{shortcut_1}} 或 {{shortcut_2}} 完成编辑,0,
+q005,labels.toggleTheme,Toggle light/dark theme,切换浅色/深色主题,0,
+q006,colors.teal,Teal,青色,0,
+q007,element.embeddable,Web Embed,网页嵌入,0,
+q008,hints.text_selected,Double-click or press {{shortcut}} to edit text,双击或按 {{快捷键}} 编辑文本,1,placeholder: {{shortcut}} 被改成了 {{快捷键}}。
+q009,library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.",在画布上选中一个项目将其添加到此处，或从下方的公共仓库中安装一个素材库。,0,
+q010,colors.teal,Teal,蓝绿色,0,
+q011,errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",如果刷新页面无效，请尝试 <BUTTON>清空画布</BUTTON>。,1,placeholder: 标签 <button> 被改成了 <BUTTON>，大小写不一致。
+q012,errors.failedToFetchImage,Failed to fetch image.,获取图片失败。,0,
+q013,colors.gray,Gray,灰色的,1,fluency: “灰色的”作为颜色标签不自然，应为“灰色”。
+q014,errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database, the canvas seems to be too big. You should save the file locally to ensure you don't lose your work.",无法保存到后端数据库，画布似乎过大。您应该将文件保存到本地，以确保不会丢失您的工作。,0,
+q015,chat.rateLimitRemaining,{{count}} requests left today,今日剩余 {{count}} 次请求,0,
+q016,hints.freeDraw,"Click and drag, release when you're finished",点击并拖动，完成后松开。,0,
+q017,labels.strokeStyle_dashed,Dashed,虚线,0,
+q018,errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,即将支持向素材库添加图片!,0,
+q019,errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database, the canvas seems to be too big. You should save the file locally to ensure you don't lose your work.",无法将数据保存到后端数据库，画布似乎太大。您应将文件保存在本地，以确保您的工作成果不会丢失。,0,
+q020,keys.enter,Enter,进入,1,accuracy: Enter 是键盘按键名称，应保留 Enter，不能译为“进入”。
+q021,labels.signUp,Sign up,注册,0,
+q022,publishDialog.errors.required,Required,必填,0,
+q023,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",生成了无效的图表 :(。您可以手动编辑、使用自动修复重试，或尝试其他提示。,1,terminology: diagram 应译为“示意图”，不应译为“图表”。
+q024,exportDialog.disk_button,Save to file,保存到文件,0,
+q025,publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.","提交即表示您同意素材库将在<link>MIT 许可证</link>下发布,简而言之,任何人都可以不受限制地使用这些内容。",1,locale: 中文句子中使用了半角逗号。
+q026,publishDialog.errors.required,Required,必填,0,
+q027,chat.errors.fixInMermaid,Edit Mermaid manually →,手动编辑 Mermaid →,0,
+q028,roomDialog.shareTitle,Join a live collaboration session on Excalidraw,加入 Excalidraw 上的实时协作会话,0,
+q029,labels.pressure,Pressure,压力,0,
+q030,stats.total,Total,总计,0,
+q031,hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,点击图片外部或按 {{shortcut_1}} 或 {{shortcut_2}} 完成裁剪,0,
+q032,labels.toggleTheme,Toggle light/dark theme,切换浅色/深色主题,0,
+q033,labels.arrowhead_cardinality_exactly_one,Cardinality (exactly one),基数（恰好为 1）,0,
+q034,errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",如果重新加载不起作用，请尝试<button>清除画布</button>。,0,
+q035,labels.thin,Thin,薄,1,accuracy: Thin 在描边宽度语境中译为“薄”不准确。
+q036,exportDialog.disk_button,Save to file,保存到文件,0,
+q037,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.","生成了无效的示意图 :(。您可以手动编辑、使用自动修复重试,或尝试其他提示词。",1,locale: 中文句子中使用了半角逗号。
+q038,hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,点击图片外侧，或按{{shortcut_1}}或{{shortcut_2}}来完成图片裁剪,0,
+q039,hints.linearElement,"Click to start multiple points, drag for single line",点击以开始绘制多点，拖动以绘制单线,0,
+q040,labels.name,Name,姓名,0,
+q041,errors.imageToolNotSupported,Images are disabled.,图片已禁用。,0,
+q042,chat.viewAsMermaid,View as Mermaid,以 Mermaid 查看,0,
+q043,exportDialog.disk_details,Export the scene data to a file from which you can import later.,将场景数据导出到文件，以便稍后导入。,0,
+q044,toast.fileSaved,File saved.,文件已保存。,0,
+q045,hints.resizeImage,"You can resize freely by holding {{shortcut_1}},
+hold {{shortcut_2}} to resize from the center","按住 {{shortcut_1}} 即可自由调整大小，
+
+按住 {{shortcut_2}} 可从中心调整大小。",0,
+q046,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",单击可绘制多个点，拖动可绘制单线。再次按下{{快捷键}}可更改箭头类型。,1,placeholder: {{shortcut}} 被改成了 {{快捷键}}。
+q047,buttons.embeddableInteractionButton,Click to interact,点击互动,0,
+q048,labels.signUp,Sign up,报名,1,accuracy: Sign up 此处应为“注册”，译为“报名”意思不符。
+q049,fileDrop.replacedToast,Content replaced. {{shortcut}} to undo,内容已替换。使用 {{shortcut}} 撤销,0,
+q050,element.embeddable,Web Embed,网页嵌入,0,

@@ -1,0 +1,27 @@
+﻿string_id,source_en,translator_zh,reviewed_zh,reason
+alerts.errorRemovingFromLibrary,Couldn't remove item from the library,无法从资料库中移除此项目,无法从素材库中移除此素材,"terminology: library, library item"
+alerts.resetLibrary,This will clear your library. Are you sure?,这将清空你的资料库。确定要继续吗？,这将清空你的素材库。确定要继续吗？,terminology: library
+chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",生成的图表无效 :(。你可以手动编辑、重试自动修复，或尝试使用其他提示词。,生成的示意图无效 :(。你可以手动编辑、重试自动修复，或尝试使用其他提示词。,terminology: diagram
+chat.inputPlaceholder,Start typing your diagram idea here... ({{shortcut}} for new line),在此输入你的图表构想……（按 {{shortcut}} 换行）,在此输入你的示意图构想……（按 {{shortcut}} 换行）,terminology: diagram
+confirmDialog.removeItemsFromLib,Remove selected items from library,从资料库中移除所选项目,从素材库中移除选中的素材,"terminology: library, library item"
+errors.importLibraryError,Couldn't load library,无法加载资料库,无法加载素材库,terminology: library
+errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,即将支持向资料库添加图片！,即将支持向素材库添加图片！,terminology: library
+errors.saveLibraryError,Couldn't save library to storage. Please save your library to a file locally to make sure you don't lose changes.,无法将资料库保存到存储空间。请将资料库保存到本地文件，以确保更改不会丢失。,无法将素材库保存到存储空间。请将素材库保存到本地文件，以确保更改不会丢失。,terminology: library
+helpDialog.zoomToSelection,Zoom to selection,缩放至所选内容,缩放至选中内容,terminology: selection
+hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",移动画布时，按住 {{shortcut_1}} 或 {{shortcut_2}} 并拖动，也可以使用手形工具,移动画布时，按住 {{shortcut_1}} 或 {{shortcut_2}} 并拖动，也可以使用抓手工具,terminology: hand tool
+hints.cycleSelection,"{{shortcut}}-click to cycle selection, or drag to duplicate",按住 {{shortcut}} 并点击可循环切换选择对象，或拖动以复制,按住 {{shortcut}} 并点击可循环切换选中内容，或拖动以复制,terminology: selection
+hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,点击图片外部，或按 {{shortcut_1}} 完成裁剪,点击图片外部，或按 {{shortcut_1}} 或 {{shortcut_2}} 完成裁剪,placeholder: placeholder: {{shortcut_2}} was missing
+hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,按 {{shortcut_1}} 完成编辑,按 {{shortcut_1}} 或 {{shortcut_2}} 完成编辑,placeholder: placeholder: {{shortcut_2}} was missing
+labels.group,Group selection,组合所选对象,将选中内容编组,"terminology: group, selection"
+labels.removeFromLibrary,Remove from library,从资料库中移除,从素材库中移除,terminology: library
+labels.selectAllElementsInFrame,Select all elements in frame,选择框架中的所有对象,选择画框中的所有元素,"terminology: frame, element"
+library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.",选择画布上的一个项目以将其添加到此处，或从下方的公共仓库安装一个资料库。,在画布上选择一个元素以将其添加到此处，或从下方的公共仓库安装一个素材库。,"terminology: library, element"
+library.hint_emptyPrivateLibrary,Select an item on canvas to add it here.,选择画布上的一个项目以将其添加到此处。,在画布上选择一个元素以将其添加到此处。,terminology: element (consistency with hint_emptyLibrary)
+publishDialog.noteItems,Each library item must have its own name so it's filterable. The following library items will be included:,每个资料库项目都必须有自己的名称，以便筛选。将包含以下资料库项目：,每个素材都必须有自己的名称，以便筛选。将包含以下素材：,terminology: library item
+publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.",提交即表示你同意将此资料库以 <link>MIT 许可证</link> 发布，简而言之，任何人都可以不受限制地使用它。,提交即表示你同意将此素材库以 <link>MIT 许可证</link> 发布，简而言之，任何人都可以不受限制地使用它。,terminology: library
+publishDialog.placeholder.githubHandle,"GitHub handle (optional), so you can edit the library once submitted for review",GitHub 用户名（可选）；提交审核后，你可以使用它来编辑此资料库,GitHub 用户名（可选）；提交审核后，你可以使用它来编辑此素材库,terminology: library
+publishSuccessDialog.content,Thank you {{authorName}}. Your library has been submitted for review. You can track the status <link>here</link>,感谢你，{{authorName}}。你的资料库已提交审核。你可以在<link>此处</link>跟踪审核状态,感谢你，{{authorName}}。你的素材库已提交审核。你可以在<link>此处</link>跟踪审核状态,terminology: library
+toast.pasteAsSingleElement,"Use {{shortcut}} to paste as a single element,
+or paste into an existing text editor","按 {{shortcut}} 将内容作为单个对象粘贴，
+或粘贴到现有文本编辑器中","按 {{shortcut}} 将内容作为单个元素粘贴，
+或粘贴到现有文本编辑器中",terminology: element

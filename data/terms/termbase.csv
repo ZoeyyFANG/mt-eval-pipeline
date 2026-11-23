@@ -1,0 +1,70 @@
+﻿id,term_en,pos,subject,definition_en,context_key,context_en,zh,note,do_not_translate,forbidden_zh,status,owner
+T001,Excalidraw,proper noun,product name,The product itself.,labels.addWatermark,"Add ""Made with Excalidraw""",Excalidraw,Never translate or transliterate.,yes,,proposed,Zoey
+T002,Excalidraw+,proper noun,product name,Excalidraw's paid cloud product.,labels.tryExcalidrawPlus,Try Excalidraw+,Excalidraw+,Never translate.,yes,,proposed,Zoey
+T003,Mermaid,proper noun,product name,Text-based diagram syntax that Excalidraw can import.,toolBar.mermaidToExcalidraw,Mermaid to Excalidraw,Mermaid,Never translate.,yes,,proposed,Zoey
+T004,GitHub,proper noun,product name,"Code hosting platform, used for issues and library submissions.",errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our G",GitHub,,yes,,proposed,Zoey
+T005,Discord,proper noun,product name,Chat platform for the Excalidraw community.,labels.discordChat,Discord chat,Discord,,yes,,proposed,Zoey
+T006,Ctrl / Cmd / Alt / Option / Esc / Enter,noun,keyboard key,Names of keyboard keys shown in shortcuts.,keys.ctrl,Ctrl,Ctrl / Cmd / Alt / Option / Esc / Enter,Keep as printed on the keyboard.,yes,,proposed,Zoey
+T007,canvas,noun,workspace,The infinite drawing surface where elements are placed.,labels.moveCanvas,Move canvas,画布,,,,approved,Zoey
+T008,canvas background,noun,property,The background colour of the canvas.,labels.canvasBackground,Canvas background,画布背景,,,,proposed,Zoey
+T009,scene,noun,workspace,"Everything currently on the canvas, saved or shared as one unit (a file or link).",alerts.couldNotCreateShareableLinkTooBig,Couldn't create shareable link: the scene is too big,场景,Alt: 画布内容. Distinct from canvas (the surface) and drawing (the user's work).,,,approved,Zoey
+T010,drawing,noun,workspace,"The user's work as a whole, as in 'collaborate on your drawing'.",roomDialog.desc_intro,Invite people to collaborate on your drawing.,绘图,"Alt: 图画, 作品.",,,approved,Zoey
+T011,element,noun,object,"Any single object on the canvas: shape, line, text, image.",labels.multiSelect,Add element to selection,元素,,,,proposed,Zoey
+T012,shape,noun,object,"A geometric element such as rectangle, diamond or ellipse.",labels.shapeSwitch,Switch shape,形状,,,,proposed,Zoey
+T013,selection,noun,object,The elements currently selected.,labels.group,Group selection,选中内容,Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.,,,proposed,Zoey
+T014,group,verb / noun,object,Combine selected elements so they move as one; also the result.,labels.group,Group selection,编组,Ungroup = 取消编组 (design-tool convention).,,,proposed,Zoey
+T015,frame,noun,object,"A container element that holds and clips other elements, like an artboard.",labels.wrapSelectionInFrame,Wrap selection in frame,画框,Alt: 框架. Follows design-tool usage (Figma zh: 画框).,,,approved,Zoey
+T016,container,noun,object,A shape that text is bound to and wraps inside.,labels.bindText,Bind text to the container,容器,,,,proposed,Zoey
+T017,layers,noun,object,Stacking order of elements.,labels.layers,Layers,图层,,,,proposed,Zoey
+T018,library,noun,feature,A panel of reusable elements the user saves or imports.,labels.addToLibrary,Add to library,素材库,Alt: 库. 'Library item' = 素材.,,,approved,Zoey
+T019,library item,noun,feature,One saved reusable element set in the library.,library.noItems,No items added yet...,素材,,,,approved,Zoey
+T020,arrow,noun,tool / object,Connector element with an arrowhead.,toolBar.arrow,Arrow,箭头,,,,proposed,Zoey
+T021,arrowhead,noun,property,"The end marker of an arrow or line (arrow, bar, dot, cardinality…).",labels.arrowheads,Arrowheads,箭头端点,Alt: 箭头样式.,,,proposed,Zoey
+T022,arrow binding,noun,feature,Arrows attaching to shapes so they move with them.,labels.arrowBinding,Arrow binding,箭头绑定,,,,proposed,Zoey
+T023,elbow arrow,noun,tool,Arrow made of right-angle segments.,labels.arrowtype_elbowed,Elbow arrow,折线箭头,Alt: 肘形箭头.,,,proposed,Zoey
+T024,curved arrow,noun,tool,Arrow drawn as a curve.,labels.arrowtype_round,Curved arrow,曲线箭头,,,,proposed,Zoey
+T025,line,noun,tool / object,A line element. Ambiguous: also 'line' in a line chart and a line of text.,toolBar.line,Line,线条,Line chart = 折线图; line of text = 行. Check context each time.,,,proposed,Zoey
+T026,hand tool,noun,tool,Tool for panning the canvas.,toolBar.hand,Hand (panning tool),抓手工具,Panning = 平移 (Adobe convention).,,,proposed,Zoey
+T027,eraser,noun,tool,Tool that removes elements it touches.,toolBar.eraser,Eraser,橡皮擦,,,,proposed,Zoey
+T028,laser pointer,noun,tool,Temporary highlight for presenting.,toolBar.laser,Laser pointer,激光笔,,,,proposed,Zoey
+T029,sticky note,noun,tool,A note element with background colour.,toolBar.stickynote,Sticky note,便签,,,,proposed,Zoey
+T030,web embed,noun,tool,"Element that embeds a live web page (YouTube, Figma…).",toolBar.embeddable,Web Embed,网页嵌入,Embed = 嵌入; embeddable link = 可嵌入链接.,,,proposed,Zoey
+T031,image cropping,noun,feature,Trimming an image element's visible area.,labels.imageCropping,Image cropping,图片裁剪,Crop = 裁剪.,,,proposed,Zoey
+T032,wireframe to code,noun,feature,AI feature that turns a wireframe frame into code.,toolBar.magicframe,Wireframe to code,线框图转代码,Wireframe = 线框图.,,,proposed,Zoey
+T033,stroke,noun,property,The outline of an element.,labels.stroke,Stroke,描边,Stroke width = 描边宽度; stroke style = 描边样式.,,,proposed,Zoey
+T034,sloppiness,noun,property,"How hand-drawn (rough) strokes look: architect, artist, cartoonist.",labels.sloppiness,Sloppiness,潦草度,"Alt: 线条风格, 手绘程度. Decide by Excalidraw's playful tone.",,,approved,Zoey
+T035,opacity,noun,property,How transparent an element is.,labels.opacity,Opacity,不透明度,,,,proposed,Zoey
+T036,font,noun,property,Typeface used by text elements.,fontList.availableFonts,Available fonts,字体,,,,proposed,Zoey
+T037,color picker,noun,UI,Control for choosing a colour.,labels.colorPicker,Color picker,取色器,Alt: 颜色选择器.,,,proposed,Zoey
+T038,hex code,noun,UI,Six-digit hexadecimal colour value.,colorPicker.hexCode,Hex code,十六进制颜色代码,,,,proposed,Zoey
+T039,top picks,noun,UI,User's pinned favourite colours or fonts.,colorPicker.topPicksTip,Tip: drag any color onto your top picks to pin it,常用,Alt: 精选. 'Top picks' list = 常用列表.,,,proposed,Zoey
+T040,zoom,verb / noun,view,Change magnification of the canvas.,labels.zoomToFitViewport,Zoom to fit in viewport,缩放,,,,proposed,Zoey
+T041,grid,noun,view,Background grid for alignment.,labels.toggleGrid,Toggle grid,网格,,,,proposed,Zoey
+T042,snap,verb,view,"Automatically align to objects, midpoints or grid.",buttons.objectsSnapMode,Snap to objects,吸附,Snapping = 吸附.,,,proposed,Zoey
+T043,view mode,noun,view,Read-only mode with editing tools hidden.,labels.viewMode,View mode,查看模式,,,,proposed,Zoey
+T044,zen mode,noun,view,Distraction-free mode that hides most UI.,buttons.zenMode,Zen mode,禅模式,Alt: 专注模式.,,,approved,Zoey
+T045,dark mode,noun,view,Dark colour theme.,buttons.darkMode,Dark mode,深色模式,Theme = 主题.,,,proposed,Zoey
+T046,deep select,verb,interaction,Select an element nested inside a group or container.,helpDialog.deepSelect,Deep select,深度选择,,,,proposed,Zoey
+T047,live collaboration,noun,feature,Editing the same scene with others in real time.,labels.liveCollaboration,Live collaboration...,实时协作,,,,proposed,Zoey
+T048,session,noun,feature,One live-collaboration meeting.,roomDialog.button_startSession,Start session,会话,Collaboration session = 协作会话.,,,proposed,Zoey
+T049,room,noun,feature,The shared space a collaboration session runs in.,buttons.createNewRoom,Create new room,房间,,,,proposed,Zoey
+T050,shareable link,noun,feature,A link that opens a copy of the scene.,buttons.getShareableLink,Get shareable link,分享链接,,,,proposed,Zoey
+T051,end-to-end encryption,noun,feature,"Only participants can read the scene, not the server.",roomDialog.desc_privacy,"Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",端到端加密,,,,proposed,Zoey
+T052,clipboard,noun,system,System clipboard for copy and paste.,alerts.couldNotCopyToClipboard,Couldn't copy to clipboard.,剪贴板,,,,proposed,Zoey
+T053,export,verb,action,Save the scene or an image out of Excalidraw.,buttons.exportJSON,Export to file,导出,,,,proposed,Zoey
+T054,save,verb,action,Store the current scene.,buttons.export,Save to...,保存,Never 节省 (that means 'save money/time').,,节省,proposed,Zoey
+T055,load,verb,action,Open a scene from a file or link.,labels.loadScene,Load scene from file,加载,Alt: 载入.,,,proposed,Zoey
+T056,import,verb,action,"Bring content (Mermaid, library) into Excalidraw.",library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.",导入,,,,proposed,Zoey
+T057,copy,verb,action,Copy to the clipboard.,labels.copy,Copy,复制,,,,proposed,Zoey
+T058,paste,verb,action,Insert from the clipboard.,labels.paste,Paste,粘贴,,,,proposed,Zoey
+T059,delete,verb,action,Remove an element.,labels.delete,Delete,删除,,,,proposed,Zoey
+T060,reset,verb,action,Return to defaults or clear.,buttons.clearReset,Reset the canvas,重置,,,,proposed,Zoey
+T061,watermark,noun,export,'Made with Excalidraw' mark added to exports.,labels.addWatermark,"Add ""Made with Excalidraw""",水印,,,,proposed,Zoey
+T062,flowchart,noun,diagram,Diagram of steps joined by arrows.,hints.createFlowchart,{{shortcut}} to create a flowchart,流程图,,,,proposed,Zoey
+T063,diagram,noun,diagram,A drawing that explains structure or process.,mermaid.inputPlaceholder,Write Mermaid diagram definition here...,示意图,Keep distinct from chart (图表).,,,proposed,Zoey
+T064,chart,noun,diagram,A data chart pasted from a spreadsheet.,labels.pasteCharts,Paste charts,图表,,,,proposed,Zoey
+T065,cardinality,noun,ER notation,"How many entities one relationship end allows (one, many…).",labels.arrowhead_cardinality_one,Cardinality (one),基数,Standard database term.,,,proposed,Zoey
+T066,crow's foot,noun,ER notation,Three-pronged arrowhead meaning 'many' in ER diagrams.,labels.arrowhead_crowfoot_many,Crow's foot (many),鸦脚,Alt: 乌鸦脚. Crow's foot notation = 鸦脚表示法.,,,approved,Zoey
+T067,AI assistant,noun,AI feature,The text-to-diagram chat assistant.,chat.role.assistant,AI Assistant,AI 助手,,,,proposed,Zoey
+T068,prompt,noun,AI feature,Text the user types for the AI to generate a diagram.,chat.errors.promptTooShort,Prompt is too short (min {{min}} characters),提示词,,,,proposed,Zoey
+T069,command palette,noun,UI,Searchable list of all commands.,commandPalette.title,Command palette,命令面板,,,,proposed,Zoey

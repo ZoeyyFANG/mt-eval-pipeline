@@ -1,0 +1,70 @@
+Term [en],Description [en],Part of Speech [en],Term [zh-CN],Note [zh-CN],Concept Definition,Concept Subject,Concept Note
+Excalidraw,"e.g. ""Add ""Made with Excalidraw"""" (labels.addWatermark)",proper noun,Excalidraw,Do not translate. Never translate or transliterate.,The product itself.,product name,T001 | proposed
+Excalidraw+,"e.g. ""Try Excalidraw+"" (labels.tryExcalidrawPlus)",proper noun,Excalidraw+,Do not translate. Never translate.,Excalidraw's paid cloud product.,product name,T002 | proposed
+Mermaid,"e.g. ""Mermaid to Excalidraw"" (toolBar.mermaidToExcalidraw)",proper noun,Mermaid,Do not translate. Never translate.,Text-based diagram syntax that Excalidraw can import.,product name,T003 | proposed
+GitHub,"e.g. ""If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our G"" (errors.brave_measure_text_error.line4)",proper noun,GitHub,Do not translate.,"Code hosting platform, used for issues and library submissions.",product name,T004 | proposed
+Discord,"e.g. ""Discord chat"" (labels.discordChat)",proper noun,Discord,Do not translate.,Chat platform for the Excalidraw community.,product name,T005 | proposed
+Ctrl / Cmd / Alt / Option / Esc / Enter,"e.g. ""Ctrl"" (keys.ctrl)",noun,Ctrl / Cmd / Alt / Option / Esc / Enter,Do not translate. Keep as printed on the keyboard.,Names of keyboard keys shown in shortcuts.,keyboard key,T006 | proposed
+canvas,"e.g. ""Move canvas"" (labels.moveCanvas)",noun,画布,,The infinite drawing surface where elements are placed.,workspace,T007 | approved
+canvas background,"e.g. ""Canvas background"" (labels.canvasBackground)",noun,画布背景,,The background colour of the canvas.,property,T008 | proposed
+scene,"e.g. ""Couldn't create shareable link: the scene is too big"" (alerts.couldNotCreateShareableLinkTooBig)",noun,场景,Alt: 画布内容. Distinct from canvas (the surface) and drawing (the user's work).,"Everything currently on the canvas, saved or shared as one unit (a file or link).",workspace,T009 | approved
+drawing,"e.g. ""Invite people to collaborate on your drawing."" (roomDialog.desc_intro)",noun,绘图,"Alt: 图画, 作品.","The user's work as a whole, as in 'collaborate on your drawing'.",workspace,T010 | approved
+element,"e.g. ""Add element to selection"" (labels.multiSelect)",noun,元素,,"Any single object on the canvas: shape, line, text, image.",object,T011 | proposed
+shape,"e.g. ""Switch shape"" (labels.shapeSwitch)",noun,形状,,"A geometric element such as rectangle, diamond or ellipse.",object,T012 | proposed
+selection,"e.g. ""Group selection"" (labels.group)",noun,选中内容,Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.,The elements currently selected.,object,T013 | proposed
+group,"e.g. ""Group selection"" (labels.group)",noun,编组,Ungroup = 取消编组 (design-tool convention).,Combine selected elements so they move as one; also the result.,object,T014 | proposed
+frame,"e.g. ""Wrap selection in frame"" (labels.wrapSelectionInFrame)",noun,画框,Alt: 框架. Follows design-tool usage (Figma zh: 画框).,"A container element that holds and clips other elements, like an artboard.",object,T015 | approved
+container,"e.g. ""Bind text to the container"" (labels.bindText)",noun,容器,,A shape that text is bound to and wraps inside.,object,T016 | proposed
+layers,"e.g. ""Layers"" (labels.layers)",noun,图层,,Stacking order of elements.,object,T017 | proposed
+library,"e.g. ""Add to library"" (labels.addToLibrary)",noun,素材库,Alt: 库. 'Library item' = 素材.,A panel of reusable elements the user saves or imports.,feature,T018 | approved
+library item,"e.g. ""No items added yet..."" (library.noItems)",noun,素材,,One saved reusable element set in the library.,feature,T019 | approved
+arrow,"e.g. ""Arrow"" (toolBar.arrow)",noun,箭头,,Connector element with an arrowhead.,tool / object,T020 | proposed
+arrowhead,"e.g. ""Arrowheads"" (labels.arrowheads)",noun,箭头端点,Alt: 箭头样式.,"The end marker of an arrow or line (arrow, bar, dot, cardinality…).",property,T021 | proposed
+arrow binding,"e.g. ""Arrow binding"" (labels.arrowBinding)",noun,箭头绑定,,Arrows attaching to shapes so they move with them.,feature,T022 | proposed
+elbow arrow,"e.g. ""Elbow arrow"" (labels.arrowtype_elbowed)",noun,折线箭头,Alt: 肘形箭头.,Arrow made of right-angle segments.,tool,T023 | proposed
+curved arrow,"e.g. ""Curved arrow"" (labels.arrowtype_round)",noun,曲线箭头,,Arrow drawn as a curve.,tool,T024 | proposed
+line,"e.g. ""Line"" (toolBar.line)",noun,线条,Line chart = 折线图; line of text = 行. Check context each time.,A line element. Ambiguous: also 'line' in a line chart and a line of text.,tool / object,T025 | proposed
+hand tool,"e.g. ""Hand (panning tool)"" (toolBar.hand)",noun,抓手工具,Panning = 平移 (Adobe convention).,Tool for panning the canvas.,tool,T026 | proposed
+eraser,"e.g. ""Eraser"" (toolBar.eraser)",noun,橡皮擦,,Tool that removes elements it touches.,tool,T027 | proposed
+laser pointer,"e.g. ""Laser pointer"" (toolBar.laser)",noun,激光笔,,Temporary highlight for presenting.,tool,T028 | proposed
+sticky note,"e.g. ""Sticky note"" (toolBar.stickynote)",noun,便签,,A note element with background colour.,tool,T029 | proposed
+web embed,"e.g. ""Web Embed"" (toolBar.embeddable)",noun,网页嵌入,Embed = 嵌入; embeddable link = 可嵌入链接.,"Element that embeds a live web page (YouTube, Figma…).",tool,T030 | proposed
+image cropping,"e.g. ""Image cropping"" (labels.imageCropping)",noun,图片裁剪,Crop = 裁剪.,Trimming an image element's visible area.,feature,T031 | proposed
+wireframe to code,"e.g. ""Wireframe to code"" (toolBar.magicframe)",noun,线框图转代码,Wireframe = 线框图.,AI feature that turns a wireframe frame into code.,feature,T032 | proposed
+stroke,"e.g. ""Stroke"" (labels.stroke)",noun,描边,Stroke width = 描边宽度; stroke style = 描边样式.,The outline of an element.,property,T033 | proposed
+sloppiness,"e.g. ""Sloppiness"" (labels.sloppiness)",noun,潦草度,"Alt: 线条风格, 手绘程度. Decide by Excalidraw's playful tone.","How hand-drawn (rough) strokes look: architect, artist, cartoonist.",property,T034 | approved
+opacity,"e.g. ""Opacity"" (labels.opacity)",noun,不透明度,,How transparent an element is.,property,T035 | proposed
+font,"e.g. ""Available fonts"" (fontList.availableFonts)",noun,字体,,Typeface used by text elements.,property,T036 | proposed
+color picker,"e.g. ""Color picker"" (labels.colorPicker)",noun,取色器,Alt: 颜色选择器.,Control for choosing a colour.,UI,T037 | proposed
+hex code,"e.g. ""Hex code"" (colorPicker.hexCode)",noun,十六进制颜色代码,,Six-digit hexadecimal colour value.,UI,T038 | proposed
+top picks,"e.g. ""Tip: drag any color onto your top picks to pin it"" (colorPicker.topPicksTip)",noun,常用,Alt: 精选. 'Top picks' list = 常用列表.,User's pinned favourite colours or fonts.,UI,T039 | proposed
+zoom,"e.g. ""Zoom to fit in viewport"" (labels.zoomToFitViewport)",noun,缩放,,Change magnification of the canvas.,view,T040 | proposed
+grid,"e.g. ""Toggle grid"" (labels.toggleGrid)",noun,网格,,Background grid for alignment.,view,T041 | proposed
+snap,"e.g. ""Snap to objects"" (buttons.objectsSnapMode)",verb,吸附,Snapping = 吸附.,"Automatically align to objects, midpoints or grid.",view,T042 | proposed
+view mode,"e.g. ""View mode"" (labels.viewMode)",noun,查看模式,,Read-only mode with editing tools hidden.,view,T043 | proposed
+zen mode,"e.g. ""Zen mode"" (buttons.zenMode)",noun,禅模式,Alt: 专注模式.,Distraction-free mode that hides most UI.,view,T044 | approved
+dark mode,"e.g. ""Dark mode"" (buttons.darkMode)",noun,深色模式,Theme = 主题.,Dark colour theme.,view,T045 | proposed
+deep select,"e.g. ""Deep select"" (helpDialog.deepSelect)",verb,深度选择,,Select an element nested inside a group or container.,interaction,T046 | proposed
+live collaboration,"e.g. ""Live collaboration..."" (labels.liveCollaboration)",noun,实时协作,,Editing the same scene with others in real time.,feature,T047 | proposed
+session,"e.g. ""Start session"" (roomDialog.button_startSession)",noun,会话,Collaboration session = 协作会话.,One live-collaboration meeting.,feature,T048 | proposed
+room,"e.g. ""Create new room"" (buttons.createNewRoom)",noun,房间,,The shared space a collaboration session runs in.,feature,T049 | proposed
+shareable link,"e.g. ""Get shareable link"" (buttons.getShareableLink)",noun,分享链接,,A link that opens a copy of the scene.,feature,T050 | proposed
+end-to-end encryption,"e.g. ""Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw."" (roomDialog.desc_privacy)",noun,端到端加密,,"Only participants can read the scene, not the server.",feature,T051 | proposed
+clipboard,"e.g. ""Couldn't copy to clipboard."" (alerts.couldNotCopyToClipboard)",noun,剪贴板,,System clipboard for copy and paste.,system,T052 | proposed
+export,"e.g. ""Export to file"" (buttons.exportJSON)",verb,导出,,Save the scene or an image out of Excalidraw.,action,T053 | proposed
+save,"e.g. ""Save to..."" (buttons.export)",verb,保存,Never 节省 (that means 'save money/time'). Forbidden: 节省,Store the current scene.,action,T054 | proposed
+load,"e.g. ""Load scene from file"" (labels.loadScene)",verb,加载,Alt: 载入.,Open a scene from a file or link.,action,T055 | proposed
+import,"e.g. ""Select an item on canvas to add it here, or install a library from the public repository, below."" (library.hint_emptyLibrary)",verb,导入,,"Bring content (Mermaid, library) into Excalidraw.",action,T056 | proposed
+copy,"e.g. ""Copy"" (labels.copy)",verb,复制,,Copy to the clipboard.,action,T057 | proposed
+paste,"e.g. ""Paste"" (labels.paste)",verb,粘贴,,Insert from the clipboard.,action,T058 | proposed
+delete,"e.g. ""Delete"" (labels.delete)",verb,删除,,Remove an element.,action,T059 | proposed
+reset,"e.g. ""Reset the canvas"" (buttons.clearReset)",verb,重置,,Return to defaults or clear.,action,T060 | proposed
+watermark,"e.g. ""Add ""Made with Excalidraw"""" (labels.addWatermark)",noun,水印,,'Made with Excalidraw' mark added to exports.,export,T061 | proposed
+flowchart,"e.g. ""{{shortcut}} to create a flowchart"" (hints.createFlowchart)",noun,流程图,,Diagram of steps joined by arrows.,diagram,T062 | proposed
+diagram,"e.g. ""Write Mermaid diagram definition here..."" (mermaid.inputPlaceholder)",noun,示意图,Keep distinct from chart (图表).,A drawing that explains structure or process.,diagram,T063 | proposed
+chart,"e.g. ""Paste charts"" (labels.pasteCharts)",noun,图表,,A data chart pasted from a spreadsheet.,diagram,T064 | proposed
+cardinality,"e.g. ""Cardinality (one)"" (labels.arrowhead_cardinality_one)",noun,基数,Standard database term.,"How many entities one relationship end allows (one, many…).",ER notation,T065 | proposed
+crow's foot,"e.g. ""Crow's foot (many)"" (labels.arrowhead_crowfoot_many)",noun,鸦脚,Alt: 乌鸦脚. Crow's foot notation = 鸦脚表示法.,Three-pronged arrowhead meaning 'many' in ER diagrams.,ER notation,T066 | approved
+AI assistant,"e.g. ""AI Assistant"" (chat.role.assistant)",noun,AI 助手,,The text-to-diagram chat assistant.,AI feature,T067 | proposed
+prompt,"e.g. ""Prompt is too short (min {{min}} characters)"" (chat.errors.promptTooShort)",noun,提示词,,Text the user types for the AI to generate a diagram.,AI feature,T068 | proposed
+command palette,"e.g. ""Command palette"" (commandPalette.title)",noun,命令面板,,Searchable list of all commands.,UI,T069 | proposed

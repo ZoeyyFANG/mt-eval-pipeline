@@ -42,6 +42,11 @@ SKIP_LLM = os.environ.get("MT_EVAL_SKIP_LLM") == "1"
 # (no keys, no cost) — used for tests and demos.
 MOCK = os.environ.get("MT_EVAL_MOCK") == "1"
 
+# Termbase (data/terms/termbase.csv) is fed to the engines that support it:
+# Claude via the prompt, DeepL via a glossary. Google v2 has no glossary support.
+# Set MT_EVAL_USE_GLOSSARY=0 to run every engine without it (ablation).
+USE_GLOSSARY = os.environ.get("MT_EVAL_USE_GLOSSARY", "1") != "0"
+
 # --- MQM-lite rubric used by the LLM judge (05_llm_judge.py) ---
 MQM_ERROR_TYPES = [
     "accuracy",             # meaning changed or lost

@@ -1,0 +1,224 @@
+﻿item_id,context_key,source_en,mt_zh,has_error,error_note
+q001,labels.large,Large,大,0,
+q002,hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",要移动画布，请在拖动时按住 {{shortcut_1}} 或 {{shortcut_2}}，或者使用“抓手工具”,0,
+q003,errors.importLibraryError,Couldn't load library,无法加载素材库,0,
+q004,hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,按 {{shortcut_1}} 或 {{shortcut_2}} 完成编辑,0,
+q005,labels.toggleTheme,Toggle light/dark theme,切换浅色/深色主题,0,
+q006,colors.teal,Teal,青色,0,
+q007,element.embeddable,Web Embed,网页嵌入,0,
+q008,hints.text_selected,Double-click or press {{shortcut}} to edit text,双击或按 {{快捷键}} 编辑文本,1,placeholder {{shortcut}} was translated
+q009,library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.",在画布上选中一个项目将其添加到此处，或从下方的公共仓库中安装一个素材库。,0,
+q010,colors.teal,Teal,蓝绿色,0,
+q011,errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",如果刷新页面无效，请尝试 <BUTTON>清空画布</BUTTON>。,1,placeholder <button> tag casing changed
+q012,errors.failedToFetchImage,Failed to fetch image.,获取图片失败。,0,
+q013,colors.gray,Gray,灰色的,1,fluency 灰色的 is not a usable color label
+q014,errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database, the canvas seems to be too big. You should save the file locally to ensure you don't lose your work.",无法保存到后端数据库，画布似乎过大。您应该将文件保存到本地，以确保不会丢失您的工作。,0,
+q015,chat.rateLimitRemaining,{{count}} requests left today,今日剩余 {{count}} 次请求,0,
+q016,hints.freeDraw,"Click and drag, release when you're finished",点击并拖动，完成后松开。,0,
+q017,labels.strokeStyle_dashed,Dashed,虚线,0,
+q018,errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,即将支持向素材库添加图片!,1,locale ASCII exclamation mark in Chinese text
+q019,errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database, the canvas seems to be too big. You should save the file locally to ensure you don't lose your work.",无法将数据保存到后端数据库，画布似乎太大。您应将文件保存在本地，以确保您的工作成果不会丢失。,0,
+q020,keys.enter,Enter,进入,1,accuracy Enter keyboard key was translated as 进入
+q021,labels.signUp,Sign up,注册,0,
+q022,publishDialog.errors.required,Required,必填,0,
+q023,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",生成了无效的图表 :(。您可以手动编辑、使用自动修复重试，或尝试其他提示。,0,
+q024,exportDialog.disk_button,Save to file,保存到文件,0,
+q025,publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.","提交即表示您同意素材库将在<link>MIT 许可证</link>下发布,简而言之,任何人都可以不受限制地使用这些内容。",1,locale half-width commas in Chinese text
+q026,publishDialog.errors.required,Required,必填,0,
+q027,chat.errors.fixInMermaid,Edit Mermaid manually →,手动编辑 Mermaid →,0,
+q028,roomDialog.shareTitle,Join a live collaboration session on Excalidraw,加入 Excalidraw 上的实时协作会话,0,
+q029,labels.pressure,Pressure,压力,0,
+q030,stats.total,Total,总计,0,
+q031,hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,点击图片外部或按 {{shortcut_1}} 或 {{shortcut_2}} 完成裁剪,0,
+q032,labels.toggleTheme,Toggle light/dark theme,切换浅色/深色主题,0,
+q033,labels.arrowhead_cardinality_exactly_one,Cardinality (exactly one),基数（恰好为 1）,0,
+q034,errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",如果重新加载不起作用，请尝试<button>清除画布</button>。,0,
+q035,labels.thin,Thin,薄,1,accuracy Thin stroke width mistranslated as 薄
+q036,exportDialog.disk_button,Save to file,保存到文件,0,
+q037,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.","生成了无效的示意图 :(。您可以手动编辑、使用自动修复重试,或尝试其他提示词。",1,locale half-width comma in Chinese text
+q038,hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,点击图片外侧，或按{{shortcut_1}}或{{shortcut_2}}来完成图片裁剪,0,
+q039,hints.linearElement,"Click to start multiple points, drag for single line",点击以开始绘制多点，拖动以绘制单线,0,
+q040,labels.name,Name,姓名,0,
+q041,errors.imageToolNotSupported,Images are disabled.,图片已禁用。,0,
+q042,chat.viewAsMermaid,View as Mermaid,以 Mermaid 查看,0,
+q043,exportDialog.disk_details,Export the scene data to a file from which you can import later.,将场景数据导出到文件，以便稍后导入。,0,
+q044,toast.fileSaved,File saved.,文件已保存。,0,
+q045,hints.resizeImage,"You can resize freely by holding {{shortcut_1}},
+hold {{shortcut_2}} to resize from the center","按住 {{shortcut_1}} 即可自由调整大小，
+
+按住 {{shortcut_2}} 可从中心调整大小。",0,
+q046,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",单击可绘制多个点，拖动可绘制单线。再次按下{{快捷键}}可更改箭头类型。,1,placeholder {{shortcut}} was translated
+q047,buttons.embeddableInteractionButton,Click to interact,点击互动,0,
+q048,labels.signUp,Sign up,报名,1,accuracy Sign up mistranslated as 报名
+q049,fileDrop.replacedToast,Content replaced. {{shortcut}} to undo,内容已替换。使用 {{shortcut}} 撤销,0,
+q050,element.embeddable,Web Embed,网页嵌入,0,
+q051,keys.delete,Delete,删除,0,
+q052,library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, below.","在画布上选择一个元素将其添加到此处,或从下方的公共仓库安装素材库。",1,locale half-width comma in Chinese text
+q053,colors.gray,Gray,灰色,0,
+q054,labels.changeBackground,Change background color,更改背景颜色,0,
+q055,toast.copyToClipboardAsPng,"Copied {{exportSelection}} to clipboard as PNG
+({{exportColorScheme}})","已将 {{exportSelection}} 复制到剪贴板，格式为 PNG
+
+({{exportColorScheme}})",0,
+q056,helpDialog.zoomToSelection,Zoom to selection,缩放至选中内容,0,
+q057,buttons.cancel,Cancel,取消,0,
+q058,chat.viewAsMermaid,View as Mermaid,以Mermaid视角查看,1,accuracy View as Mermaid mistranslated as a Mermaid perspective
+q059,errorSplash.clearCanvasMessage,"If reloading doesn't work, try <button>clearing the canvas</button>.",如果重新加载无效，请尝试<button>清除画布</button>。,0,
+q060,errors.failedToFetchImage,Failed to fetch image.,无法加载图片。,0,
+q061,element.line,Line,线,0,
+q062,labels.statusPublished,Published,已发布,0,
+q063,element.line,Line,线条,0,
+q064,chat.inputPlaceholder,Start typing your diagram idea here... ({{shortcut}} for new line),请在此处输入您的示意图构思……（{{shortcut}} 表示换行）,0,
+q065,publishDialog.noteItems,Each library item must have its own name so it's filterable. The following library items will be included:,每个馆藏项目都必须有自己的名称，以便进行筛选。以下馆藏项目将被收录：,1,terminology library translated as 馆藏
+q066,labels.statusPublished,Published,已发布,0,
+q067,bucketfill.noRegion,Couldn't find an enclosed region to fill here.,这里找不到可以填充的封闭区域。,0,
+q068,labels.elementLock.unlock,Unlock,解锁,0,
+q069,keys.cmd,Cmd,Cmd,0,
+q070,confirmDialog.removeItemsFromLib,Remove selected items from library,从素材库中移除所选项目,0,
+q071,errors.saveLibraryError,Couldn't save library to storage. Please save your library to a file locally to make sure you don't lose changes.,无法将库保存到存储位置。请将库保存到本地文件，以确保不会丢失更改。,1,terminology library translated as 库 (termbase: 素材库)
+q072,hints.lineEditor_info,Hold {{shortcut_1}} and Double-click or press {{shortcut_2}} to edit points,"按住 {{shortcut_1}} 并双击,或按 {{shortcut_2}} 来编辑点",1,locale half-width comma in Chinese text
+q073,buttons.submit,Submit,提交,0,
+q074,errors.importLibraryError,Couldn't load library,无法加载库,1,terminology library translated as 库 (termbase: 素材库)
+q075,hints.resizeImage,"You can resize freely by holding {{shortcut_1}},
+hold {{shortcut_2}} to resize from the center","按住 {{shortcut_1}} 即可自由调整大小，
+按住 {{shortcut_2}} 则可从中心开始调整大小",0,
+q076,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.","点击可开始绘制多点线条,拖动可绘制单条线条。再次按 {{shortcut}} 可更改箭头类型。",1,locale half-width comma in Chinese text
+q077,alerts.invalidSceneUrl,"Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",无法从提供的 URL 导入场景。该 URL 格式不正确，或不包含有效的 Excalidraw JSON 数据。,0,
+q078,colors.transparent,Transparent,透明的,1,fluency 透明的 is not a usable color label
+q079,stats.versionNotAvailable,Version not available,该版本不可用,0,
+q080,hints.lineEditor_line_info,Double-click or press {{shortcut}} to edit points,双击或按{{快捷键}}编辑点,1,placeholder {{shortcut}} was translated
+q081,alerts.collabStopOverridePrompt,"Stopping the session will overwrite your previous, locally stored drawing. Are you sure?
+
+(If you want to keep your local drawing, simply close the browser tab instead.)","停止会话将覆盖您之前本地存储的绘图。确定要继续吗？
+
+（如果您想保留本地绘图，只需关闭浏览器标签页即可。）",0,
+q082,chat.rateLimitRemaining,{{count}} requests left today,今天还剩{{count}}次请求,0,
+q083,labels.copyElementLink,Copy link to object,复制对象链接,0,
+q084,buttons.undo,Undo,撤销,0,
+q085,labels.changeBackground,Change background color,更改背景色,0,
+q086,buttons.cancel,Cancel,取消,0,
+q087,hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",要移动画布，请按住 {{shortcut_1}} 或 {{shortcut_2}} 并拖动，或使用抓手工具。,0,
+q088,labels.arrowhead_cardinality_exactly_one,Cardinality (exactly one),基数(恰好一个),1,locale half-width parentheses in Chinese text
+q089,hints.lineEditor_line_info,Double-click or press {{shortcut}} to edit points,双击或按 {{shortcut}} 编辑点,0,
+q090,alerts.invalidEncryptionKey,Encryption key must be of 22 characters. Live collaboration is disabled.,加密密钥必须为 22 个字符。实时协作功能已禁用。,0,
+q091,buttons.embeddableInteractionButton,Click to interact,点击进行交互,0,
+q092,hints.bindTextToElement,{{shortcut}} to add text,{{快捷方式}}添加文本,1,placeholder {{shortcut}} was translated
+q093,alerts.imageDoesNotContainScene,This image does not seem to contain any scene data. Have you enabled scene embedding during export?,此图片似乎不包含任何场景数据。您在导出时是否启用了场景嵌入?,1,locale half-width question mark in Chinese text
+q094,alerts.invalidEncryptionKey,Encryption key must be of 22 characters. Live collaboration is disabled.,加密密钥必须为22个字符。实时协作功能已禁用。,0,
+q095,errors.asyncPasteFailedOnParse,Couldn't paste.,无法粘贴。,0,
+q096,stats.storage,Storage,贮存,1,accuracy Storage mistranslated as 贮存
+q097,publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.",提交即表示您同意该素材库将根据<LINK>MIT 许可协议</LINK>发布，简而言之，这意味着任何人都可以不受限制地使用该素材库。,1,placeholder <link> tag casing changed
+q098,headings.shapes,Shapes,形状,0,
+q099,commandPalette.recents,Recently used,最近使用过,0,
+q100,errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,即将推出向图库添加图片的功能！,1,terminology library translated as 图库
+q101,alerts.couldNotCreateShareableLinkTooBig,Couldn't create shareable link: the scene is too big,无法创建共享链接：场景过大。,0,
+q102,colors.gray,Gray,灰色,0,
+q103,labels.name,Name,姓名,0,
+q104,hints.cycleSelection,"{{shortcut}}-click to cycle selection, or drag to duplicate",点击快捷键循环选择，或拖动鼠标复制,1,placeholder {{shortcut}} was dropped and replaced with generic wording
+q105,commandPalette.recents,Recently used,最近使用,0,
+q106,buttons.confirm,Confirm,确认,0,
+q107,stats.storage,Storage,存储,0,
+q108,chat.deleteMessage,Delete message,删除消息,0,
+q109,keys.cmd,Cmd,命令,1,accuracy Cmd keyboard key was translated as 命令
+q110,colors.teal,Teal,青绿色,0,
+q111,hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,按 {{shortcut_1}} 或 {{shortcut_2}} 完成编辑,0,
+q112,labels.large,Large,大的,1,fluency 大的 is unnatural for a size label
+q113,errors.asyncPasteFailedOnParse,Couldn't paste.,无法粘贴。,0,
+q114,alerts.couldNotLoadInvalidFile,Couldn't load invalid file,无法加载无效文件,0,
+q115,buttons.confirm,Confirm,确认,0,
+q116,errors.failedToFetchImage,Failed to fetch image.,图片获取失败。,0,
+q117,chat.deleteChat,Delete chat,删除聊天记录,0,
+q118,labels.changeBackground,Change background color,更改背景颜色,0,
+q119,hints.linearElement,"Click to start multiple points, drag for single line",点击开始绘制多个点，拖动绘制单条线,0,
+q120,hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point",按住 {{shortcut_1}} 可禁用该快捷键，或按住 {{shortcut_2}} 可在固定位置绑定该快捷键,1,accuracy disable binding mistranslated as disable the shortcut
+q121,hints.linearElement,"Click to start multiple points, drag for single line",单击可开始多个点，拖动可开始单线绘制。,0,
+q122,hints.cycleSelection,"{{shortcut}}-click to cycle selection, or drag to duplicate",{{shortcut}}-单击以循环选中内容，或拖动以复制,0,
+q123,alerts.invalidSceneUrl,"Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",无法从提供的 URL 导入场景。该 URL 格式错误，或者不包含有效的 Excalidraw JSON 数据。,0,
+q124,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server and third parties can't read the content.","上传内容已使用端到端加密保护,这意味着 Excalidraw 服务器和第三方都无法读取其中的内容。",1,locale half-width comma in Chinese text
+q125,publishDialog.noteItems,Each library item must have its own name so it's filterable. The following library items will be included:,每个素材必须拥有独立的名称，以便进行筛选。以下素材将被包含在内：,0,
+q126,labels.elementLock.unlock,Unlock,解锁,0,
+q127,chat.deleteChat,Delete chat,删除聊天记录,0,
+q128,keys.delete,Delete,删除,0,
+q129,imageExportDialog.tooltip.embedScene,"Scene data will be saved into the exported PNG/SVG file so that the scene can be restored from it.
+Will increase exported file size.","场景数据将保存到导出的 PNG/SVG 文件中，以便之后可以从该文件还原场景。
+这会增大导出文件的大小。",0,
+q130,alerts.errorRemovingFromLibrary,Couldn't remove item from the library,无法从素材库中移除该项目,0,
+q131,labels.discordChat,Discord chat,Discord 聊天,0,
+q132,alerts.loadSceneOverridePrompt,Loading external drawing will replace your existing content. Do you wish to continue?,加载外部图纸将替换您现有的内容。是否继续？,0,
+q133,toolBar.image,Insert image,插入图片,0,
+q134,alerts.invalidSceneUrl,"Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",无法从提供的 URL 导入场景。该 URL 格式不正确，或者不包含有效的 Excalidraw JSON 数据。,0,
+q135,exportDialog.disk_details,Export the scene data to a file from which you can import later.,将场景数据导出到文件中，以便日后导入。,0,
+q136,hints.freeDraw,"Click and drag, release when you're finished",点击并拖动，完成后松开,0,
+q137,exportDialog.disk_button,Save to file,保存到文件,0,
+q138,bucketfill.noRegion,Couldn't find an enclosed region to fill here.,在此处找不到可填充的封闭区域。,0,
+q139,alerts.imageDoesNotContainScene,This image does not seem to contain any scene data. Have you enabled scene embedding during export?,这张图片似乎不包含任何场景数据。您在导出时是否启用了场景嵌入功能？,0,
+q140,fileDrop.keepHint,Your existing content will be kept,您现有的内容将被保留。,0,
+q141,confirmDialog.removeItemsFromLib,Remove selected items from library,从素材库中删除选中内容,0,
+q142,chat.errors.promptTooShort,Prompt is too short (min {{min}} characters),提示词过短（至少 {{min}} 个字符）,0,
+q143,errors.importLibraryError,Couldn't load library,无法加载素材库,0,
+q144,library.hint_emptyPrivateLibrary,Select an item on canvas to add it here.,在画布上选择一个项目即可将其添加到此处。,0,
+q145,keys.enter,Enter,输入,1,accuracy Enter keyboard key was translated as 输入
+q146,toast.pasteAsSingleElement,"Use {{shortcut}} to paste as a single element,
+or paste into an existing text editor","使用 {{shortcut}} 将其作为单个元素粘贴，
+或粘贴到现有的文本编辑器中",0,
+q147,helpDialog.github,Found an issue? Submit,发现问题？提交,0,
+q148,labels.pressure,Pressure,压力,0,
+q149,buttons.redo,Redo,重做,0,
+q150,labels.addWatermark,"Add ""Made with Excalidraw""",添加“使用 Excalidraw 制作”,0,
+q151,errors.imageToolNotSupported,Images are disabled.,图片已禁用。,0,
+q152,labels.zoomToFitViewport,Zoom to fit in viewport,缩放以适应视口,0,
+q153,commandPalette.shortcuts.close,Close,关闭,0,
+q154,labels.statusPublished,Published,已发布,0,
+q155,keys.delete,Delete,删除,0,
+q156,toast.pasteAsSingleElement,"Use {{shortcut}} to paste as a single element,
+or paste into an existing text editor","使用 {{shortcut}} 将其粘贴为单个元素，
+
+或粘贴到现有文本编辑器中",0,
+q157,toolBar.convertElementType,Toggle shape type,切换形状类型,0,
+q158,errorSplash.trackedToSentry,The error with identifier {{eventId}} was tracked on our system.,标识符为 {{eventId}} 的错误已在我们的系统中被记录。,0,
+q159,progressDialog.title,Saving,保存,1,"accuracy Saving (progress status) translated as 保存, should be 正在保存"
+q160,buttons.submit,Submit,提交,0,
+q161,roomDialog.shareTitle,Join a live collaboration session on Excalidraw,加入 Excalidraw 的实时协作会话,0,
+q162,helpDialog.zoomToSelection,Zoom to selection,放大至选定区域,1,accuracy zoom narrowed to 放大; selection should be 选中内容
+q163,stats.total,Total,全部的,1,fluency 全部的 is unnatural for Total
+q164,alerts.resetLibrary,This will clear your library. Are you sure?,这将清空您的库。您确定吗？,1,terminology library translated as 库 (termbase: 素材库)
+q165,alerts.clearReset,This will clear the whole canvas. Are you sure?,这将清除整个画布。确定吗?,1,locale half-width question mark in Chinese text
+q166,errors.saveLibraryError,Couldn't save library to storage. Please save your library to a file locally to make sure you don't lose changes.,无法将素材库保存到存储空间。请将您的素材库保存到本地文件，以免丢失更改。,0,
+q167,stats.versionNotAvailable,Version not available,版本不可用,0,
+q168,labels.unbindText,Unbind text,解绑文本,0,
+q169,helpDialog.textNewLine,Add new line (text editor),添加新行（文本编辑器）,0,
+q170,hints.lineEditor_line_info,Double-click or press {{shortcut}} to edit points,双击或按{{shortcut}}来编辑点,0,
+q171,mermaid.loadError,Couldn't load Mermaid. Check your internet connection and try again.,无法加载 Mermaid。请检查您的网络连接，然后重试。,0,
+q172,progressDialog.title,Saving,正在保存,0,
+q173,labels.small,Small,小,0,
+q174,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server and third parties can't read the content.",上传内容已通过端到端加密进行保护，这意味着 Excalidraw 服务器和第三方均无法读取其内容。,0,
+q175,colors.transparent,Transparent,透明的,1,fluency 透明的 is not a usable color label
+q176,helpDialog.textNewLine,Add new line (text editor),添加新行（文本编辑器）,0,
+q177,hints.bindTextToElement,{{shortcut}} to add text,{{快捷方式}} 用于添加文本,1,placeholder {{shortcut}} was translated
+q178,colors.transparent,Transparent,透明,0,
+q179,toolBar.arrow,Arrow,箭头,0,
+q180,labels.addWatermark,"Add ""Made with Excalidraw""",添加“使用 Excalidraw 制作”,0,
+q181,hints.bindTextToElement,{{shortcut}} to add text,按 {{shortcut}} 添加文本,0,
+q182,chat.errors.promptTooShort,Prompt is too short (min {{min}} characters),提示词过短（至少 {{min}} 个字符）,0,
+q183,labels.signUp,Sign up,注册,0,
+q184,errorSplash.trackedToSentry,The error with identifier {{eventId}} was tracked on our system.,我们的系统已追踪到标识符 {{eventId}} 的错误。,0,
+q185,labels.eyeDropper,Pick color from canvas,从画布中选择颜色,0,
+q186,labels.removeFromLibrary,Remove from library,从库中移除,1,terminology library translated as 库 (termbase: 素材库)
+q187,chat.errors.fixInMermaid,Edit Mermaid manually →,手动编辑美人鱼 →,1,terminology Mermaid translated as 美人鱼
+q188,keys.enter,Enter,输入,1,accuracy Enter keyboard key was translated as 输入
+q189,helpDialog.editor,Editor,编辑,0,
+q190,errors.libraryElementTypeError.image,Support for adding images to the library coming soon!,即将支持将图片添加到素材库中！,0,
+q191,labels.toggleTheme,Toggle light/dark theme,切换浅色/深色主题,0,
+q192,helpDialog.textNewLine,Add new line (text editor),添加新行（文本编辑器）,0,
+q193,errors.asyncPasteFailedOnParse,Couldn't paste.,无法粘贴。,0,
+q194,errorSplash.openIssueMessage,"We were very cautious not to include your scene information on the error. If your scene is not private, please consider following up on our <button>bug tracker</button>. Please include information below by copying and pasting into the GitHub issue.","我们已非常谨慎地避免在错误信息中包含您的场景信息。如果您的场景不是私密的,请考虑到我们的<button>错误跟踪器</button>上跟进。请将下方信息复制并粘贴到 GitHub issue 中。",1,locale half-width comma in Chinese text
+q195,buttons.redo,Redo,重做,0,
+q196,buttons.submit,Submit,提交,0,
+q197,labels.eyeDropper,Pick color from canvas,从画布中取色,0,
+q198,helpDialog.editor,Editor,编辑器,0,
+q199,alerts.collabStopOverridePrompt,"Stopping the session will overwrite your previous, locally stored drawing. Are you sure?
+
+(If you want to keep your local drawing, simply close the browser tab instead.)","结束本次会话将覆盖您之前保存在本地的绘图。您确定吗？
+
+（如果您想保留本地绘图，只需关闭浏览器标签页即可。）",0,
+q200,keys.cmd,Cmd,Cmd,0,

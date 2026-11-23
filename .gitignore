@@ -12,3 +12,6 @@ data/_*.json
 
 # old placeholder data kept locally only
 data/_placeholder_backup/
+
+# local SQLite databases
+db/*.db

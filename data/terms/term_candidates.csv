@@ -1,0 +1,202 @@
+﻿candidate,freq,n_strings,keyness_log2,example_key,example
+excalidraw,12,12,15.46,labels.addWatermark,"Add ""Made with Excalidraw"""
+excalidraw+,8,8,14.87,labels.tryExcalidrawPlus,Try Excalidraw+
+canvas,24,24,9.95,labels.moveCanvas,Move canvas
+library,42,39,7.77,labels.removeFromLibrary,Remove from library
+cardinality,7,7,13.65,labels.arrowhead_cardinality_one,Cardinality (one)
+datum,7,7,12.95,alerts.decryptFailed,Couldn't decrypt data.
+clipboard,7,7,11.72,alerts.couldNotCopyToClipboard,Couldn't copy to clipboard.
+svg,7,6,12.49,labels.copyAsSvg,Copy to clipboard as SVG
+mermaid,9,9,10.16,toolBar.mermaidToExcalidraw,Mermaid to Excalidraw
+arrow,14,14,8.6,labels.arrowhead_arrow,Arrow
+export,14,14,8.24,buttons.exportJSON,Export to file
+flowchart,5,5,12.27,hints.createFlowchart,{{shortcut}} to create a flowchart
+file,20,19,7.06,labels.fileTitle,File name
+link,24,24,6.53,labels.link.edit,Edit link
+element,14,14,7.51,labels.multiSelect,Add element to selection
+text,22,22,6.34,labels.chartType_plaintext,Plain text
+image,21,20,6.5,labels.imageCropping,Image cropping
+png,6,6,9.94,labels.copyAsPng,Copy to clipboard as PNG
+selection,14,14,6.98,labels.multiSelect,Add element to selection
+scene,21,18,6.4,labels.loadingScene,Loading scene…
+github,5,5,10.28,errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueL"
+zoom,7,7,8.6,labels.zoomToFitViewport,Zoom to fit in viewport
+diagram,7,7,8.53,mermaid.inputPlaceholder,Write Mermaid diagram definition here...
+item,13,11,7.03,library.noItems,No items added yet...
+embed,4,4,10.75,toolBar.embeddable,Web Embed
+picker,4,4,10.58,labels.colorPicker,Color picker
+toggle,4,4,10.25,labels.toggleGrid,Toggle grid
+browser,6,6,8.18,alerts.collabStopOverridePrompt,"Stopping the session will overwrite your previous, locally stored drawing. Are you sure?
+
+"
+align,5,5,8.78,labels.textAlign,Text align
+color,13,13,5.91,labels.textColor,Text color
+drawing,11,9,6.76,alerts.loadSceneOverridePrompt,Loading external drawing will replace your existing content. Do you wish to continue?
+tool,9,9,6.54,labels.preferences_toolLock,Tool lock
+scene datum,5,5,8.4,alerts.imageDoesNotContainScene,This image does not seem to contain any scene data. Have you enabled scene embedding durin
+edit,7,7,7.04,labels.link.edit,Edit link
+wireframe,2,2,12.87,toolBar.magicframe,Wireframe to code
+shape,9,9,6.01,labels.shapeSwitch,Switch shape
+cropping,3,3,9.97,labels.imageCropping,Image cropping
+shareable link,4,4,8.54,buttons.getShareableLink,Get shareable link
+mode,8,8,6.13,labels.viewMode,View mode
+content,11,11,5.37,buttons.scrollBackToContent,Scroll back to content
+rectangle,3,3,9.34,toolBar.rectangle,Rectangle
+username,4,4,8.03,publishDialog.githubUsername,GitHub username
+frame,7,7,6.11,labels.selectAllElementsInFrame,Select all elements in frame
+excalidraw+ workspace,2,2,11.46,exportDialog.excalidrawplus_description,Save the scene to your Excalidraw+ workspace.
+paste,4,4,7.53,labels.paste,Paste
+retry,2,2,10.98,chat.retry,Retry
+stroke,5,5,6.66,labels.stroke,Stroke
+session,7,7,5.64,alerts.collabStopOverridePrompt,"Stopping the session will overwrite your previous, locally stored drawing. Are you sure?
+
+"
+ellipse,2,2,10.61,toolBar.ellipse,Ellipse
+error,6,6,5.99,errorSplash.headingMain,Encountered an error. Try <button>reloading the page</button>.
+encryption,3,3,8.28,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server"
+workspace,2,2,10.05,exportDialog.excalidrawplus_description,Save the scene to your Excalidraw+ workspace.
+diamond,5,5,6.16,labels.arrowhead_diamond,Diamond
+arrowhead,2,2,10.02,labels.arrowheads,Arrowheads
+user,6,6,5.52,userList.empty,No users found
+url,4,3,7.7,alerts.invalidSceneUrl,"Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain val"
+delete,4,4,6.5,labels.delete,Delete
+crow,3,3,7.48,labels.arrowhead_crowfoot_many,Crow's foot (many)
+collaboration,4,4,6.3,labels.liveCollaboration,Live collaboration...
+prompt,3,3,7.28,chat.errors.promptTooShort,Prompt is too short (min {{min}} characters)
+click,6,6,5.09,hints.embeddable,Click-drag to create a website embed
+optional,3,3,7.11,publishDialog.placeholder.githubHandle,"GitHub handle (optional), so you can edit the library once submitted for review"
+outline,3,3,7.08,labels.arrowhead_circle_outline,Circle (outline)
+color picker,3,3,6.98,labels.colorPicker,Color picker
+insert,3,3,6.79,toolBar.image,Insert image
+command,5,5,5.23,commandPalette.title,Command palette
+hex,2,2,8.52,colorPicker.hexCode,Hex code
+line,11,11,3.74,labels.chartType_line,Line chart
+server,4,4,5.7,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server"
+chart,4,4,5.67,labels.pasteCharts,Paste charts
+auto,4,4,5.63,labels.autoResize,Enable text auto-resizing
+diagrams,2,2,8.16,welcomeScreen.defaults.center_heading,Diagrams. Made. Simple.
+preference,3,3,6.45,labels.preferences,Preferences
+background,5,5,4.99,labels.background,Background
+repository,2,2,8.12,library.hint_emptyLibrary,"Select an item on canvas to add it here, or install a library from the public repository, "
+discord,2,2,8.06,labels.discordChat,Discord chat
+tip,4,4,5.4,hints.text,Tip: you can also add text by double-clicking anywhere with the selection tool
+mermaid syntax,2,2,7.89,mermaid.syntax,Mermaid Syntax
+chat,4,4,5.33,labels.discordChat,Discord chat
+storage,4,4,5.33,alerts.localStorageQuotaExceeded,Browser storage quota exceeded. Changes will not be saved.
+syntax,2,2,7.79,mermaid.syntax,Mermaid Syntax
+load,4,4,5.3,labels.loadScene,Load scene from file
+wrap,3,3,6.15,labels.createContainerFromText,Wrap text in a container
+ai,3,3,6.05,chat.role.assistant,AI Assistant
+backend database,2,2,7.61,errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file loca"
+editor,4,4,5.17,helpDialog.editor,Editor
+menu,3,3,5.95,buttons.menu,Menu
+page,6,6,4.09,errors.cannotResolveCollabServer,Couldn't connect to the collab server. Please reload the page and try again.
+zen,2,2,7.23,buttons.zenMode,Zen mode
+search,5,5,4.36,library.search.inputPlaceholder,Search library
+palette,2,2,7.09,commandPalette.title,Command palette
+press,6,6,3.96,hints.text_selected,Double-click or press {{shortcut}} to edit text
+angle,3,3,5.55,hints.lockAngle,You can constrain angle by holding {{shortcut}}
+font,2,2,6.89,fontList.empty,No fonts found
+dragging,2,2,6.83,hints.deepBoxSelect,"Hold {{shortcut}} to deep select, and to prevent dragging"
+curved,2,2,6.79,labels.arrowtype_round,Curved arrow
+reset,2,2,6.79,buttons.resetLibrary,Reset library
+web embed,2,2,6.76,toolBar.embeddable,Web Embed
+option,4,4,4.57,labels.more_options,More options
+font size,3,3,5.27,labels.fontSize,Font size
+unlock,2,2,6.56,labels.elementLock.unlock,Unlock
+point,9,8,3.28,hints.linearElement,"Click to start multiple points, drag for single line"
+triangle,2,2,6.46,labels.arrowhead_triangle,Triangle
+tab,2,2,6.36,labels.tab,Tab
+curved arrow,2,2,6.3,labels.arrowtype_round,Curved arrow
+circle,3,3,4.99,labels.arrowhead_circle,Circle
+image cropping,2,2,6.25,labels.imageCropping,Image cropping
+size,5,5,3.8,labels.fontSize,Font size
+width,2,2,6.16,labels.strokeWidth,Stroke width
+container,2,2,6.13,labels.bindText,Bind text to the container
+loading,2,2,5.9,labels.libraryLoadingMessage,Loading library…
+matching,2,2,5.9,library.search.noResults,No matching items found...
+center,5,5,3.6,labels.center,Center
+convert,2,2,5.86,labels.convertToCode,Convert to code
+entity,2,2,5.83,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceL"
+arrow binding,2,2,5.78,labels.arrowBinding,Arrow binding
+binding,2,2,5.76,labels.arrowBinding,Arrow binding
+zen mode,2,2,5.68,buttons.zenMode,Zen mode
+hex code,2,2,5.58,colorPicker.hexCode,Hex code
+command palette,2,2,5.5,commandPalette.title,Command palette
+browser storage,2,2,5.46,alerts.localStorageQuotaExceeded,Browser storage quota exceeded. Changes will not be saved.
+fix,3,3,4.32,mermaid.autoFixAvailable,Auto-fix is available
+type,5,5,3.33,labels.arrowtypes,Arrow type
+request,3,3,4.29,chat.rateLimitRemaining,{{count}} requests left today
+setting,3,3,4.26,errors.brave_measure_text_error.line1,Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</b
+pick,4,4,3.64,colorPicker.topPicksTip,Tip: drag any color onto your top picks to pin it
+editing,2,2,5.33,hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing
+twitter username,2,2,5.25,publishDialog.twitterUsername,Twitter username
+database,2,2,5.2,errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file loca"
+text editor,3,3,4.11,helpDialog.textFinish,Finish editing (text editor)
+style,4,4,3.54,labels.copyStyles,Copy styles
+character,4,4,3.54,alerts.invalidEncryptionKey,Encryption key must be of 22 characters. Live collaboration is disabled.
+reset library,2,2,5.08,buttons.resetLibrary,Reset library
+exit,2,2,5.07,buttons.exitZenMode,Exit zen mode
+sequence,2,2,5.07,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceL"
+foot,3,3,3.92,labels.arrowhead_crowfoot_many,Crow's foot (many)
+sticky note,2,2,4.83,toolBar.stickynote,Sticky note
+live collaboration,3,3,3.79,labels.liveCollaboration,Live collaboration...
+issue,4,4,3.14,errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueL"
+collaboration session,2,2,4.57,roomDialog.desc_inProgressIntro,Live-collaboration session is now in progress.
+lock,2,2,4.53,labels.preferences_toolLock,Tool lock
+library item,3,2,4.44,publishDialog.noteItems,Each library item must have its own name so it's filterable. The following library items w
+external drawing,2,2,4.4,alerts.loadSceneOverridePrompt,Loading external drawing will replace your existing content. Do you wish to continue?
+object,2,2,4.37,elementLink.notFound,Linked object wasn't found on canvas.
+stroke color,2,2,4.27,labels.changeStroke,Change stroke color
+export image,2,2,4.27,buttons.exportImage,Export image...
+note,3,3,3.35,toolBar.stickynote,Sticky note
+clear canvas,2,2,4.22,labels.clearCanvas,Clear canvas
+theme,2,2,4.17,labels.toggleTheme,Toggle light/dark theme
+end encryption,2,2,4.17,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server"
+version,3,3,3.27,roomDialog.desc_exitSession,"Stopping the session will disconnect you from the room, but you'll be able to continue wor"
+entity relationship,2,2,4.12,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceL"
+code,3,3,3.23,labels.code,Code
+twitter,3,2,4.06,publishDialog.twitterUsername,Twitter username
+website,3,3,3.19,hints.embeddable,Click-drag to create a website embed
+language,3,3,3.16,labels.language,Language
+property,3,3,3.12,stats.fullTitle,Canvas & Shape properties
+arrow type,2,2,3.9,labels.arrowtypes,Arrow type
+limit,2,2,3.9,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomor
+end,8,4,2.65,alerts.uploadedSecurly,"The upload has been secured with end-to-end encryption, which means that Excalidraw server"
+blog,2,2,3.8,helpDialog.blog,Read our blog
+description,2,2,3.8,publishDialog.libraryDesc,Library description
+text element,2,2,3.79,errors.brave_measure_text_error.line2,This could result in breaking the <bold>Text Elements</bold> in your drawings.
+web,2,2,3.77,toolBar.embeddable,Web Embed
+connection,2,2,3.71,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!"
+copy,2,2,3.67,labels.copyStyles,Copy styles
+prevent,2,2,3.6,toolBar.penMode,Pen mode - prevent touch
+dark mode,2,2,3.45,buttons.darkMode,Dark mode
+background color,2,2,3.44,labels.changeBackground,Change background color
+moment,3,3,2.69,exportDialog.excalidrawplus_exportError,Couldn't export to Excalidraw+ at this moment...
+edit line,2,2,3.25,labels.lineEditor.edit,Edit line
+internet connection,2,2,3.21,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!"
+shape property,2,2,3.19,stats.fullTitle,Canvas & Shape properties
+change,4,4,2.11,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!"
+system,4,4,2.05,buttons.systemMode,System mode
+region,2,2,2.91,bucketfill.noRegion,Couldn't find an enclosed region to fill here.
+message,2,2,2.91,chat.deleteMessage,Delete message
+internet,2,2,2.71,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!"
+hand,3,3,2.13,labels.handDrawn,Hand-drawn
+review,2,2,2.51,publishDialog.placeholder.githubHandle,"GitHub handle (optional), so you can edit the library once submitted for review"
+match,2,2,2.47,library.search.heading,Library matches
+source,2,2,2.41,labels.copySource,Copy source to clipboard
+relationship,2,2,2.41,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceL"
+multiple point,2,2,2.14,hints.linearElement,"Click to start multiple points, drag for single line"
+action,2,2,2.08,headings.canvasActions,Canvas actions
+class,2,2,1.71,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceL"
+room,2,2,1.61,buttons.createNewRoom,Create new room
+single line,2,2,1.41,hints.linearElement,"Click to start multiple points, drag for single line"
+work,4,4,0.72,errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file loca"
+start,2,2,1.05,roomDialog.button_startSession,Start session
+group,2,2,1.01,labels.group,Group selection
+new line,2,2,0.02,helpDialog.textNewLine,Add new line (text editor)
+people,4,4,-0.25,roomDialog.desc_intro,Invite people to collaborate on your drawing.

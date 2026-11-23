@@ -36,7 +36,11 @@ CREATE TABLE IF NOT EXISTS mt_outputs (
     run_id TEXT,
     mt_text TEXT,
     token_ok INTEGER,          -- deterministic placeholder/markup check
-    token_detail TEXT
+    token_detail TEXT,
+    glossary_used INTEGER,     -- 1 = termbase given to this engine (Claude prompt / DeepL glossary)
+    term_total INTEGER,        -- termbase terms found in the source
+    term_hits INTEGER,         -- of those, translated as the termbase says
+    term_detail TEXT           -- missing:<term>; forbidden:<term>
 );
 
 CREATE TABLE IF NOT EXISTS auto_metrics (

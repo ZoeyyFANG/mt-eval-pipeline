@@ -76,10 +76,13 @@ def main():
     # every MT output is stored, whether or not a reference exists yet
     for m in load(MT_OUTPUTS_FILE, []):
         con.execute(
-            """INSERT INTO mt_outputs (string_id, engine, run_id, mt_text, token_ok, token_detail)
-               VALUES (?, ?, ?, ?, ?, ?)""",
+            """INSERT INTO mt_outputs (string_id, engine, run_id, mt_text, token_ok, token_detail,
+                                       glossary_used, term_total, term_hits, term_detail)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
             (m["string_id"], m["engine"], run_id, m["mt_text"],
-             int(m.get("token_ok", True)), m.get("token_detail", "")),
+             int(m.get("token_ok", True)), m.get("token_detail", ""),
+             m.get("glossary_used", 0), m.get("term_total", 0), m.get("term_hits", 0),
+             m.get("term_detail", "")),
         )
 
     for m in load(AUTO_METRICS_FILE, []):

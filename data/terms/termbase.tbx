@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbx type="TBX-Basic" style="dca" xml:lang="en" xmlns="urn:iso:std:iso:30042:ed-2">
+<tbxHeader><fileDesc><sourceDesc><p>Excalidraw EN-ZH termbase (mt-eval-pipeline)</p></sourceDesc></fileDesc></tbxHeader>
+<text><body>
+<conceptEntry id="T001">
+<descrip type="subjectField">product name</descrip>
+<descrip type="definition">The product itself.</descrip>
+<langSec xml:lang="en"><termSec><term>Excalidraw</term><termNote type="partOfSpeech">proper noun</termNote><descrip type="context">Add "Made with Excalidraw"</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>Excalidraw</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Never translate or transliterate.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T002">
+<descrip type="subjectField">product name</descrip>
+<descrip type="definition">Excalidraw's paid cloud product.</descrip>
+<langSec xml:lang="en"><termSec><term>Excalidraw+</term><termNote type="partOfSpeech">proper noun</termNote><descrip type="context">Try Excalidraw+</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>Excalidraw+</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Never translate.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T003">
+<descrip type="subjectField">product name</descrip>
+<descrip type="definition">Text-based diagram syntax that Excalidraw can import.</descrip>
+<langSec xml:lang="en"><termSec><term>Mermaid</term><termNote type="partOfSpeech">proper noun</termNote><descrip type="context">Mermaid to Excalidraw</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>Mermaid</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Never translate.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T004">
+<descrip type="subjectField">product name</descrip>
+<descrip type="definition">Code hosting platform, used for issues and library submissions.</descrip>
+<langSec xml:lang="en"><termSec><term>GitHub</term><termNote type="partOfSpeech">proper noun</termNote><descrip type="context">If disabling this setting doesn't fix the display of text elements, please open an &lt;issueLink&gt;issue&lt;/issueLink&gt; on our G</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>GitHub</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T005">
+<descrip type="subjectField">product name</descrip>
+<descrip type="definition">Chat platform for the Excalidraw community.</descrip>
+<langSec xml:lang="en"><termSec><term>Discord</term><termNote type="partOfSpeech">proper noun</termNote><descrip type="context">Discord chat</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>Discord</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T006">
+<descrip type="subjectField">keyboard key</descrip>
+<descrip type="definition">Names of keyboard keys shown in shortcuts.</descrip>
+<langSec xml:lang="en"><termSec><term>Ctrl / Cmd / Alt / Option / Esc / Enter</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Ctrl</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>Ctrl / Cmd / Alt / Option / Esc / Enter</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Keep as printed on the keyboard.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T007">
+<descrip type="subjectField">workspace</descrip>
+<descrip type="definition">The infinite drawing surface where elements are placed.</descrip>
+<langSec xml:lang="en"><termSec><term>canvas</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Move canvas</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>画布</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T008">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">The background colour of the canvas.</descrip>
+<langSec xml:lang="en"><termSec><term>canvas background</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Canvas background</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>画布背景</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T009">
+<descrip type="subjectField">workspace</descrip>
+<descrip type="definition">Everything currently on the canvas, saved or shared as one unit (a file or link).</descrip>
+<langSec xml:lang="en"><termSec><term>scene</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Couldn't create shareable link: the scene is too big</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>场景</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 画布内容. Distinct from canvas (the surface) and drawing (the user's work).</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T010">
+<descrip type="subjectField">workspace</descrip>
+<descrip type="definition">The user's work as a whole, as in 'collaborate on your drawing'.</descrip>
+<langSec xml:lang="en"><termSec><term>drawing</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Invite people to collaborate on your drawing.</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>绘图</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 图画, 作品.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T011">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">Any single object on the canvas: shape, line, text, image.</descrip>
+<langSec xml:lang="en"><termSec><term>element</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Add element to selection</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>元素</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T012">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">A geometric element such as rectangle, diamond or ellipse.</descrip>
+<langSec xml:lang="en"><termSec><term>shape</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Switch shape</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>形状</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T013">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">The elements currently selected.</descrip>
+<langSec xml:lang="en"><termSec><term>selection</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Group selection</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>选中内容</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T014">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">Combine selected elements so they move as one; also the result.</descrip>
+<langSec xml:lang="en"><termSec><term>group</term><termNote type="partOfSpeech">verb / noun</termNote><descrip type="context">Group selection</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>编组</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Ungroup = 取消编组 (design-tool convention).</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T015">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">A container element that holds and clips other elements, like an artboard.</descrip>
+<langSec xml:lang="en"><termSec><term>frame</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Wrap selection in frame</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>画框</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 框架. Follows design-tool usage (Figma zh: 画框).</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T016">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">A shape that text is bound to and wraps inside.</descrip>
+<langSec xml:lang="en"><termSec><term>container</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Bind text to the container</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>容器</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T017">
+<descrip type="subjectField">object</descrip>
+<descrip type="definition">Stacking order of elements.</descrip>
+<langSec xml:lang="en"><termSec><term>layers</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Layers</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>图层</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T018">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">A panel of reusable elements the user saves or imports.</descrip>
+<langSec xml:lang="en"><termSec><term>library</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Add to library</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>素材库</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 库. 'Library item' = 素材.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T019">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">One saved reusable element set in the library.</descrip>
+<langSec xml:lang="en"><termSec><term>library item</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">No items added yet...</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>素材</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T020">
+<descrip type="subjectField">tool / object</descrip>
+<descrip type="definition">Connector element with an arrowhead.</descrip>
+<langSec xml:lang="en"><termSec><term>arrow</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Arrow</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>箭头</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T021">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">The end marker of an arrow or line (arrow, bar, dot, cardinality…).</descrip>
+<langSec xml:lang="en"><termSec><term>arrowhead</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Arrowheads</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>箭头端点</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 箭头样式.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T022">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">Arrows attaching to shapes so they move with them.</descrip>
+<langSec xml:lang="en"><termSec><term>arrow binding</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Arrow binding</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>箭头绑定</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T023">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Arrow made of right-angle segments.</descrip>
+<langSec xml:lang="en"><termSec><term>elbow arrow</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Elbow arrow</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>折线箭头</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 肘形箭头.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T024">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Arrow drawn as a curve.</descrip>
+<langSec xml:lang="en"><termSec><term>curved arrow</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Curved arrow</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>曲线箭头</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T025">
+<descrip type="subjectField">tool / object</descrip>
+<descrip type="definition">A line element. Ambiguous: also 'line' in a line chart and a line of text.</descrip>
+<langSec xml:lang="en"><termSec><term>line</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Line</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>线条</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Line chart = 折线图; line of text = 行. Check context each time.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T026">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Tool for panning the canvas.</descrip>
+<langSec xml:lang="en"><termSec><term>hand tool</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Hand (panning tool)</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>抓手工具</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Panning = 平移 (Adobe convention).</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T027">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Tool that removes elements it touches.</descrip>
+<langSec xml:lang="en"><termSec><term>eraser</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Eraser</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>橡皮擦</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T028">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Temporary highlight for presenting.</descrip>
+<langSec xml:lang="en"><termSec><term>laser pointer</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Laser pointer</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>激光笔</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T029">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">A note element with background colour.</descrip>
+<langSec xml:lang="en"><termSec><term>sticky note</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Sticky note</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>便签</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T030">
+<descrip type="subjectField">tool</descrip>
+<descrip type="definition">Element that embeds a live web page (YouTube, Figma…).</descrip>
+<langSec xml:lang="en"><termSec><term>web embed</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Web Embed</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>网页嵌入</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Embed = 嵌入; embeddable link = 可嵌入链接.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T031">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">Trimming an image element's visible area.</descrip>
+<langSec xml:lang="en"><termSec><term>image cropping</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Image cropping</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>图片裁剪</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Crop = 裁剪.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T032">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">AI feature that turns a wireframe frame into code.</descrip>
+<langSec xml:lang="en"><termSec><term>wireframe to code</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Wireframe to code</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>线框图转代码</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Wireframe = 线框图.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T033">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">The outline of an element.</descrip>
+<langSec xml:lang="en"><termSec><term>stroke</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Stroke</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>描边</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Stroke width = 描边宽度; stroke style = 描边样式.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T034">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">How hand-drawn (rough) strokes look: architect, artist, cartoonist.</descrip>
+<langSec xml:lang="en"><termSec><term>sloppiness</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Sloppiness</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>潦草度</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 线条风格, 手绘程度. Decide by Excalidraw's playful tone.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T035">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">How transparent an element is.</descrip>
+<langSec xml:lang="en"><termSec><term>opacity</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Opacity</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>不透明度</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T036">
+<descrip type="subjectField">property</descrip>
+<descrip type="definition">Typeface used by text elements.</descrip>
+<langSec xml:lang="en"><termSec><term>font</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Available fonts</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>字体</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T037">
+<descrip type="subjectField">UI</descrip>
+<descrip type="definition">Control for choosing a colour.</descrip>
+<langSec xml:lang="en"><termSec><term>color picker</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Color picker</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>取色器</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 颜色选择器.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T038">
+<descrip type="subjectField">UI</descrip>
+<descrip type="definition">Six-digit hexadecimal colour value.</descrip>
+<langSec xml:lang="en"><termSec><term>hex code</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Hex code</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>十六进制颜色代码</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T039">
+<descrip type="subjectField">UI</descrip>
+<descrip type="definition">User's pinned favourite colours or fonts.</descrip>
+<langSec xml:lang="en"><termSec><term>top picks</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Tip: drag any color onto your top picks to pin it</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>常用</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 精选. 'Top picks' list = 常用列表.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T040">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Change magnification of the canvas.</descrip>
+<langSec xml:lang="en"><termSec><term>zoom</term><termNote type="partOfSpeech">verb / noun</termNote><descrip type="context">Zoom to fit in viewport</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>缩放</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T041">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Background grid for alignment.</descrip>
+<langSec xml:lang="en"><termSec><term>grid</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Toggle grid</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>网格</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T042">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Automatically align to objects, midpoints or grid.</descrip>
+<langSec xml:lang="en"><termSec><term>snap</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Snap to objects</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>吸附</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Snapping = 吸附.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T043">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Read-only mode with editing tools hidden.</descrip>
+<langSec xml:lang="en"><termSec><term>view mode</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">View mode</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>查看模式</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T044">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Distraction-free mode that hides most UI.</descrip>
+<langSec xml:lang="en"><termSec><term>zen mode</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Zen mode</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>禅模式</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 专注模式.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T045">
+<descrip type="subjectField">view</descrip>
+<descrip type="definition">Dark colour theme.</descrip>
+<langSec xml:lang="en"><termSec><term>dark mode</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Dark mode</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>深色模式</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Theme = 主题.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T046">
+<descrip type="subjectField">interaction</descrip>
+<descrip type="definition">Select an element nested inside a group or container.</descrip>
+<langSec xml:lang="en"><termSec><term>deep select</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Deep select</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>深度选择</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T047">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">Editing the same scene with others in real time.</descrip>
+<langSec xml:lang="en"><termSec><term>live collaboration</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Live collaboration...</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>实时协作</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T048">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">One live-collaboration meeting.</descrip>
+<langSec xml:lang="en"><termSec><term>session</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Start session</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>会话</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Collaboration session = 协作会话.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T049">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">The shared space a collaboration session runs in.</descrip>
+<langSec xml:lang="en"><termSec><term>room</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Create new room</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>房间</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T050">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">A link that opens a copy of the scene.</descrip>
+<langSec xml:lang="en"><termSec><term>shareable link</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Get shareable link</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>分享链接</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T051">
+<descrip type="subjectField">feature</descrip>
+<descrip type="definition">Only participants can read the scene, not the server.</descrip>
+<langSec xml:lang="en"><termSec><term>end-to-end encryption</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>端到端加密</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T052">
+<descrip type="subjectField">system</descrip>
+<descrip type="definition">System clipboard for copy and paste.</descrip>
+<langSec xml:lang="en"><termSec><term>clipboard</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Couldn't copy to clipboard.</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>剪贴板</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T053">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Save the scene or an image out of Excalidraw.</descrip>
+<langSec xml:lang="en"><termSec><term>export</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Export to file</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>导出</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T054">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Store the current scene.</descrip>
+<langSec xml:lang="en"><termSec><term>save</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Save to...</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>保存</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Never 节省 (that means 'save money/time').</note></termSec>
+<termSec><term>节省</term><termNote type="administrativeStatus">deprecatedTerm-admn-sts</termNote></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T055">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Open a scene from a file or link.</descrip>
+<langSec xml:lang="en"><termSec><term>load</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Load scene from file</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>加载</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Alt: 载入.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T056">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Bring content (Mermaid, library) into Excalidraw.</descrip>
+<langSec xml:lang="en"><termSec><term>import</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Select an item on canvas to add it here, or install a library from the public repository, below.</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>导入</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T057">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Copy to the clipboard.</descrip>
+<langSec xml:lang="en"><termSec><term>copy</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Copy</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>复制</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T058">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Insert from the clipboard.</descrip>
+<langSec xml:lang="en"><termSec><term>paste</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Paste</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>粘贴</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T059">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Remove an element.</descrip>
+<langSec xml:lang="en"><termSec><term>delete</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Delete</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>删除</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T060">
+<descrip type="subjectField">action</descrip>
+<descrip type="definition">Return to defaults or clear.</descrip>
+<langSec xml:lang="en"><termSec><term>reset</term><termNote type="partOfSpeech">verb</termNote><descrip type="context">Reset the canvas</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>重置</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T061">
+<descrip type="subjectField">export</descrip>
+<descrip type="definition">'Made with Excalidraw' mark added to exports.</descrip>
+<langSec xml:lang="en"><termSec><term>watermark</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Add "Made with Excalidraw"</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>水印</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T062">
+<descrip type="subjectField">diagram</descrip>
+<descrip type="definition">Diagram of steps joined by arrows.</descrip>
+<langSec xml:lang="en"><termSec><term>flowchart</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">{{shortcut}} to create a flowchart</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>流程图</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T063">
+<descrip type="subjectField">diagram</descrip>
+<descrip type="definition">A drawing that explains structure or process.</descrip>
+<langSec xml:lang="en"><termSec><term>diagram</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Write Mermaid diagram definition here...</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>示意图</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Keep distinct from chart (图表).</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T064">
+<descrip type="subjectField">diagram</descrip>
+<descrip type="definition">A data chart pasted from a spreadsheet.</descrip>
+<langSec xml:lang="en"><termSec><term>chart</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Paste charts</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>图表</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T065">
+<descrip type="subjectField">ER notation</descrip>
+<descrip type="definition">How many entities one relationship end allows (one, many…).</descrip>
+<langSec xml:lang="en"><termSec><term>cardinality</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Cardinality (one)</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>基数</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note>Standard database term.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T066">
+<descrip type="subjectField">ER notation</descrip>
+<descrip type="definition">Three-pronged arrowhead meaning 'many' in ER diagrams.</descrip>
+<langSec xml:lang="en"><termSec><term>crow's foot</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Crow's foot (many)</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>鸦脚</term><termNote type="administrativeStatus">preferredTerm-admn-sts</termNote><note>Alt: 乌鸦脚. Crow's foot notation = 鸦脚表示法.</note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T067">
+<descrip type="subjectField">AI feature</descrip>
+<descrip type="definition">The text-to-diagram chat assistant.</descrip>
+<langSec xml:lang="en"><termSec><term>AI assistant</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">AI Assistant</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>AI 助手</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T068">
+<descrip type="subjectField">AI feature</descrip>
+<descrip type="definition">Text the user types for the AI to generate a diagram.</descrip>
+<langSec xml:lang="en"><termSec><term>prompt</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Prompt is too short (min {{min}} characters)</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>提示词</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+<conceptEntry id="T069">
+<descrip type="subjectField">UI</descrip>
+<descrip type="definition">Searchable list of all commands.</descrip>
+<langSec xml:lang="en"><termSec><term>command palette</term><termNote type="partOfSpeech">noun</termNote><descrip type="context">Command palette</descrip></termSec></langSec>
+<langSec xml:lang="zh-CN"><termSec><term>命令面板</term><termNote type="administrativeStatus">admittedTerm-admn-sts</termNote><note></note></termSec>
+</langSec></conceptEntry>
+</body></text></tbx>

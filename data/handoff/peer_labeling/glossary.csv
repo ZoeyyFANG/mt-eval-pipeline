@@ -1,0 +1,70 @@
+﻿term_en,zh,do_not_translate,definition,note
+Excalidraw,Excalidraw,yes,The product itself.,Never translate or transliterate.
+Excalidraw+,Excalidraw+,yes,Excalidraw's paid cloud product.,Never translate.
+Mermaid,Mermaid,yes,Text-based diagram syntax that Excalidraw can import.,Never translate.
+GitHub,GitHub,yes,"Code hosting platform, used for issues and library submissions.",
+Discord,Discord,yes,Chat platform for the Excalidraw community.,
+Ctrl / Cmd / Alt / Option / Esc / Enter,Ctrl / Cmd / Alt / Option / Esc / Enter,yes,Names of keyboard keys shown in shortcuts.,Keep as printed on the keyboard.
+canvas,画布,,The infinite drawing surface where elements are placed.,
+canvas background,画布背景,,The background colour of the canvas.,
+scene,场景,,"Everything currently on the canvas, saved or shared as one unit (a file or link).",Alt: 画布内容. Distinct from canvas (the surface) and drawing (the user's work).
+drawing,绘图,,"The user's work as a whole, as in 'collaborate on your drawing'.","Alt: 图画, 作品."
+element,元素,,"Any single object on the canvas: shape, line, text, image.",
+shape,形状,,"A geometric element such as rectangle, diamond or ellipse.",
+selection,选中内容,,The elements currently selected.,Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.
+group,编组,,Combine selected elements so they move as one; also the result.,Ungroup = 取消编组 (design-tool convention).
+frame,画框,,"A container element that holds and clips other elements, like an artboard.",Alt: 框架. Follows design-tool usage (Figma zh: 画框).
+container,容器,,A shape that text is bound to and wraps inside.,
+layers,图层,,Stacking order of elements.,
+library,素材库,,A panel of reusable elements the user saves or imports.,Alt: 库. 'Library item' = 素材.
+library item,素材,,One saved reusable element set in the library.,
+arrow,箭头,,Connector element with an arrowhead.,
+arrowhead,箭头端点,,"The end marker of an arrow or line (arrow, bar, dot, cardinality…).",Alt: 箭头样式.
+arrow binding,箭头绑定,,Arrows attaching to shapes so they move with them.,
+elbow arrow,折线箭头,,Arrow made of right-angle segments.,Alt: 肘形箭头.
+curved arrow,曲线箭头,,Arrow drawn as a curve.,
+line,线条,,A line element. Ambiguous: also 'line' in a line chart and a line of text.,Line chart = 折线图; line of text = 行. Check context each time.
+hand tool,抓手工具,,Tool for panning the canvas.,Panning = 平移 (Adobe convention).
+eraser,橡皮擦,,Tool that removes elements it touches.,
+laser pointer,激光笔,,Temporary highlight for presenting.,
+sticky note,便签,,A note element with background colour.,
+web embed,网页嵌入,,"Element that embeds a live web page (YouTube, Figma…).",Embed = 嵌入; embeddable link = 可嵌入链接.
+image cropping,图片裁剪,,Trimming an image element's visible area.,Crop = 裁剪.
+wireframe to code,线框图转代码,,AI feature that turns a wireframe frame into code.,Wireframe = 线框图.
+stroke,描边,,The outline of an element.,Stroke width = 描边宽度; stroke style = 描边样式.
+sloppiness,潦草度,,"How hand-drawn (rough) strokes look: architect, artist, cartoonist.","Alt: 线条风格, 手绘程度. Decide by Excalidraw's playful tone."
+opacity,不透明度,,How transparent an element is.,
+font,字体,,Typeface used by text elements.,
+color picker,取色器,,Control for choosing a colour.,Alt: 颜色选择器.
+hex code,十六进制颜色代码,,Six-digit hexadecimal colour value.,
+top picks,常用,,User's pinned favourite colours or fonts.,Alt: 精选. 'Top picks' list = 常用列表.
+zoom,缩放,,Change magnification of the canvas.,
+grid,网格,,Background grid for alignment.,
+snap,吸附,,"Automatically align to objects, midpoints or grid.",Snapping = 吸附.
+view mode,查看模式,,Read-only mode with editing tools hidden.,
+zen mode,禅模式,,Distraction-free mode that hides most UI.,Alt: 专注模式.
+dark mode,深色模式,,Dark colour theme.,Theme = 主题.
+deep select,深度选择,,Select an element nested inside a group or container.,
+live collaboration,实时协作,,Editing the same scene with others in real time.,
+session,会话,,One live-collaboration meeting.,Collaboration session = 协作会话.
+room,房间,,The shared space a collaboration session runs in.,
+shareable link,分享链接,,A link that opens a copy of the scene.,
+end-to-end encryption,端到端加密,,"Only participants can read the scene, not the server.",
+clipboard,剪贴板,,System clipboard for copy and paste.,
+export,导出,,Save the scene or an image out of Excalidraw.,
+save,保存,,Store the current scene.,Never 节省 (that means 'save money/time'). Forbidden: 节省
+load,加载,,Open a scene from a file or link.,Alt: 载入.
+import,导入,,"Bring content (Mermaid, library) into Excalidraw.",
+copy,复制,,Copy to the clipboard.,
+paste,粘贴,,Insert from the clipboard.,
+delete,删除,,Remove an element.,
+reset,重置,,Return to defaults or clear.,
+watermark,水印,,'Made with Excalidraw' mark added to exports.,
+flowchart,流程图,,Diagram of steps joined by arrows.,
+diagram,示意图,,A drawing that explains structure or process.,Keep distinct from chart (图表).
+chart,图表,,A data chart pasted from a spreadsheet.,
+cardinality,基数,,"How many entities one relationship end allows (one, many…).",Standard database term.
+crow's foot,鸦脚,,Three-pronged arrowhead meaning 'many' in ER diagrams.,Alt: 乌鸦脚. Crow's foot notation = 鸦脚表示法.
+AI assistant,AI 助手,,The text-to-diagram chat assistant.,
+prompt,提示词,,Text the user types for the AI to generate a diagram.,
+command palette,命令面板,,Searchable list of all commands.,

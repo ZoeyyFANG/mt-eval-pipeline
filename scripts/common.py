@@ -59,12 +59,22 @@ def ask(prompt, max_tokens=300, mock_reply=None):
     """One Claude call. In mock mode returns mock_reply(prompt) instead."""
     if MOCK:
         return mock_reply(prompt) if mock_reply else "{}"
+    kwargs = {}
+    # Sonnet 5.5 thinks by default (and rejects "disabled"); short classification /
+    # translation calls don't need it, and thinking would eat the max_tokens budget.
+    if ANTHROPIC_MODEL.startswith("claude-sonnet-5-5"):
+        kwargs["thinking"] = {"type": "between_tools"}
     msg = _claude().messages.create(
         model=ANTHROPIC_MODEL,
         max_tokens=max_tokens,
         messages=[{"role": "user", "content": prompt}],
+        **kwargs,
     )
-    return msg.content[0].text.strip()
+    # the reply may hold thinking blocks before the text: keep only text blocks
+    text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
+    if not text:
+        raise RuntimeError(f"no text in reply (stop_reason={msg.stop_reason})")
+    return text
 
 
 def ask_json(prompt, max_tokens=300, mock_reply=None, attempts=2):
@@ -94,6 +104,7 @@ def load_strata():
 MASTER_VIEW = """
     SELECT s.string_id, s.stratum, s.tags, s.batch, s.source_text,
            m.engine, m.run_id, r.timestamp, m.mt_text, m.token_ok, m.token_detail,
+           m.glossary_used, m.term_total, m.term_hits, m.term_detail,
            g.gate_label,
            am.bleu, am.chrf, am.ter,
            cs.comet, cs.cometkiwi,
@@ -132,3 +143,17 @@ def export_csvs(con):
             w.writerows(cur.fetchall())
 
 
+
+
+# --- locale punctuation check -------------------------------------------
+# Half-width , ? ! : ; ( ) next to Chinese characters. The LLM judge missed
+# most of these in batch 1, so they are checked by rule, like placeholders.
+_CJK = r"[一-鿿]"
+_HALF_WIDTH_PUNCT = re.compile(rf"{_CJK}[,?!:;()]|[,?!;()]{_CJK}")
+
+
+def locale_check(mt_text):
+    """Return {'locale_ok': bool, 'locale_detail': str} for zh-CN punctuation."""
+    clean = re.sub(r"\{\{[^}]*\}\}|<[^>]+>", "", mt_text or "")
+    hits = sorted({m.group(0) for m in _HALF_WIDTH_PUNCT.finditer(clean)})
+    return {"locale_ok": not hits, "locale_detail": " ".join(hits)}
