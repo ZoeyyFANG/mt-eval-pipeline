@@ -478,5 +478,245 @@
   "toolBar.penMode": {
     "text_hash": "b540d04a8841",
     "last_run_id": "20261120T042105Z_local"
+  },
+  "alerts.collabOfflineWarning": {
+    "text_hash": "d71cf8dc48f2",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "buttons.copyLink": {
+    "text_hash": "dbf362d4f210",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "canvasError.cannotShowPreview": {
+    "text_hash": "01661a5285bc",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "chat.rateLimit.generalRateLimit": {
+    "text_hash": "3b513fca7f79",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "chat.role.assistant": {
+    "text_hash": "0ad1b06f64f2",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "colorPicker.invalidHexLength": {
+    "text_hash": "2f3f94127493",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "errors.brave_measure_text_error.line1": {
+    "text_hash": "a709ec8ff324",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "errors.unsupportedFileType": {
+    "text_hash": "9b71892c0002",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "fileDrop.replace": {
+    "text_hash": "0e370a4138d0",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "hints.disableSnapping": {
+    "text_hash": "3449abe3dfab",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "hints.resizeStickyNote": {
+    "text_hash": "63873d3ec5b9",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "imageExportDialog.label.embedScene": {
+    "text_hash": "1019d004ca8c",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.increaseFontSize": {
+    "text_hash": "2f0c3d49e6bd",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.share": {
+    "text_hash": "29887a5ff984",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.untitled": {
+    "text_hash": "f59ab8d1331b",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "mermaid.description": {
+    "text_hash": "31bee267bdb0",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "overwriteConfirm.action.exportToImage.button": {
+    "text_hash": "4ca21c27fef6",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "publishDialog.republishWarning": {
+    "text_hash": "2863587fee15",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "toolBar.lasso": {
+    "text_hash": "e7ae92740654",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "userList.hint.isSpeaking": {
+    "text_hash": "d839ecd90d35",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "alerts.couldNotCopyToClipboard": {
+    "text_hash": "33a74a09d057",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "buttons.fullScreen": {
+    "text_hash": "674fe2acd0d5",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "canvasError.canvasTooBig": {
+    "text_hash": "8c6ca2162699",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "chat.rateLimit.messageLimit": {
+    "text_hash": "223c6717efc1",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "colorPicker.colors": {
+    "text_hash": "88c45d9e526c",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "colorPicker.noShades": {
+    "text_hash": "fe62a2244eeb",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "errors.brave_measure_text_error.line3": {
+    "text_hash": "e6f24297a1ac",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "fontList.empty": {
+    "text_hash": "6cfe7c1e3ddb",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "hints.dismissSearch": {
+    "text_hash": "46348f54f4aa",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "hints.rotate": {
+    "text_hash": "d0a9f7777763",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "imageExportDialog.label.scale": {
+    "text_hash": "f102986b39ef",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.linkToElement": {
+    "text_hash": "1f5d3a7dfdec",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.sharp": {
+    "text_hash": "1a3c4b300d51",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "library.search.inputPlaceholder": {
+    "text_hash": "21a933ab0f78",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "overwriteConfirm.modal.loadFromFile.description": {
+    "text_hash": "f6bb48bc00e8",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "overwriteConfirm.modal.loadFromFile.title": {
+    "text_hash": "5ff54926b731",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "roomDialog.desc_exitSession": {
+    "text_hash": "1453a3752705",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "toast.copyStyles": {
+    "text_hash": "93a9516ad34f",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "toolBar.selection": {
+    "text_hash": "ca4067071fcf",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "welcomeScreen.app.center_heading_plus": {
+    "text_hash": "4bba37507dfe",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "alerts.confirmAddLibrary": {
+    "text_hash": "29f08d777b3e",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "alerts.couldNotCreateShareableLink": {
+    "text_hash": "c76365972b77",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "buttons.lightMode": {
+    "text_hash": "b4fcfbee4fb9",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "canvasError.canvasTooBigTip": {
+    "text_hash": "c9421ee84360",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "colorPicker.hexCode": {
+    "text_hash": "e35ada6240f1",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "commandPalette.search.placeholder": {
+    "text_hash": "1b59b70c74f2",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "errors.brave_measure_text_error.line4": {
+    "text_hash": "84991b6fb1ee",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "errors.collabSaveFailed": {
+    "text_hash": "6ca9979e5af4",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "helpDialog.deepBoxSelect": {
+    "text_hash": "1760cfe19287",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "hints.enterCropEditor": {
+    "text_hash": "888b39513be0",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "imageExportDialog.button.copyPngToClipboard": {
+    "text_hash": "b749e205302c",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.arrowhead_cardinality_many": {
+    "text_hash": "390612172db6",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.plusFreeTrial": {
+    "text_hash": "1a01c4486278",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.showHints": {
+    "text_hash": "4781198a63a4",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "overwriteConfirm.action.excalidrawPlus.title": {
+    "text_hash": "9bbb7a3bd22d",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "overwriteConfirm.modal.shareableLink.description": {
+    "text_hash": "5120bb6bfb2b",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "publishDialog.atleastOneLibItem": {
+    "text_hash": "64b08883b638",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "roomDialog.desc_privacy": {
+    "text_hash": "339943f8e435",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "toast.elementLinkCopied": {
+    "text_hash": "e2a627b4134a",
+    "last_run_id": "20261123T193601Z_local"
+  },
+  "toolBar.text": {
+    "text_hash": "71988c4d8e08",
+    "last_run_id": "20261123T193601Z_local"
   }
 }

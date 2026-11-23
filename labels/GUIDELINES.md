@@ -26,6 +26,7 @@ Keyboard keys are **not** translated: Cmd → Cmd is correct, Cmd → 命令 is 
 - A different but correct word choice (最近使用 vs 最近使用过, 青色 vs 蓝绿色 for Teal).
 - Spacing between Chinese and Latin text (按{{shortcut}} vs 按 {{shortcut}}).
 - A full stop added or dropped at the end (您现有的内容将被保留。).
+- Single-character size labels in a size picker (Small / Medium / Large → 小 / 中 / 大). Added 2026-11-23 after an annotator disagreement.
 
 ## How to work
 
@@ -39,3 +40,8 @@ Keyboard keys are **not** translated: Cmd → Cmd is correct, Cmd → 命令 is 
 ## Second annotator
 
 A second person labels the first 50 items with these same guidelines (`--from zoey`), without seeing the first annotator's labels. We report Cohen's kappa between the two.
+
+## Agreement (batch 1)
+
+Second annotator labeled items q001–q050 independently: Cohen's kappa = 0.75 against the first annotator's original labels (46/50 agree).
+Disagreements were adjudicated (see `label_corrections.csv`); the rule on single-character size labels above came out of this step.

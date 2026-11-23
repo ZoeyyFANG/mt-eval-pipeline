@@ -1,0 +1,128 @@
+item_id,context_key,source_en,mt_zh,has_error,error_note
+q001,errors.brave_measure_text_error.line3,We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.,我们强烈建议您禁用此设置。您可以按照<link>以下步骤</link>进行操作。,0,
+q002,errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>","如果禁用此设置后仍无法修复文本元素的显示问题,请在我们的 GitHub 上提交<issueLink>问题</issueLink>,或在 <discordLink>Discord</discordLink> 上联系我们",1,locale 半角逗号出现在中文句子中
+q003,userList.hint.isSpeaking,User is speaking,用户正在说话,0,
+q004,labels.share,Share,分享,0,
+q005,canvasError.cannotShowPreview,Cannot show preview,无法显示预览,0,
+q006,overwriteConfirm.action.excalidrawPlus.title,Excalidraw+,Excalidraw+,0,
+q007,imageExportDialog.button.copyPngToClipboard,Copy to clipboard,复制到剪贴板,0,
+q008,overwriteConfirm.action.exportToImage.button,Export as image,导出为图片,0,
+q009,publishDialog.republishWarning,Note: some of the selected items are marked as already published/submitted. You should only resubmit items when updating an existing library or submission.,注意：部分选中内容已被标记为已发布/已提交。您仅应在更新现有素材库或提交内容时重新提交这些内容。,0,
+q010,labels.plusFreeTrial,14-day free trial,14天免费试用,0,
+q011,overwriteConfirm.modal.loadFromFile.description,Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below.,从文件加载将<bold>替换您现有的内容</bold>。<br></br>您可以先使用以下选项之一备份您的绘图。,0,
+q012,overwriteConfirm.action.excalidrawPlus.title,Excalidraw+,Excalidraw+,0,
+q013,chat.role.assistant,AI Assistant,AI 助手,0,
+q014,toast.copyStyles,Copied styles.,复制的样式。,1,fluency “复制的样式”不自然，状态提示宜表达为已复制
+q015,chat.role.assistant,AI Assistant,人工智能助手,1,terminology AI assistant 术语表规定为“AI 助手”
+q016,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,"您已达到免费版的 AI 使用上限。升级到 Excalidraw+ 可获得更多额度,或明天再来。",1,locale 中文句子中使用半角逗号
+q017,errors.unsupportedFileType,Unsupported file type.,不支持的文件类型。,0,
+q018,labels.arrowhead_cardinality_many,Cardinality (many),基数（多）,0,
+q019,toolBar.selection,Selection,选中内容,0,
+q020,fileDrop.replace,Drop to replace content,拖放以替换内容,0,
+q021,toast.elementLinkCopied,Link copied to clipboard,链接已复制到剪贴板,0,
+q022,alerts.couldNotCopyToClipboard,Couldn't copy to clipboard.,无法复制到剪贴板。,0,
+q023,library.search.inputPlaceholder,Search library,搜索图书馆,1,terminology library 在此应为“素材库”，不是“图书馆”
+q024,errors.unsupportedFileType,Unsupported file type.,不支持的文件类型。,0,
+q025,errors.brave_measure_text_error.line1,Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.,看起来您正在使用 Brave 浏览器，并且启用了<bold>严格阻止指纹识别</bold>设置。,0,
+q026,hints.dismissSearch,{{shortcut}} to dismiss search,{{快捷键}} 关闭搜索,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}}
+q027,chat.rateLimit.generalRateLimit,"Hold your horses, you're too fast for us! Please wait a moment before trying again.",等等，你太快了！请稍等片刻再试。,0,
+q028,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,你是想改去参加Excalidraw+吗？,1,accuracy “go to the Excalidraw+”误译为“参加”，语义不符
+q029,buttons.fullScreen,Full screen,全屏,0,
+q030,errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file locally to ensure you don't lose your work.",无法保存到后端数据库。如果问题仍然存在，您应该将文件保存到本地，以确保不会丢失您的工作。,0,
+q031,roomDialog.desc_exitSession,"Stopping the session will disconnect you from the room, but you'll be able to continue working with the scene, locally. Note that this won't affect other people, and they'll still be able to collaborate on their version.",停止会话后，您将退出该房间，但仍可在本地继续处理该场景。请注意，这不会影响其他人，他们仍可继续在各自的版本上进行协作。,0,
+q032,canvasError.canvasTooBigTip,Tip: try moving the farthest elements a bit closer together.,提示：尝试将最远的元素稍微靠近一些。,0,
+q033,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",在框内进行深度选择，并阻止拖动。,0,
+q034,buttons.fullScreen,Full screen,全屏,0,
+q035,labels.linkToElement,Link to object,链接到对象,0,
+q036,colorPicker.noShades,No shades available for this color,此颜色暂无其他色号可选,0,
+q037,fontList.empty,No fonts found,未找到字体,0,
+q038,alerts.confirmAddLibrary,This will add {{numShapes}} shape(s) to your library. Are you sure?,这将向您的素材库添加 {{numShapes}} 个形状。确定要继续吗?,1,locale 中文句末使用半角问号
+q039,overwriteConfirm.action.exportToImage.button,Export as image,导出为图像,0,
+q040,canvasError.cannotShowPreview,Cannot show preview,无法显示预览,0,
+q041,publishDialog.atleastOneLibItem,Please select at least one library item to get started,请至少选中一项素材，以便开始,0,
+q042,labels.showHints,Show hints,显示提示,0,
+q043,fontList.empty,No fonts found,未找到字体,0,
+q044,colorPicker.hexCode,Hex code,十六进制代码,0,
+q045,canvasError.canvasTooBigTip,Tip: try moving the farthest elements a bit closer together.,提示:尝试将距离最远的元素稍微靠近一些。,1,locale 中文提示中的冒号使用半角符号
+q046,imageExportDialog.button.copyPngToClipboard,Copy to clipboard,复制到剪贴板,0,
+q047,fileDrop.replace,Drop to replace content,拖放以替换内容,0,
+q048,colorPicker.colors,Colors,颜色,0,
+q049,overwriteConfirm.modal.shareableLink.description,Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below.,加载外部绘图将<BOLD>替换您现有的内容</BOLD>。<BR></BR>您可以先使用以下任一选项备份您的绘图。,1,placeholder 标签 <bold> 和 <br> 被改为大写形式
+q050,hints.enterCropEditor,Double click the image or press {{shortcut}} to crop the image,双击图片或按 {{shortcut}} 裁剪图片,0,
+q051,colorPicker.colors,Colors,颜色,0,
+q052,errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file locally to ensure you don't lose your work.",无法将数据保存到后端数据库。如果问题仍然存在，请将文件保存在本地，以确保您的工作成果不会丢失。,0,
+q053,buttons.fullScreen,Full screen,全屏,0,
+q054,errors.brave_measure_text_error.line1,Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.,看起来您正在使用 Brave 浏览器，并且启用了 <bold>强制阻止指纹识别</bold> 设置。,0,
+q055,canvasError.canvasTooBig,The canvas may be too big.,画布可能太大。,0,
+q056,overwriteConfirm.modal.shareableLink.description,Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below.,加载外部绘图将<粗体>替换您现有的内容</粗体>。<br></br>您可以先使用以下选项之一备份您的绘图。,1,placeholder 标签 <bold> 被翻译为 <粗体>
+q057,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,您在免费套餐中已达到 AI 使用上限。请尝试使用 Excalidraw+ 以获取更多功能，或者明天再来。,1,accuracy “for more”指获得更多使用额度，不是更多功能
+q058,labels.share,Share,分享,0,
+q059,publishDialog.republishWarning,Note: some of the selected items are marked as already published/submitted. You should only resubmit items when updating an existing library or submission.,"注意:所选项目中有部分已被标记为已发布/已提交。仅在更新现有素材库或提交内容时,才应重新提交这些项目。",1,locale 中文句中使用半角冒号和逗号
+q060,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!","无法连接互联网。
+您的更改将不会被保存！",0,
+q061,toolBar.lasso,Lasso selection,套索选择,0,
+q062,imageExportDialog.label.scale,Scale,规模,1,accuracy 图像导出中的 Scale 指缩放比例，不是“规模”
+q063,alerts.couldNotCopyToClipboard,Couldn't copy to clipboard.,无法复制到剪贴板。,0,
+q064,chat.rateLimit.generalRateLimit,"Hold your horses, you're too fast for us! Please wait a moment before trying again.",慢点，你太快了，我们跟不上！请稍等片刻，然后再试一次。,0,
+q065,alerts.couldNotCreateShareableLink,Couldn't create shareable link.,无法创建分享链接。,0,
+q066,toolBar.lasso,Lasso selection,套索选中内容,0,
+q067,hints.enterCropEditor,Double click the image or press {{shortcut}} to crop the image,双击图片或按{{快捷键}}来裁剪图片,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}}
+q068,overwriteConfirm.modal.loadFromFile.title,Load from file,从文件加载,0,
+q069,colorPicker.hexCode,Hex code,十六进制颜色代码,0,
+q070,labels.linkToElement,Link to object,对象链接,1,fluency “对象链接”作为操作标签不自然，未清楚表达“链接到对象”
+q071,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,你想改用 Excalidraw+ 吗？,0,
+q072,alerts.confirmAddLibrary,This will add {{numShapes}} shape(s) to your library. Are you sure?,这将向您的库中添加 {{numShapes}} 个形状。您确定吗？,0,
+q073,overwriteConfirm.modal.loadFromFile.title,Load from file,从文件加载,0,
+q074,toolBar.selection,Selection,选中内容,0,
+q075,hints.rotate,You can constrain angles by holding {{shortcut}} while rotating,旋转时按住 {{shortcut}} 可限制角度,0,
+q076,chat.role.assistant,AI Assistant,AI 助手,0,
+q077,colorPicker.invalidHexLength,"Hex code must be 3, 4, 6, or 8 characters",十六进制代码必须为 3、4、6 或 8 个字符。,0,
+q078,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!","没有网络连接。
+
+您的更改将不会保存！",0,
+q079,hints.dismissSearch,{{shortcut}} to dismiss search,{{快捷方式}}关闭搜索,1,placeholder 占位符 {{shortcut}} 被改为 {{快捷方式}}
+q080,labels.untitled,Untitled,无题,0,
+q081,roomDialog.desc_privacy,"Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",别担心，本次会话采用了端到端加密，完全私密。就连我们的服务器也看不到您绘图的内容。,0,
+q082,labels.sharp,Sharp,夏普,1,accuracy Sharp 被误译为品牌名“夏普”
+q083,publishDialog.atleastOneLibItem,Please select at least one library item to get started,请至少选择一件图书馆藏品开始阅读,1,terminology library item 应为“素材”，不是“图书馆藏品”
+q084,colorPicker.colors,Colors,颜色,0,
+q085,hints.resizeStickyNote,"hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center","按住 {{shortcut_1}} 可自由调整大小,按住 {{shortcut_2}} 可从中心调整大小",1,locale 中文句中使用半角逗号
+q086,overwriteConfirm.modal.loadFromFile.title,Load from file,从文件加载,0,
+q087,library.search.inputPlaceholder,Search library,搜索素材库,0,
+q088,toolBar.text,Text,文本,0,
+q089,buttons.copyLink,Copy link,复制链接,0,
+q090,toolBar.selection,Selection,选拔,1,accuracy Selection 在此指选中内容，不是“选拔”
+q091,overwriteConfirm.modal.loadFromFile.description,Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below.,从文件加载将<BOLD>替换您现有的内容</BOLD>。<BR></BR>您可以先使用以下任一选项备份您的绘图。,1,placeholder 标签 <bold> 和 <br> 被改为大写形式
+q092,hints.resizeStickyNote,"hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center",按住 {{shortcut_1}} 可自由调整大小，按住 {{shortcut_2}} 可从中心调整大小,0,
+q093,labels.arrowhead_cardinality_many,Cardinality (many),基数(多),1,locale 中文术语后使用半角括号
+q094,imageExportDialog.button.copyPngToClipboard,Copy to clipboard,复制到剪贴板,0,
+q095,colorPicker.invalidHexLength,"Hex code must be 3, 4, 6, or 8 characters",十六进制颜色代码必须为 3、4、6 或 8 个字符,0,
+q096,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,您是想改去访问 Excalidraw+ 吗？,1,fluency “改去访问”用于切换到产品的提示不自然
+q097,hints.enterCropEditor,Double click the image or press {{shortcut}} to crop the image,双击图片或按{{快捷键}}裁剪图片,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}}
+q098,toast.copyStyles,Copied styles.,已复制样式。,0,
+q099,overwriteConfirm.modal.shareableLink.description,Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below.,加载外部绘图将<bold>替换您现有的内容</bold>。<br></br>您可以先使用以下选项之一备份您的绘图。,0,
+q100,imageExportDialog.label.embedScene,Embed scene,嵌入场景,0,
+q101,roomDialog.desc_privacy,"Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",别担心，会话采用端到端加密，完全私密。即使是我们的服务器也看不到你画的内容。,0,
+q102,chat.rateLimit.generalRateLimit,"Hold your horses, you're too fast for us! Please wait a moment before trying again.","请稍等片刻,您的操作太快了!请稍候再试。",1,locale 中文句中使用半角逗号和感叹号
+q103,hints.disableSnapping,Hold {{shortcut}} to disable snapping,按住 {{shortcut}} 可禁用吸附,0,
+q104,imageExportDialog.label.embedScene,Embed scene,嵌入场景,0,
+q105,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",在框内深度选择，并阻止拖动,0,
+q106,toolBar.lasso,Lasso selection,套索选中内容,0,
+q107,alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!","无可用的互联网连接。
+您的更改将不会被保存!",1,locale 中文句末使用半角感叹号
+q108,canvasError.cannotShowPreview,Cannot show preview,无法显示预览,0,
+q109,toolBar.text,Text,文本,0,
+q110,userList.hint.isSpeaking,User is speaking,用户正在说话,0,
+q111,imageExportDialog.label.scale,Scale,缩放,0,
+q112,labels.plusFreeTrial,14-day free trial,14天免费试用,0,
+q113,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",目前仅支持<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>和<erdLink>实体关系图</erdLink>示意图。其他类型将在 Excalidraw 中以图片形式渲染。,1,fluency “实体关系图示意图”表达重复且不自然
+q114,labels.increaseFontSize,Increase font size,增大字体大小,0,
+q115,hints.resizeStickyNote,"hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center",按住 {{shortcut_1}} 可自由调整大小，按住 {{shortcut_2}} 可从中心调整大小,0,
+q116,errors.brave_measure_text_error.line3,We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.,我们强烈建议您禁用此设置。您可以按照<link>这些步骤</link>进行操作。,0,
+q117,canvasError.canvasTooBig,The canvas may be too big.,这幅画布可能太大了。,0,
+q118,overwriteConfirm.modal.loadFromFile.description,Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below.,从文件加载将会<粗体>替换您现有的内容</粗体>。<br></br>您可以使用以下选项之一先备份您的绘图。,1,placeholder 标签 <bold> 被翻译为 <粗体>
+q119,library.search.inputPlaceholder,Search library,搜索素材库,0,
+q120,labels.increaseFontSize,Increase font size,增大字体大小,0,

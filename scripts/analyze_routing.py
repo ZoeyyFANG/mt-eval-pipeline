@@ -28,6 +28,8 @@ from sklearn.metrics import roc_auc_score
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--annotator", default="zoey")
+    ap.add_argument("--held-out", action="store_true",
+                    help="labels come from batches the rules were NOT designed on")
     ap.add_argument("--risk-target", type=float, default=2.0, help="max errors per 100 auto-shipped items")
     a = ap.parse_args()
     con = sqlite3.connect(DB_PATH)
@@ -76,11 +78,15 @@ def main():
             per100 = 100 * slip / len(ship) if ship else 0
             out.append(f"| {label} | severity ≤ {t} | {len(ship)} | {100 * len(ship) / n:.0f}% | {slip}/{n_err} | "
                        f"{per100:.1f} | {'yes' if ship and per100 <= a.risk_target else 'no'} |")
-    out += ["", "Caveat: the punctuation rule was designed after reviewing these labels; "
-            "confirm the rules + LLM numbers on the next batch before relying on them."]
+    if a.held_out:
+        out += ["", "Held-out check: the rules were frozen (git commit) before these batches were "
+                "translated or labeled."]
+    else:
+        out += ["", "Caveat: the punctuation rule was designed after reviewing these labels; "
+                "confirm the rules + LLM numbers on a held-out batch before relying on them."]
     report = "\n".join(out)
     EXPORT_DIR.mkdir(exist_ok=True)
-    (EXPORT_DIR / "routing_report.md").write_text(report, encoding="utf-8")
+    (EXPORT_DIR / f"routing_report_{a.annotator}.md").write_text(report, encoding="utf-8")
     print(report)
 
 

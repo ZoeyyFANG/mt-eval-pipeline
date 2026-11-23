@@ -7,3 +7,4 @@ q159,0,1,"accuracy Saving (progress status) translated as 保存, should be 正�
 q162,0,1,accuracy zoom narrowed to 放大; selection should be 选中内容,"claude (guideline consistency pass, requested by Zoey)",2026-11-23
 q164,0,1,terminology library translated as 库 (termbase: 素材库),"claude (guideline consistency pass, requested by Zoey)",2026-11-23
 q186,0,1,terminology library translated as 库 (termbase: 素材库),"claude (guideline consistency pass, requested by Zoey)",2026-11-23
+q023,0,1,terminology diagram translated as 图表 (termbase: 示意图); found in peer disagreement,"adjudication with peer, agreed by Zoey",2026-11-23

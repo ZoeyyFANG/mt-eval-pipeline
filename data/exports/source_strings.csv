@@ -125,3 +125,64 @@ toolBar.arrow,Arrow,05800e70aa10,short,short,1,0,,20261120T042105Z_local
 toolBar.convertElementType,Toggle shape type,592de50ad8a3,medium,,1,0,,20261120T042105Z_local
 toolBar.image,Insert image,cf3a92dadb38,short,short,1,0,,20261120T042105Z_local
 toolBar.penMode,Pen mode - prevent touch,b540d04a8841,medium,,1,0,,20261120T042105Z_local
+alerts.collabOfflineWarning,"No internet connection available.
+Your changes will not be saved!",d71cf8dc48f2,error,error_message,2,0,,20261123T193601Z_local
+buttons.copyLink,Copy link,dbf362d4f210,short,short,2,0,,20261123T193601Z_local
+canvasError.cannotShowPreview,Cannot show preview,01661a5285bc,error,error_message,2,0,,20261123T193601Z_local
+chat.rateLimit.generalRateLimit,"Hold your horses, you're too fast for us! Please wait a moment before trying again.",3b513fca7f79,long,long,2,0,,20261123T193601Z_local
+chat.role.assistant,AI Assistant,0ad1b06f64f2,short,short,2,0,,20261123T193601Z_local
+colorPicker.invalidHexLength,"Hex code must be 3, 4, 6, or 8 characters",2f3f94127493,medium,,2,0,,20261123T193601Z_local
+errors.brave_measure_text_error.line1,Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.,a709ec8ff324,placeholder_markup,markup;error_message,2,1,,20261123T193601Z_local
+errors.unsupportedFileType,Unsupported file type.,9b71892c0002,error,error_message,2,0,,20261123T193601Z_local
+fileDrop.replace,Drop to replace content,0e370a4138d0,medium,,2,0,,20261123T193601Z_local
+hints.disableSnapping,Hold {{shortcut}} to disable snapping,3449abe3dfab,placeholder_markup,placeholder,2,1,,20261123T193601Z_local
+hints.resizeStickyNote,"hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center",63873d3ec5b9,medium,placeholder,2,1,,20261123T193601Z_local
+imageExportDialog.label.embedScene,Embed scene,1019d004ca8c,short,short,2,0,,20261123T193601Z_local
+labels.increaseFontSize,Increase font size,2f0c3d49e6bd,medium,,2,0,,20261123T193601Z_local
+labels.share,Share,29887a5ff984,short,short,2,0,,20261123T193601Z_local
+labels.untitled,Untitled,f59ab8d1331b,short,short,2,0,,20261123T193601Z_local
+mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",31bee267bdb0,placeholder_markup,markup;long,2,1,,20261123T193601Z_local
+overwriteConfirm.action.exportToImage.button,Export as image,4ca21c27fef6,medium,,2,0,,20261123T193601Z_local
+publishDialog.republishWarning,Note: some of the selected items are marked as already published/submitted. You should only resubmit items when updating an existing library or submission.,2863587fee15,long,long,2,0,,20261123T193601Z_local
+toolBar.lasso,Lasso selection,e7ae92740654,short,short,2,0,,20261123T193601Z_local
+userList.hint.isSpeaking,User is speaking,d839ecd90d35,medium,,2,0,,20261123T193601Z_local
+alerts.couldNotCopyToClipboard,Couldn't copy to clipboard.,33a74a09d057,error,error_message,3,0,,20261123T193601Z_local
+buttons.fullScreen,Full screen,674fe2acd0d5,short,short,3,0,,20261123T193601Z_local
+canvasError.canvasTooBig,The canvas may be too big.,8c6ca2162699,error,error_message,3,0,,20261123T193601Z_local
+chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,223c6717efc1,long,long,3,0,,20261123T193601Z_local
+colorPicker.colors,Colors,88c45d9e526c,short,short,3,0,,20261123T193601Z_local
+colorPicker.noShades,No shades available for this color,fe62a2244eeb,medium,,3,0,,20261123T193601Z_local
+errors.brave_measure_text_error.line3,We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.,e6f24297a1ac,placeholder_markup,markup;long;error_message,3,1,,20261123T193601Z_local
+fontList.empty,No fonts found,6cfe7c1e3ddb,medium,,3,0,,20261123T193601Z_local
+hints.dismissSearch,{{shortcut}} to dismiss search,46348f54f4aa,placeholder_markup,placeholder,3,1,,20261123T193601Z_local
+hints.rotate,You can constrain angles by holding {{shortcut}} while rotating,d0a9f7777763,medium,placeholder,3,1,,20261123T193601Z_local
+imageExportDialog.label.scale,Scale,f102986b39ef,short,short,3,0,,20261123T193601Z_local
+labels.linkToElement,Link to object,1f5d3a7dfdec,medium,,3,0,,20261123T193601Z_local
+labels.sharp,Sharp,1a3c4b300d51,short,short,3,0,,20261123T193601Z_local
+library.search.inputPlaceholder,Search library,21a933ab0f78,short,short,3,0,,20261123T193601Z_local
+overwriteConfirm.modal.loadFromFile.description,Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below.,f6bb48bc00e8,placeholder_markup,markup;long,3,1,,20261123T193601Z_local
+overwriteConfirm.modal.loadFromFile.title,Load from file,5ff54926b731,medium,,3,0,,20261123T193601Z_local
+roomDialog.desc_exitSession,"Stopping the session will disconnect you from the room, but you'll be able to continue working with the scene, locally. Note that this won't affect other people, and they'll still be able to collaborate on their version.",1453a3752705,long,long,3,0,,20261123T193601Z_local
+toast.copyStyles,Copied styles.,93a9516ad34f,error,short;error_message,3,0,,20261123T193601Z_local
+toolBar.selection,Selection,ca4067071fcf,short,short,3,0,,20261123T193601Z_local
+welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,4bba37507dfe,medium,,3,0,,20261123T193601Z_local
+alerts.confirmAddLibrary,This will add {{numShapes}} shape(s) to your library. Are you sure?,29f08d777b3e,placeholder_markup,placeholder;error_message,4,1,,20261123T193601Z_local
+alerts.couldNotCreateShareableLink,Couldn't create shareable link.,c76365972b77,error,error_message,4,0,,20261123T193601Z_local
+buttons.lightMode,Light mode,b4fcfbee4fb9,short,short,4,0,,20261123T193601Z_local
+canvasError.canvasTooBigTip,Tip: try moving the farthest elements a bit closer together.,c9421ee84360,error,error_message,4,0,,20261123T193601Z_local
+colorPicker.hexCode,Hex code,e35ada6240f1,short,short,4,0,,20261123T193601Z_local
+commandPalette.search.placeholder,"Search menus, commands, and discover hidden gems",1b59b70c74f2,medium,,4,0,,20261123T193601Z_local
+errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>",84991b6fb1ee,placeholder_markup,markup;long;error_message,4,1,,20261123T193601Z_local
+errors.collabSaveFailed,"Couldn't save to the backend database. If problems persist, you should save your file locally to ensure you don't lose your work.",6ca9979e5af4,long,long;error_message,4,0,,20261123T193601Z_local
+helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",1760cfe19287,medium,,4,0,,20261123T193601Z_local
+hints.enterCropEditor,Double click the image or press {{shortcut}} to crop the image,888b39513be0,placeholder_markup,placeholder,4,1,,20261123T193601Z_local
+imageExportDialog.button.copyPngToClipboard,Copy to clipboard,b749e205302c,medium,,4,0,,20261123T193601Z_local
+labels.arrowhead_cardinality_many,Cardinality (many),390612172db6,short,short,4,0,,20261123T193601Z_local
+labels.plusFreeTrial,14-day free trial,1a01c4486278,medium,,4,0,,20261123T193601Z_local
+labels.showHints,Show hints,4781198a63a4,short,short,4,0,,20261123T193601Z_local
+overwriteConfirm.action.excalidrawPlus.title,Excalidraw+,9bbb7a3bd22d,short,short,4,0,,20261123T193601Z_local
+overwriteConfirm.modal.shareableLink.description,Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below.,5120bb6bfb2b,placeholder_markup,markup;long,4,1,,20261123T193601Z_local
+publishDialog.atleastOneLibItem,Please select at least one library item to get started,64b08883b638,medium,,4,0,,20261123T193601Z_local
+roomDialog.desc_privacy,"Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",339943f8e435,long,long,4,0,,20261123T193601Z_local
+toast.elementLinkCopied,Link copied to clipboard,e2a627b4134a,error,error_message,4,0,,20261123T193601Z_local
+toolBar.text,Text,71988c4d8e08,short,short,4,0,,20261123T193601Z_local

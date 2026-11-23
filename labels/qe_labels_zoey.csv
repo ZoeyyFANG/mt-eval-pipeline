@@ -21,7 +21,7 @@ q019,errors.collabSaveFailed_sizeExceeded,"Couldn't save to the backend database
 q020,keys.enter,Enter,进入,1,accuracy Enter keyboard key was translated as 进入
 q021,labels.signUp,Sign up,注册,0,
 q022,publishDialog.errors.required,Required,必填,0,
-q023,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",生成了无效的图表 :(。您可以手动编辑、使用自动修复重试，或尝试其他提示。,0,
+q023,chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",生成了无效的图表 :(。您可以手动编辑、使用自动修复重试，或尝试其他提示。,1,terminology diagram translated as 图表 (termbase: 示意图)
 q024,exportDialog.disk_button,Save to file,保存到文件,0,
 q025,publishDialog.noteLicense,"By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.","提交即表示您同意素材库将在<link>MIT 许可证</link>下发布,简而言之,任何人都可以不受限制地使用这些内容。",1,locale half-width commas in Chinese text
 q026,publishDialog.errors.required,Required,必填,0,
