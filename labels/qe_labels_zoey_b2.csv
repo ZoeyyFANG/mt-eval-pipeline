@@ -1,4 +1,4 @@
-item_id,context_key,source_en,mt_zh,has_error,error_note
+﻿item_id,context_key,source_en,mt_zh,has_error,error_note
 q001,errors.brave_measure_text_error.line3,We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.,我们强烈建议您禁用此设置。您可以按照<link>以下步骤</link>进行操作。,0,
 q002,errors.brave_measure_text_error.line4,"If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>","如果禁用此设置后仍无法修复文本元素的显示问题,请在我们的 GitHub 上提交<issueLink>问题</issueLink>,或在 <discordLink>Discord</discordLink> 上联系我们",1,locale 半角逗号出现在中文句子中
 q003,userList.hint.isSpeaking,User is speaking,用户正在说话,0,
@@ -72,7 +72,7 @@ q068,overwriteConfirm.modal.loadFromFile.title,Load from file,从文件加载,0,
 q069,colorPicker.hexCode,Hex code,十六进制颜色代码,0,
 q070,labels.linkToElement,Link to object,对象链接,1,fluency “对象链接”作为操作标签不自然，未清楚表达“链接到对象”
 q071,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,你想改用 Excalidraw+ 吗？,0,
-q072,alerts.confirmAddLibrary,This will add {{numShapes}} shape(s) to your library. Are you sure?,这将向您的库中添加 {{numShapes}} 个形状。您确定吗？,0,
+q072,alerts.confirmAddLibrary,This will add {{numShapes}} shape(s) to your library. Are you sure?,这将向您的库中添加 {{numShapes}} 个形状。您确定吗？,1,terminology library translated as 库 (termbase: 素材库)
 q073,overwriteConfirm.modal.loadFromFile.title,Load from file,从文件加载,0,
 q074,toolBar.selection,Selection,选中内容,0,
 q075,hints.rotate,You can constrain angles by holding {{shortcut}} while rotating,旋转时按住 {{shortcut}} 可限制角度,0,
