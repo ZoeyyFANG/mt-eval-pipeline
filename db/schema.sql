@@ -131,3 +131,28 @@ CREATE TABLE IF NOT EXISTS review_edits (
     final_text TEXT,
     edit_distance REAL         -- character edits / max(len) : 0 = untouched, 1 = rewritten
 );
+
+-- Step 9: remediation agent. Every tool call is logged so each outcome can be audited.
+CREATE TABLE IF NOT EXISTS agent_steps (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    agent_run TEXT,
+    string_id TEXT,
+    step INTEGER,
+    tool TEXT,
+    tool_input TEXT,
+    tool_output TEXT
+);
+
+CREATE TABLE IF NOT EXISTS agent_outcomes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    agent_run TEXT,
+    string_id TEXT,
+    route_before TEXT,
+    mt_before TEXT,
+    severity_before INTEGER,
+    outcome TEXT,              -- repaired | escalated
+    candidate TEXT,            -- final candidate (repaired) or best attempt (escalated)
+    severity_after INTEGER,
+    attempts INTEGER,
+    reason TEXT
+);

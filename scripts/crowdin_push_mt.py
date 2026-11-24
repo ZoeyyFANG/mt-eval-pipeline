@@ -71,6 +71,16 @@ def main():
                             FROM routes WHERE id IN (SELECT MAX(id) FROM routes GROUP BY string_id)""").fetchall()
     if not routes:
         sys.exit("no routes yet: run scripts/08_route.py first")
+    # strings the repair agent fixed: push its candidate instead (still reviewed in full)
+    try:
+        repaired = {sid: cand for sid, cand in con.execute(
+            """SELECT string_id, candidate FROM agent_outcomes WHERE outcome = 'repaired'
+               AND id IN (SELECT MAX(id) FROM agent_outcomes GROUP BY string_id)""")}
+    except sqlite3.OperationalError:
+        repaired = {}
+    routes = [(sid, route, eng, repaired.get(sid, mt), sev,
+               (flags + "; " if flags else "") + "agent-repaired" if sid in repaired else flags, why)
+              for sid, route, eng, mt, sev, flags, why in routes]
 
     spot = sorted(r[0] for r in routes if r[1] == "spot_check")
     rng = random.Random(a.seed)

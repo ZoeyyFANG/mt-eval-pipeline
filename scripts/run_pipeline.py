@@ -15,6 +15,7 @@ STEPS = [
     "05_llm_judge.py",
     "06_write_db.py",
     "08_route.py",
+    "09_repair_agent.py",
 ]
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
