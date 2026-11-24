@@ -1,0 +1,44 @@
+name: zh-CN translations -> pull request
+
+# TMS -> repo: pull approved zh-CN strings from Crowdin, run the locale check,
+# and open (or update) a pull request. A human reviews and merges it.
+on:
+  workflow_dispatch: {}
+  # Daily sync, paused while the project is a demo:
+  # schedule:
+  #   - cron: "0 7 * * *"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull approved translations from Crowdin
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        run: python scripts/crowdin_pull_review.py
+
+      - name: Locale check (placeholders, unknown keys, coverage)
+        run: python scripts/check_locale.py --summary pr_body.md
+
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: l10n/zh-CN
+          add-paths: locales/zh-CN.json
+          commit-message: "l10n(zh-CN): sync approved translations from Crowdin"
+          title: "l10n(zh-CN): approved translations from Crowdin"
+          body-path: pr_body.md
+          labels: l10n

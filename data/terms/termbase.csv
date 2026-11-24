@@ -11,7 +11,7 @@ T009,scene,noun,workspace,"Everything currently on the canvas, saved or shared a
 T010,drawing,noun,workspace,"The user's work as a whole, as in 'collaborate on your drawing'.",roomDialog.desc_intro,Invite people to collaborate on your drawing.,绘图,"Alt: 图画, 作品.",,,approved,Zoey
 T011,element,noun,object,"Any single object on the canvas: shape, line, text, image.",labels.multiSelect,Add element to selection,元素,,,,proposed,Zoey
 T012,shape,noun,object,"A geometric element such as rectangle, diamond or ellipse.",labels.shapeSwitch,Switch shape,形状,,,,proposed,Zoey
-T013,selection,noun,object,The elements currently selected.,labels.group,Group selection,选中内容,Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.,,,proposed,Zoey
+T013,selection,noun,object,The elements currently selected.,labels.group,Group selection,选中内容,"Ambiguous, check context: selected content = 选中内容; tool name (Selection, Lasso selection) = 选择. Alt: 选区. 'Add element to selection' = 将元素添加到选中内容.",,,proposed,Zoey
 T014,group,verb / noun,object,Combine selected elements so they move as one; also the result.,labels.group,Group selection,编组,Ungroup = 取消编组 (design-tool convention).,,,proposed,Zoey
 T015,frame,noun,object,"A container element that holds and clips other elements, like an artboard.",labels.wrapSelectionInFrame,Wrap selection in frame,画框,Alt: 框架. Follows design-tool usage (Figma zh: 画框).,,,approved,Zoey
 T016,container,noun,object,A shape that text is bound to and wraps inside.,labels.bindText,Bind text to the container,容器,,,,proposed,Zoey

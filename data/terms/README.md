@@ -18,6 +18,8 @@ Approved terms are imported into the Crowdin glossary and injected into the MT p
 | sloppiness, frame, library, library item, zen mode, crow's foot, scene, canvas, drawing | Approved as proposed (潦草度, 画框, 素材库, 素材, 禅模式, 鸦脚, 场景, 画布, 绘图) | Reviewed by Zoey, 2026-11-19 |
 | library, frame, element, group, diagram, hand tool, selection | Keep termbase; reference revised to match | Translator consistently used 资料库 / 框架 / 对象 / 组合 / 图表 / 手形工具 / 所选对象. Termbase wins so the reference and the MT glossary agree; 21 strings revised (see data/handoff/review_changes.csv) |
 
+| selection | Marked ambiguous (2026-11-23): tool name 选择 vs selected content 选中内容; no longer a hard rule check | Found in TMS review: toolBar.selection / toolBar.lasso were tool names. Changed after the held-out test, so it applies from the next batch on |
+
 ## Reference translation review (batch 1)
 - Returned file: `data/handoff/batch1_returned.csv` (kept unchanged as the translator's original).
 - Reviewer changes: `data/handoff/review_changes.csv`: 23 strings (21 terminology, 2 missing `{{shortcut_2}}` placeholders).

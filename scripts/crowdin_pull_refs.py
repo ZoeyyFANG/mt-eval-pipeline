@@ -31,7 +31,19 @@ TARGET = "zh-CN"
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--approved", action="store_true", help="export approved translations only")
+    ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
+
+    # Once MT has been pushed to Crowdin (crowdin_push_mt.py), zh-CN holds machine
+    # translations: pulling them as references would contaminate the gold standard.
+    import sqlite3
+    from config import DB_PATH
+    con = sqlite3.connect(DB_PATH)
+    has_routes = con.execute("SELECT name FROM sqlite_master WHERE name='routes'").fetchone() and \
+        con.execute("SELECT COUNT(*) FROM routes").fetchone()[0]
+    if has_routes and not a.force:
+        sys.exit("[crowdin] MT has been pushed to Crowdin, so zh-CN is no longer a clean reference. "
+                 "Use crowdin_pull_review.py for reviewer edits. (--force to override)")
 
     pid = os.environ["CROWDIN_PROJECT_ID"].strip()
     s = requests.Session()

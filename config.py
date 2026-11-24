@@ -58,3 +58,8 @@ MQM_ERROR_TYPES = [
     "style",                # tone mismatch, not wrong but off-brand
     "none",                 # no issue
 ]
+
+# Router thresholds (step 8). Set from the ROC / routing analysis, not guessed:
+# held-out batches 2-4: rules + severity <= 2 met the risk target (1.3 errors / 100 shipped).
+SPOT_CHECK_MAX_SEVERITY = int(os.environ.get("MT_EVAL_SPOT_MAX", "2"))
+REPAIR_MIN_SEVERITY = 4

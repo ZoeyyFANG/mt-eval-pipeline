@@ -1,0 +1,20 @@
+name: zh-CN locale check
+
+# Runs on every pull request that changes a translation file.
+# Fails on placeholder/markup mismatches or unknown keys, so a broken
+# translation can never be merged; reports coverage and punctuation.
+on:
+  pull_request:
+    paths:
+      - "locales/zh-CN.json"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/check_locale.py

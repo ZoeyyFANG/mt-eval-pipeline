@@ -106,3 +106,28 @@ CREATE TABLE IF NOT EXISTS context_enrichment (
     edit_distance_formatting INTEGER,
     edit_distance_meaning INTEGER
 );
+
+-- Step 8: one route per string (rules decide, the LLM only scores)
+CREATE TABLE IF NOT EXISTS routes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    string_id TEXT,
+    route_run TEXT,            -- timestamp of the routing pass
+    route TEXT,                -- spot_check | full_review | mandatory_review | repair | human_only | dnt_check
+    engine TEXT,               -- engine of the chosen candidate (NULL for human_only)
+    mt_text TEXT,              -- the candidate pushed to the TMS
+    severity INTEGER,
+    rule_flags TEXT,           -- placeholder / terminology / punctuation, if any
+    reason TEXT
+);
+
+-- Reviewer edits pulled back from the TMS (post-edit distance = ground truth in the workflow)
+CREATE TABLE IF NOT EXISTS review_edits (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    string_id TEXT,
+    pulled_at TEXT,
+    route TEXT,
+    engine TEXT,
+    mt_text TEXT,
+    final_text TEXT,
+    edit_distance REAL         -- character edits / max(len) : 0 = untouched, 1 = rewritten
+);
