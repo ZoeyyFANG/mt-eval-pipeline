@@ -101,7 +101,13 @@ def main():
         if cid is None:
             missing += 1
             continue
-        if route == "human_only" or not mt:
+        if route in ("human_only", "human_translation", "transcreation") or not mt:
+            note = {"human_translation": "[pipeline] tier 3: translate from scratch (no MT), second linguist reviews",
+                    "transcreation": "[pipeline] tier 4: transcreate from the brief in data/assets/brand_voice.md (no MT)"
+                    }.get(route)
+            if note:
+                check(s.post(f"{API}/projects/{pid}/comments",
+                             json={"stringId": cid, "targetLanguageId": TARGET, "text": note, "type": "comment"}))
             log.append((sid, route, "", "", "not pushed"))
             continue
         tr = check(s.post(f"{API}/projects/{pid}/translations",

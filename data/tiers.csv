@@ -1,0 +1,18 @@
+pattern,tier,reason
+welcomeScreen.*,4,high value: first impression / upsell screen
+labels.plusFreeTrial,4,high value: upsell
+exportDialog.excalidrawplus_description,4,high value: upsell
+chat.rateLimit.messageLimit,4,high value: upsell at the moment of friction
+chat.rateLimit.generalRateLimit,4,brand voice: playful idiom (Hold your horses)
+publishDialog.noteLicense,3,legal: licence terms the user agrees to
+roomDialog.desc_privacy,3,legal/privacy claim: encryption and privacy promise
+alerts.uploadedSecurly,3,legal/privacy claim: encryption promise
+alerts.clearReset,2,data loss: irreversible action
+alerts.resetLibrary,2,data loss: irreversible action
+alerts.*OverridePrompt,2,data loss: overwrites the user's drawing
+overwriteConfirm.modal.*,2,data loss: replaces existing content
+alerts.collabOfflineWarning,2,data loss: changes will not be saved
+errors.collabSaveFailed*,2,data loss: save failed
+alerts.confirmAddLibrary,2,confirmation with a count
+@placeholder,2,placeholder or markup: a broken token breaks the UI
+*,1,default: low risk UI string

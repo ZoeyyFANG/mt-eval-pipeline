@@ -16,6 +16,7 @@ For each string, the latest candidates from every engine are checked:
 Writes the routes table and data/exports/routes.csv.
 """
 import csv
+from collections import Counter
 import sqlite3
 import sys
 from datetime import datetime, timezone
@@ -26,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import DB_PATH, SCHEMA_FILE, EXPORT_DIR, SPOT_CHECK_MAX_SEVERITY, REPAIR_MIN_SEVERITY
 from common import locale_check
 from terms import term_adherence
+from tiering import assign_tier, TIER_NAMES
 
 
 def engine_preference(con):
@@ -54,6 +56,10 @@ def rule_flags(string_id, source, mt, token_ok):
 def main():
     con = sqlite3.connect(DB_PATH)
     con.executescript(Path(SCHEMA_FILE).read_text(encoding="utf-8"))
+    cols = {r[1] for r in con.execute("PRAGMA table_info(routes)")}
+    for col, typ in (("tier", "INTEGER"), ("tier_reason", "TEXT"), ("route_untiered", "TEXT")):
+        if col not in cols:  # migrate databases created before tiering existed
+            con.execute(f"ALTER TABLE routes ADD COLUMN {col} {typ}")
     prefer, basis = engine_preference(con)
     rank = {e: i for i, e in enumerate(prefer)}
 
@@ -94,20 +100,40 @@ def main():
             route, why = "full_review", f"rules pass, severity {sev}"
         out.append((sid, route, eng, mt, sev, "; ".join(flags), why))
 
-    con.executemany("""INSERT INTO routes (string_id, route_run, route, engine, mt_text, severity, rule_flags, reason)
-                       VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
-                    [(o[0], run, *o[1:]) for o in out])
+    # Tier caps automation: it can only make a route stricter, never looser.
+    src = dict(strings)
+    tiered = []
+    for sid, route, eng, mt, sev, flags, why in out:
+        tier, treason = assign_tier(sid, src[sid])
+        new = route
+        if tier == 4 and route != "dnt_check":
+            new, why = "transcreation", f"tier 4 ({treason})"
+        elif tier == 3 and route != "dnt_check":
+            new, why = "human_translation", f"tier 3 ({treason})"
+        elif tier == 2 and route == "spot_check":
+            new, why = "full_review", f"tier 2 never spot-checked ({treason})"
+        tiered.append((sid, new, eng, mt, sev, flags, why, tier, treason, route))
+        con.execute("UPDATE source_strings SET tier = ? WHERE string_id = ?", (tier, sid))
+    changed = sum(1 for t in tiered if t[1] != t[9])
+    out = [t[:7] for t in tiered]
+    con.executemany("""INSERT INTO routes (string_id, route_run, route, engine, mt_text, severity, rule_flags, reason,
+                                           tier, tier_reason, route_untiered)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    [(t[0], run, *t[1:]) for t in tiered])
     con.commit()
 
     EXPORT_DIR.mkdir(exist_ok=True)
     with open(EXPORT_DIR / "routes.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["string_id", "route", "engine", "mt_text", "severity", "rule_flags", "reason"])
-        w.writerows(out)
-    from collections import Counter
+        w.writerow(["string_id", "route", "engine", "mt_text", "severity", "rule_flags", "reason",
+                    "tier", "tier_reason", "route_untiered"])
+        w.writerows(tiered)
     c = Counter(o[1] for o in out)
     print(f"[route] engine preference ({basis}): {' > '.join(prefer)}")
     print(f"[route] {len(out)} strings: " + ", ".join(f"{k} {v}" for k, v in c.most_common()))
+    tc = Counter(t[7] for t in tiered)
+    print("[route] tiers: " + ", ".join(f"{k} {TIER_NAMES[k]} {tc[k]}" for k in sorted(tc)))
+    print(f"[route] tiering changed the route of {changed} strings (stricter only)")
     print(f"[route] chosen engine: " + ", ".join(f"{k} {v}" for k, v in Counter(o[2] for o in out if o[2]).most_common()))
 
 
