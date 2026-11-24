@@ -15,3 +15,4 @@ data/_placeholder_backup/
 
 # local SQLite databases
 db/*.db
+.venv-comet/

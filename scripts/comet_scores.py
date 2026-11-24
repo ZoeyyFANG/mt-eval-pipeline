@@ -27,6 +27,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-kiwi", action="store_true")
     ap.add_argument("--batch-size", type=int, default=8)
+    # recent PyTorch rejects COMET's DataLoader with num_workers=0 on macOS
+    ap.add_argument("--num-workers", type=int, default=1)
     a = ap.parse_args()
 
     from comet import download_model, load_from_checkpoint
@@ -44,7 +46,7 @@ def main():
     if with_ref:
         model = load_from_checkpoint(download_model("Unbabel/wmt22-comet-da"))
         data = [{"src": r[3], "mt": r[4], "ref": refs[r[0]]} for r in with_ref]
-        scores = model.predict(data, batch_size=a.batch_size, gpus=0).scores
+        scores = model.predict(data, batch_size=a.batch_size, gpus=0, num_workers=a.num_workers).scores
         comet = {(r[0], r[1], r[2]): sc for r, sc in zip(with_ref, scores)}
         print(f"[comet] scored {len(comet)} outputs with references")
 
@@ -52,7 +54,7 @@ def main():
     if not a.no_kiwi:
         model = load_from_checkpoint(download_model("Unbabel/wmt22-cometkiwi-da"))
         data = [{"src": r[3], "mt": r[4]} for r in rows]
-        scores = model.predict(data, batch_size=a.batch_size, gpus=0).scores
+        scores = model.predict(data, batch_size=a.batch_size, gpus=0, num_workers=a.num_workers).scores
         kiwi = {(r[0], r[1], r[2]): sc for r, sc in zip(rows, scores)}
         print(f"[cometkiwi] scored {len(kiwi)} outputs")
 
