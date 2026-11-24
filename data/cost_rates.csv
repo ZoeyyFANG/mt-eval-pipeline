@@ -1,0 +1,4 @@
+scenario,translation,review,mtpe,transcreation_multiplier,spot_check_share,pm_per_escalation,mt_per_word,source
+low,0.04,0.015,0.025,2.0,0.10,2.0,0.001,"Placeholder: low end of EN>ZH freelance rates listed on ProZ.com profiles (Nov 2026). Replace with the course rate card."
+mid,0.10,0.035,0.06,2.0,0.10,5.0,0.001,"Placeholder: middle of the ProZ.com range. Replace with the course rate card."
+high,0.18,0.06,0.10,2.5,0.10,10.0,0.001,"Placeholder: high end of the ProZ.com range. Replace with the course rate card."
