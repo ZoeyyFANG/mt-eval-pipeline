@@ -1,0 +1,19 @@
+﻿string_id,route,engine,mt_text,status
+mermaid.description,mandatory_review,claude,<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>、<stateLink>状态图</stateLink>和<erdLink>实体关系图</erdLink>等示意图，以及<ganttLink>甘特图表</ganttLink>、<quadrantLink>象限图表</quadrantLink>和<timelineLink>时间线</timelineLink>会被转换为 Excalidraw 元素。其他类型的示意图将作为图片插入。,pushed
+labels.showHints,spot_check (SAMPLED FOR REVIEW),claude,工具栏提示,pushed
+labels.minimap,spot_check (SAMPLED FOR REVIEW),deepl,小地图,pushed
+labels.zoom,spot_check,claude,缩放,"pushed, auto-approved"
+labels.toggleAutoResize,spot_check,claude,切换文本自动调整大小,"pushed, auto-approved"
+buttons.zoomToFit,spot_check (SAMPLED FOR REVIEW),claude,缩放以适应,pushed
+hints.toggleTextAutoResize,full_review,claude,{{shortcut}} 切换文本自动调整大小,pushed
+toast.pastedAsSingleText,spot_check (SAMPLED FOR REVIEW),claude,已粘贴为单个文本元素。,pushed
+toast.splitIntoTextElements,spot_check (SAMPLED FOR REVIEW),claude,拆分为独立的文本元素,pushed
+promoBanner.presentations,spot_check,claude,演示文稿,"pushed, auto-approved"
+promoBanner.mcp,spot_check (SAMPLED FOR REVIEW),claude,用AI绘图,pushed
+promoBanner.comments,spot_check,claude,发表评论,"pushed, auto-approved"
+promoBanner.teams,spot_check,claude,团队协作,"pushed, auto-approved"
+promoBanner.voiceChat,spot_check (SAMPLED FOR REVIEW),claude,语音聊天,pushed
+promoBanner.withExcalidrawPlus,spot_check (SAMPLED FOR REVIEW),claude,使用 Excalidraw+,pushed
+promoBanner.excalidrawPlusMcp,spot_check (SAMPLED FOR REVIEW),claude,Excalidraw+ MCP,pushed
+promoBanner.cli,spot_check,claude,Excalidraw CLI,"pushed, auto-approved"
+promoBanner.cliTagline,spot_check (SAMPLED FOR REVIEW),deepl,面向人类与人工智能,pushed

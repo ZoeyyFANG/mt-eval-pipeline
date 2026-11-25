@@ -1,0 +1,19 @@
+﻿string_id,route,engine,mt_text,severity,rule_flags,reason,tier,tier_reason,route_untiered
+mermaid.description,mandatory_review,claude,<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>、<stateLink>状态图</stateLink>和<erdLink>实体关系图</erdLink>、<ganttLink>甘特图</ganttLink>、<quadrantLink>象限图</quadrantLink>以及<timelineLink>时间线图</timelineLink>会被转换为 Excalidraw 元素。其他类型的示意图将作为图片插入。,2,terminology(missing:chart),every candidate fails a rule check,2,placeholder or markup: a broken token breaks the UI,mandatory_review
+labels.showHints,spot_check,claude,工具栏提示,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.minimap,spot_check,deepl,小地图,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.zoom,spot_check,claude,缩放,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.toggleAutoResize,spot_check,claude,切换文本自动调整大小,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+buttons.zoomToFit,spot_check,claude,缩放以适应,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+hints.toggleTextAutoResize,full_review,claude,{{shortcut}} 切换文本自动调整大小,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+toast.pastedAsSingleText,spot_check,claude,已粘贴为单个文本元素。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+toast.splitIntoTextElements,spot_check,claude,拆分为独立的文本元素,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.presentations,spot_check,claude,演示文稿,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.mcp,spot_check,claude,用AI绘图,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.comments,spot_check,claude,发表评论,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.teams,spot_check,claude,团队协作,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+promoBanner.voiceChat,spot_check,claude,语音聊天,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.withExcalidrawPlus,spot_check,claude,使用 Excalidraw+,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.excalidrawPlusMcp,spot_check,claude,Excalidraw+ MCP,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.cli,spot_check,claude,Excalidraw CLI,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+promoBanner.cliTagline,spot_check,deepl,面向人类与人工智能,1,,"rules pass, severity 1 <= 2",1,default,spot_check

@@ -1,0 +1,19 @@
+﻿string_id,source_text,text_hash,stratum,tags,batch,has_placeholder,tier,first_seen_run_id
+mermaid.description,"<flowchartLink>Flowcharts</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, <stateLink>State</stateLink> and <erdLink>Entity Relationship</erdLink> diagrams, <ganttLink>Gantt charts</ganttLink>, <quadrantLink>Quadrant charts</quadrantLink> and <timelineLink>Timelines</timelineLink> are converted to Excalidraw elements. Other types are inserted as an image.",7737ec3f9dad,placeholder_markup,markup;long,2,1,,20261125T010930Z_a74bb8e
+labels.showHints,Toolbar hints,41b136b31197,short,short,4,0,,20261125T010930Z_a74bb8e
+labels.minimap,Minimap,4bad6cff07d2,,,,0,,20261125T010930Z_a74bb8e
+labels.zoom,Zoom,509c517ede79,,,,0,,20261125T010930Z_a74bb8e
+labels.toggleAutoResize,Toggle text auto-resizing,d4f4e380a4ea,,,,0,,20261125T010930Z_a74bb8e
+buttons.zoomToFit,Zoom to fit,543f1a829dea,,,,0,,20261125T010930Z_a74bb8e
+hints.toggleTextAutoResize,{{shortcut}} to toggle text auto-resize,3830fa1efa84,,,,1,,20261125T010930Z_a74bb8e
+toast.pastedAsSingleText,Pasted as a single text element.,b12c42344949,,,,0,,20261125T010930Z_a74bb8e
+toast.splitIntoTextElements,Split into separate text elements,9c7fe24593fb,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.presentations,Presentations,cf31f39501ec,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.mcp,Draw with AI,d3aa22970a81,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.comments,Make comments,a6fde500b888,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.teams,Work in a team,8db460460982,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.voiceChat,Voice chat,9bdbc177e89d,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.withExcalidrawPlus,with Excalidraw+,3ec2522197c2,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.excalidrawPlusMcp,Excalidraw+ MCP,5fcca3f5aae8,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.cli,Excalidraw CLI,09a7e71138da,,,,0,,20261125T010930Z_a74bb8e
+promoBanner.cliTagline,for humans & AI,a441d6837d0d,,,,0,,20261125T010930Z_a74bb8e
