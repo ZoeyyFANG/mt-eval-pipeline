@@ -29,6 +29,24 @@ DB_PATH = ROOT / "db" / "pipeline.db"
 SCHEMA_FILE = ROOT / "db" / "schema.sql"
 EXPORT_DIR = ROOT / "data" / "exports"   # CSVs for Excel / Power BI to read
 
+# --- history replay (scripts/replay_history.py sets MT_EVAL_REPLAY=1) ---
+# Same steps, separate sandbox: its own locale file, snapshot, scratch files,
+# DB and exports, so replaying Excalidraw's history never touches the main
+# run, its routes or what was pushed to Crowdin.
+REPLAY = os.environ.get("MT_EVAL_REPLAY") == "1"
+if REPLAY:
+    _NAME = os.environ.get("MT_EVAL_REPLAY_NAME", "replay")   # replay_mock for dry runs
+    _R = ROOT / "data" / _NAME
+    LOCALE_FILE = _R / "en.json"
+    SNAPSHOT_FILE = _R / "last_processed_en.json"
+    PENDING_FILE = _R / "_pending_batch.json"
+    GATE_RESULTS_FILE = _R / "_gate_results.json"
+    MT_OUTPUTS_FILE = _R / "_mt_outputs.json"
+    AUTO_METRICS_FILE = _R / "_auto_metrics.json"
+    LLM_JUDGE_FILE = _R / "_llm_judge.json"
+    DB_PATH = ROOT / "db" / f"{_NAME}.db"
+    EXPORT_DIR = _R / "exports"
+
 # --- model / engines ---
 # Override with the ANTHROPIC_MODEL env var if your account uses a different model.
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")

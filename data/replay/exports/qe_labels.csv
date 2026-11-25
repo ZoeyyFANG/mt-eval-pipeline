@@ -1,0 +1,371 @@
+﻿id,string_id,engine,run_id,has_error,error_note,annotator,timestamp
+571,labels.large,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+572,hints.canvasPanning,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+573,errors.importLibraryError,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+574,hints.text_editing,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+575,labels.toggleTheme,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+576,colors.teal,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+577,element.embeddable,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+578,hints.text_selected,google,20261120T042105Z_local,1,placeholder {{shortcut}} was translated,zoey,2026-11-23T20:29:52.677115+00:00
+579,library.hint_emptyLibrary,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+580,colors.teal,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+581,errorSplash.clearCanvasMessage,deepl,20261120T042105Z_local,1,placeholder <button> tag casing changed,zoey,2026-11-23T20:29:52.677115+00:00
+582,errors.failedToFetchImage,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+583,colors.gray,google,20261120T042105Z_local,1,fluency 灰色的 is not a usable color label,zoey,2026-11-23T20:29:52.677115+00:00
+584,errors.collabSaveFailed_sizeExceeded,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+585,chat.rateLimitRemaining,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+586,hints.freeDraw,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+587,labels.strokeStyle_dashed,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+588,errors.libraryElementTypeError.image,claude,20261120T042105Z_local,1,locale ASCII exclamation mark in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+589,errors.collabSaveFailed_sizeExceeded,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+590,keys.enter,google,20261120T042105Z_local,1,accuracy Enter keyboard key was translated as 进入,zoey,2026-11-23T20:29:52.677115+00:00
+591,labels.signUp,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+592,publishDialog.errors.required,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+593,chat.errors.invalidDiagram,google,20261120T042105Z_local,1,terminology diagram translated as 图表 (termbase: 示意图),zoey,2026-11-23T20:29:52.677115+00:00
+594,exportDialog.disk_button,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+595,publishDialog.noteLicense,claude,20261120T042105Z_local,1,locale half-width commas in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+596,publishDialog.errors.required,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+597,chat.errors.fixInMermaid,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+598,roomDialog.shareTitle,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+599,labels.pressure,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+600,stats.total,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+601,hints.leaveCropEditor,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+602,labels.toggleTheme,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+603,labels.arrowhead_cardinality_exactly_one,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+604,errorSplash.clearCanvasMessage,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+605,labels.thin,deepl,20261120T042105Z_local,1,accuracy Thin stroke width mistranslated as 薄,zoey,2026-11-23T20:29:52.677115+00:00
+606,exportDialog.disk_button,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+607,chat.errors.invalidDiagram,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+608,hints.leaveCropEditor,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+609,hints.linearElement,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+610,labels.name,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+611,errors.imageToolNotSupported,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+612,chat.viewAsMermaid,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+613,exportDialog.disk_details,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+614,toast.fileSaved,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+615,hints.resizeImage,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+616,hints.arrowTool,google,20261120T042105Z_local,1,placeholder {{shortcut}} was translated,zoey,2026-11-23T20:29:52.677115+00:00
+617,buttons.embeddableInteractionButton,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+618,labels.signUp,google,20261120T042105Z_local,1,accuracy Sign up mistranslated as 报名,zoey,2026-11-23T20:29:52.677115+00:00
+619,fileDrop.replacedToast,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+620,element.embeddable,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+621,keys.delete,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+622,library.hint_emptyLibrary,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+623,colors.gray,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+624,labels.changeBackground,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+625,toast.copyToClipboardAsPng,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+626,helpDialog.zoomToSelection,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+627,buttons.cancel,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+628,chat.viewAsMermaid,deepl,20261120T042105Z_local,1,accuracy View as Mermaid mistranslated as a Mermaid perspective,zoey,2026-11-23T20:29:52.677115+00:00
+629,errorSplash.clearCanvasMessage,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+630,errors.failedToFetchImage,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+631,element.line,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+632,labels.statusPublished,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+633,element.line,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+634,chat.inputPlaceholder,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+635,publishDialog.noteItems,google,20261120T042105Z_local,1,terminology library translated as 馆藏,zoey,2026-11-23T20:29:52.677115+00:00
+636,labels.statusPublished,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+637,bucketfill.noRegion,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+638,labels.elementLock.unlock,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+639,keys.cmd,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+640,confirmDialog.removeItemsFromLib,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+641,errors.saveLibraryError,google,20261120T042105Z_local,1,terminology library translated as 库 (termbase: 素材库),zoey,2026-11-23T20:29:52.677115+00:00
+642,hints.lineEditor_info,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+643,buttons.submit,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+644,errors.importLibraryError,google,20261120T042105Z_local,1,terminology library translated as 库 (termbase: 素材库),zoey,2026-11-23T20:29:52.677115+00:00
+645,hints.resizeImage,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+646,hints.arrowTool,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+647,alerts.invalidSceneUrl,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+648,colors.transparent,google,20261120T042105Z_local,1,fluency 透明的 is not a usable color label,zoey,2026-11-23T20:29:52.677115+00:00
+649,stats.versionNotAvailable,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+650,hints.lineEditor_line_info,google,20261120T042105Z_local,1,placeholder {{shortcut}} was translated,zoey,2026-11-23T20:29:52.677115+00:00
+651,alerts.collabStopOverridePrompt,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+652,chat.rateLimitRemaining,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+653,labels.copyElementLink,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+654,buttons.undo,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+655,labels.changeBackground,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+656,buttons.cancel,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+657,hints.canvasPanning,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+658,labels.arrowhead_cardinality_exactly_one,claude,20261120T042105Z_local,1,locale half-width parentheses in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+659,hints.lineEditor_line_info,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+660,alerts.invalidEncryptionKey,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+661,buttons.embeddableInteractionButton,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+662,hints.bindTextToElement,google,20261120T042105Z_local,1,placeholder {{shortcut}} was translated,zoey,2026-11-23T20:29:52.677115+00:00
+663,alerts.imageDoesNotContainScene,claude,20261120T042105Z_local,1,locale half-width question mark in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+664,alerts.invalidEncryptionKey,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+665,errors.asyncPasteFailedOnParse,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+666,stats.storage,google,20261120T042105Z_local,1,accuracy Storage mistranslated as 贮存,zoey,2026-11-23T20:29:52.677115+00:00
+667,publishDialog.noteLicense,deepl,20261120T042105Z_local,1,placeholder <link> tag casing changed,zoey,2026-11-23T20:29:52.677115+00:00
+668,headings.shapes,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+669,commandPalette.recents,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+670,errors.libraryElementTypeError.image,google,20261120T042105Z_local,1,terminology library translated as 图库,zoey,2026-11-23T20:29:52.677115+00:00
+671,alerts.couldNotCreateShareableLinkTooBig,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+672,colors.gray,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+673,labels.name,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+674,hints.cycleSelection,google,20261120T042105Z_local,1,placeholder {{shortcut}} was dropped and replaced with generic wording,zoey,2026-11-23T20:29:52.677115+00:00
+675,commandPalette.recents,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+676,buttons.confirm,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+677,stats.storage,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+678,chat.deleteMessage,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+679,keys.cmd,google,20261120T042105Z_local,1,accuracy Cmd keyboard key was translated as 命令,zoey,2026-11-23T20:29:52.677115+00:00
+680,colors.teal,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+681,hints.text_editing,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+682,labels.large,google,20261120T042105Z_local,1,fluency 大的 is unnatural for a size label,zoey,2026-11-23T20:29:52.677115+00:00
+683,errors.asyncPasteFailedOnParse,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+684,alerts.couldNotLoadInvalidFile,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+685,buttons.confirm,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+686,errors.failedToFetchImage,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+687,chat.deleteChat,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+688,labels.changeBackground,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+689,hints.linearElement,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+690,hints.arrowBindModifiers,deepl,20261120T042105Z_local,1,accuracy disable binding mistranslated as disable the shortcut,zoey,2026-11-23T20:29:52.677115+00:00
+691,hints.linearElement,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+692,hints.cycleSelection,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+693,alerts.invalidSceneUrl,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+694,alerts.uploadedSecurly,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+695,publishDialog.noteItems,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+696,labels.elementLock.unlock,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+697,chat.deleteChat,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+698,keys.delete,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+699,imageExportDialog.tooltip.embedScene,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+700,alerts.errorRemovingFromLibrary,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+701,labels.discordChat,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+702,alerts.loadSceneOverridePrompt,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+703,toolBar.image,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+704,alerts.invalidSceneUrl,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+705,exportDialog.disk_details,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+706,hints.freeDraw,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+707,exportDialog.disk_button,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+708,bucketfill.noRegion,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+709,alerts.imageDoesNotContainScene,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+710,fileDrop.keepHint,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+711,confirmDialog.removeItemsFromLib,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+712,chat.errors.promptTooShort,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+713,errors.importLibraryError,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+714,library.hint_emptyPrivateLibrary,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+715,keys.enter,deepl,20261120T042105Z_local,1,accuracy Enter keyboard key was translated as 输入,zoey,2026-11-23T20:29:52.677115+00:00
+716,toast.pasteAsSingleElement,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+717,helpDialog.github,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+718,labels.pressure,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+719,buttons.redo,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+720,labels.addWatermark,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+721,errors.imageToolNotSupported,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+722,labels.zoomToFitViewport,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+723,commandPalette.shortcuts.close,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+724,labels.statusPublished,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+725,keys.delete,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+726,toast.pasteAsSingleElement,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+727,toolBar.convertElementType,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+728,errorSplash.trackedToSentry,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+729,progressDialog.title,deepl,20261120T042105Z_local,1,"accuracy Saving (progress status) translated as 保存, should be 正在保存",zoey,2026-11-23T20:29:52.677115+00:00
+730,buttons.submit,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+731,roomDialog.shareTitle,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+732,helpDialog.zoomToSelection,google,20261120T042105Z_local,1,accuracy zoom narrowed to 放大; selection should be 选中内容,zoey,2026-11-23T20:29:52.677115+00:00
+733,stats.total,google,20261120T042105Z_local,1,fluency 全部的 is unnatural for Total,zoey,2026-11-23T20:29:52.677115+00:00
+734,alerts.resetLibrary,google,20261120T042105Z_local,1,terminology library translated as 库 (termbase: 素材库),zoey,2026-11-23T20:29:52.677115+00:00
+735,alerts.clearReset,claude,20261120T042105Z_local,1,locale half-width question mark in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+736,errors.saveLibraryError,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+737,stats.versionNotAvailable,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+738,labels.unbindText,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+739,helpDialog.textNewLine,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+740,hints.lineEditor_line_info,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+741,mermaid.loadError,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+742,progressDialog.title,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+743,labels.small,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+744,alerts.uploadedSecurly,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+745,colors.transparent,deepl,20261120T042105Z_local,1,fluency 透明的 is not a usable color label,zoey,2026-11-23T20:29:52.677115+00:00
+746,helpDialog.textNewLine,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+747,hints.bindTextToElement,deepl,20261120T042105Z_local,1,placeholder {{shortcut}} was translated,zoey,2026-11-23T20:29:52.677115+00:00
+748,colors.transparent,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+749,toolBar.arrow,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+750,labels.addWatermark,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+751,hints.bindTextToElement,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+752,chat.errors.promptTooShort,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+753,labels.signUp,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+754,errorSplash.trackedToSentry,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+755,labels.eyeDropper,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+756,labels.removeFromLibrary,google,20261120T042105Z_local,1,terminology library translated as 库 (termbase: 素材库),zoey,2026-11-23T20:29:52.677115+00:00
+757,chat.errors.fixInMermaid,google,20261120T042105Z_local,1,terminology Mermaid translated as 美人鱼,zoey,2026-11-23T20:29:52.677115+00:00
+758,keys.enter,claude,20261120T042105Z_local,1,accuracy Enter keyboard key was translated as 输入,zoey,2026-11-23T20:29:52.677115+00:00
+759,helpDialog.editor,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+760,errors.libraryElementTypeError.image,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+761,labels.toggleTheme,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+762,helpDialog.textNewLine,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+763,errors.asyncPasteFailedOnParse,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+764,errorSplash.openIssueMessage,claude,20261120T042105Z_local,1,locale half-width comma in Chinese text,zoey,2026-11-23T20:29:52.677115+00:00
+765,buttons.redo,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+766,buttons.submit,google,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+767,labels.eyeDropper,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+768,helpDialog.editor,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+769,alerts.collabStopOverridePrompt,deepl,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+770,keys.cmd,claude,20261120T042105Z_local,0,,zoey,2026-11-23T20:29:52.677115+00:00
+771,errors.brave_measure_text_error.line3,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+772,errors.brave_measure_text_error.line4,claude,20261123T193601Z_local,1,locale 半角逗号出现在中文句子中,zoey_b2,2026-11-23T20:29:52.728653+00:00
+773,userList.hint.isSpeaking,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+774,labels.share,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+775,canvasError.cannotShowPreview,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+776,overwriteConfirm.action.excalidrawPlus.title,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+777,imageExportDialog.button.copyPngToClipboard,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+778,overwriteConfirm.action.exportToImage.button,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+779,publishDialog.republishWarning,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+780,labels.plusFreeTrial,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+781,overwriteConfirm.modal.loadFromFile.description,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+782,overwriteConfirm.action.excalidrawPlus.title,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+783,chat.role.assistant,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+784,toast.copyStyles,google,20261123T193601Z_local,1,fluency “复制的样式”不自然，状态提示宜表达为已复制,zoey_b2,2026-11-23T20:29:52.728653+00:00
+785,chat.role.assistant,google,20261123T193601Z_local,1,terminology AI assistant 术语表规定为“AI 助手”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+786,chat.rateLimit.messageLimit,claude,20261123T193601Z_local,1,locale 中文句子中使用半角逗号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+787,errors.unsupportedFileType,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+788,labels.arrowhead_cardinality_many,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+789,toolBar.selection,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+790,fileDrop.replace,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+791,toast.elementLinkCopied,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+792,alerts.couldNotCopyToClipboard,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+793,library.search.inputPlaceholder,google,20261123T193601Z_local,1,terminology library 在此应为“素材库”，不是“图书馆”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+794,errors.unsupportedFileType,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+795,errors.brave_measure_text_error.line1,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+796,hints.dismissSearch,deepl,20261123T193601Z_local,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}},zoey_b2,2026-11-23T20:29:52.728653+00:00
+797,chat.rateLimit.generalRateLimit,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+798,welcomeScreen.app.center_heading_plus,deepl,20261123T193601Z_local,1,accuracy “go to the Excalidraw+”误译为“参加”，语义不符,zoey_b2,2026-11-23T20:29:52.728653+00:00
+799,buttons.fullScreen,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+800,errors.collabSaveFailed,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+801,roomDialog.desc_exitSession,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+802,canvasError.canvasTooBigTip,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+803,helpDialog.deepBoxSelect,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+804,buttons.fullScreen,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+805,labels.linkToElement,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+806,colorPicker.noShades,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+807,fontList.empty,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+808,alerts.confirmAddLibrary,claude,20261123T193601Z_local,1,locale 中文句末使用半角问号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+809,overwriteConfirm.action.exportToImage.button,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+810,canvasError.cannotShowPreview,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+811,publishDialog.atleastOneLibItem,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+812,labels.showHints,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+813,fontList.empty,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+814,colorPicker.hexCode,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+815,canvasError.canvasTooBigTip,claude,20261123T193601Z_local,1,locale 中文提示中的冒号使用半角符号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+816,imageExportDialog.button.copyPngToClipboard,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+817,fileDrop.replace,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+818,colorPicker.colors,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+819,overwriteConfirm.modal.shareableLink.description,deepl,20261123T193601Z_local,1,placeholder 标签 <bold> 和 <br> 被改为大写形式,zoey_b2,2026-11-23T20:29:52.728653+00:00
+820,hints.enterCropEditor,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+821,colorPicker.colors,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+822,errors.collabSaveFailed,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+823,buttons.fullScreen,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+824,errors.brave_measure_text_error.line1,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+825,canvasError.canvasTooBig,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+826,overwriteConfirm.modal.shareableLink.description,google,20261123T193601Z_local,1,placeholder 标签 <bold> 被翻译为 <粗体>,zoey_b2,2026-11-23T20:29:52.728653+00:00
+827,chat.rateLimit.messageLimit,deepl,20261123T193601Z_local,1,accuracy “for more”指获得更多使用额度，不是更多功能,zoey_b2,2026-11-23T20:29:52.728653+00:00
+828,labels.share,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+829,publishDialog.republishWarning,claude,20261123T193601Z_local,1,locale 中文句中使用半角冒号和逗号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+830,alerts.collabOfflineWarning,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+831,toolBar.lasso,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+832,imageExportDialog.label.scale,google,20261123T193601Z_local,1,accuracy 图像导出中的 Scale 指缩放比例，不是“规模”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+833,alerts.couldNotCopyToClipboard,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+834,chat.rateLimit.generalRateLimit,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+835,alerts.couldNotCreateShareableLink,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+836,toolBar.lasso,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+837,hints.enterCropEditor,deepl,20261123T193601Z_local,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}},zoey_b2,2026-11-23T20:29:52.728653+00:00
+838,overwriteConfirm.modal.loadFromFile.title,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+839,colorPicker.hexCode,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+840,labels.linkToElement,deepl,20261123T193601Z_local,1,fluency “对象链接”作为操作标签不自然，未清楚表达“链接到对象”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+841,welcomeScreen.app.center_heading_plus,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+842,alerts.confirmAddLibrary,google,20261123T193601Z_local,1,terminology library translated as 库 (termbase: 素材库),zoey_b2,2026-11-23T20:29:52.728653+00:00
+843,overwriteConfirm.modal.loadFromFile.title,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+844,toolBar.selection,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+845,hints.rotate,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+846,chat.role.assistant,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+847,colorPicker.invalidHexLength,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+848,alerts.collabOfflineWarning,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+849,hints.dismissSearch,google,20261123T193601Z_local,1,placeholder 占位符 {{shortcut}} 被改为 {{快捷方式}},zoey_b2,2026-11-23T20:29:52.728653+00:00
+850,labels.untitled,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+851,roomDialog.desc_privacy,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+852,labels.sharp,deepl,20261123T193601Z_local,1,accuracy Sharp 被误译为品牌名“夏普”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+853,publishDialog.atleastOneLibItem,google,20261123T193601Z_local,1,terminology library item 应为“素材”，不是“图书馆藏品”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+854,colorPicker.colors,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+855,hints.resizeStickyNote,claude,20261123T193601Z_local,1,locale 中文句中使用半角逗号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+856,overwriteConfirm.modal.loadFromFile.title,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+857,library.search.inputPlaceholder,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+858,toolBar.text,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+859,buttons.copyLink,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+860,toolBar.selection,google,20261123T193601Z_local,1,accuracy Selection 在此指选中内容，不是“选拔”,zoey_b2,2026-11-23T20:29:52.728653+00:00
+861,overwriteConfirm.modal.loadFromFile.description,deepl,20261123T193601Z_local,1,placeholder 标签 <bold> 和 <br> 被改为大写形式,zoey_b2,2026-11-23T20:29:52.728653+00:00
+862,hints.resizeStickyNote,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+863,labels.arrowhead_cardinality_many,claude,20261123T193601Z_local,1,locale 中文术语后使用半角括号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+864,imageExportDialog.button.copyPngToClipboard,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+865,colorPicker.invalidHexLength,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+866,welcomeScreen.app.center_heading_plus,claude,20261123T193601Z_local,1,fluency “改去访问”用于切换到产品的提示不自然,zoey_b2,2026-11-23T20:29:52.728653+00:00
+867,hints.enterCropEditor,google,20261123T193601Z_local,1,placeholder 占位符 {{shortcut}} 被翻译成 {{快捷键}},zoey_b2,2026-11-23T20:29:52.728653+00:00
+868,toast.copyStyles,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+869,overwriteConfirm.modal.shareableLink.description,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+870,imageExportDialog.label.embedScene,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+871,roomDialog.desc_privacy,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+872,chat.rateLimit.generalRateLimit,claude,20261123T193601Z_local,1,locale 中文句中使用半角逗号和感叹号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+873,hints.disableSnapping,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+874,imageExportDialog.label.embedScene,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+875,helpDialog.deepBoxSelect,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+876,toolBar.lasso,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+877,alerts.collabOfflineWarning,claude,20261123T193601Z_local,1,locale 中文句末使用半角感叹号,zoey_b2,2026-11-23T20:29:52.728653+00:00
+878,canvasError.cannotShowPreview,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+879,toolBar.text,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+880,userList.hint.isSpeaking,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+881,imageExportDialog.label.scale,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+882,labels.plusFreeTrial,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+883,mermaid.description,claude,20261123T193601Z_local,1,fluency “实体关系图示意图”表达重复且不自然,zoey_b2,2026-11-23T20:29:52.728653+00:00
+884,labels.increaseFontSize,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+885,hints.resizeStickyNote,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+886,errors.brave_measure_text_error.line3,google,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+887,canvasError.canvasTooBig,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+888,overwriteConfirm.modal.loadFromFile.description,google,20261123T193601Z_local,1,placeholder 标签 <bold> 被翻译为 <粗体>,zoey_b2,2026-11-23T20:29:52.728653+00:00
+889,library.search.inputPlaceholder,claude,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+890,labels.increaseFontSize,deepl,20261123T193601Z_local,0,,zoey_b2,2026-11-23T20:29:52.728653+00:00
+891,labels.large,claude,20261120T042105Z_local,1,fluency: “大”作为独立 UI 标签不自然，应为“大号”等。,peer,2026-11-23T20:29:52.780870+00:00
+892,hints.canvasPanning,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+893,errors.importLibraryError,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+894,hints.text_editing,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+895,labels.toggleTheme,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+896,colors.teal,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+897,element.embeddable,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+898,hints.text_selected,google,20261120T042105Z_local,1,placeholder: {{shortcut}} 被改成了 {{快捷键}}。,peer,2026-11-23T20:29:52.780870+00:00
+899,library.hint_emptyLibrary,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+900,colors.teal,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+901,errorSplash.clearCanvasMessage,deepl,20261120T042105Z_local,1,placeholder: 标签 <button> 被改成了 <BUTTON>，大小写不一致。,peer,2026-11-23T20:29:52.780870+00:00
+902,errors.failedToFetchImage,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+903,colors.gray,google,20261120T042105Z_local,1,fluency: “灰色的”作为颜色标签不自然，应为“灰色”。,peer,2026-11-23T20:29:52.780870+00:00
+904,errors.collabSaveFailed_sizeExceeded,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+905,chat.rateLimitRemaining,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+906,hints.freeDraw,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+907,labels.strokeStyle_dashed,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+908,errors.libraryElementTypeError.image,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+909,errors.collabSaveFailed_sizeExceeded,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+910,keys.enter,google,20261120T042105Z_local,1,accuracy: Enter 是键盘按键名称，应保留 Enter，不能译为“进入”。,peer,2026-11-23T20:29:52.780870+00:00
+911,labels.signUp,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+912,publishDialog.errors.required,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+913,chat.errors.invalidDiagram,google,20261120T042105Z_local,1,terminology: diagram 应译为“示意图”，不应译为“图表”。,peer,2026-11-23T20:29:52.780870+00:00
+914,exportDialog.disk_button,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+915,publishDialog.noteLicense,claude,20261120T042105Z_local,1,locale: 中文句子中使用了半角逗号。,peer,2026-11-23T20:29:52.780870+00:00
+916,publishDialog.errors.required,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+917,chat.errors.fixInMermaid,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+918,roomDialog.shareTitle,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+919,labels.pressure,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+920,stats.total,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+921,hints.leaveCropEditor,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+922,labels.toggleTheme,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+923,labels.arrowhead_cardinality_exactly_one,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+924,errorSplash.clearCanvasMessage,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+925,labels.thin,deepl,20261120T042105Z_local,1,accuracy: Thin 在描边宽度语境中译为“薄”不准确。,peer,2026-11-23T20:29:52.780870+00:00
+926,exportDialog.disk_button,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+927,chat.errors.invalidDiagram,claude,20261120T042105Z_local,1,locale: 中文句子中使用了半角逗号。,peer,2026-11-23T20:29:52.780870+00:00
+928,hints.leaveCropEditor,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+929,hints.linearElement,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+930,labels.name,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+931,errors.imageToolNotSupported,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+932,chat.viewAsMermaid,claude,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+933,exportDialog.disk_details,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+934,toast.fileSaved,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+935,hints.resizeImage,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+936,hints.arrowTool,google,20261120T042105Z_local,1,placeholder: {{shortcut}} 被改成了 {{快捷键}}。,peer,2026-11-23T20:29:52.780870+00:00
+937,buttons.embeddableInteractionButton,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+938,labels.signUp,google,20261120T042105Z_local,1,accuracy: Sign up 此处应为“注册”，译为“报名”意思不符。,peer,2026-11-23T20:29:52.780870+00:00
+939,fileDrop.replacedToast,google,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00
+940,element.embeddable,deepl,20261120T042105Z_local,0,,peer,2026-11-23T20:29:52.780870+00:00

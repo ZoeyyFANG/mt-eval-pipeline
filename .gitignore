@@ -16,3 +16,10 @@ data/_placeholder_backup/
 # local SQLite databases
 db/*.db
 .venv-comet/
+
+# history replay: scratch + copies (points/, exports/ are committed)
+data/replay/_*.json
+data/replay/en.json
+data/replay/last_processed_en.json
+data/replay_mock/
+data/upstream_changes.md

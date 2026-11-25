@@ -38,6 +38,40 @@ def check(resp):
     return resp.json() if resp.text else {}
 
 
+def _load_context_sources():
+    import csv
+    root = Path(LOCALE_FILE).resolve().parent.parent
+    packets, notes = {}, {}
+    pk = root / "data" / "context" / "packets.json"
+    if pk.exists():
+        packets = json.loads(pk.read_text(encoding="utf-8"))
+    rv = root / "data" / "context" / "context_review.csv"
+    if rv.exists():
+        notes = {r["string_id"]: r["edited_context"].strip()
+                 for r in csv.DictReader(open(rv, encoding="utf-8-sig")) if r["edited_context"].strip()}
+    return packets, notes
+
+
+PACKETS, NOTES = _load_context_sources()
+
+
+def build_context(key, meta):
+    """What the translator sees in Crowdin: reviewed note first, then where the
+    string lives in the code and the PR it came from, then stratum/tags."""
+    parts = []
+    if key in NOTES:
+        parts.append(NOTES[key])
+    p = PACKETS.get(key)
+    if p and p.get("usage"):
+        u = p["usage"][0]
+        parts.append(f"Used in {u['file']}:{u['line']}")
+    if p and p.get("pr_url"):
+        parts.append(f"Added/changed in {p['pr_url']}")
+    if meta:
+        parts.append(f"type: {meta['stratum']} | tags: {meta['tags'] or '-'}")
+    return (f"{key}\n" + "\n".join(parts)) if parts else ""
+
+
 def main():
     pid = os.environ["CROWDIN_PROJECT_ID"].strip()
     s = session()
@@ -64,7 +98,7 @@ def main():
     strata = load_strata()
     strings = check(s.get(f"{API}/projects/{pid}/strings",
                           params={"fileId": file_id, "limit": 500}))["data"]
-    def key_of(identifier):
+    def key_of(identifier):  # noqa: E306
         # Crowdin may show a flat JSON key as-is, as a path ("a->b"), or with a file prefix
         ident = identifier.strip('"')  # Crowdin wraps flat JSON keys in quotes
         for cand in (ident, ident.replace("->", "."), ident.split("/")[-1]):
@@ -75,11 +109,10 @@ def main():
     n = 0
     for st in strings:
         st = st["data"]
-        key = key_of(st["identifier"])
-        meta = strata.get(key) if key else None
-        if not meta:
-            continue
-        context = f"{key} | type: {meta['stratum']} | tags: {meta['tags'] or '-'}"
+        key = key_of(st["identifier"]) or st["identifier"].strip('"')
+        context = build_context(key, strata.get(key))
+        if not context or context == (st.get("context") or "").strip():
+            continue  # nothing known, or already up to date: no API call
         check(s.patch(f"{API}/projects/{pid}/strings/{st['id']}",
                       json=[{"op": "replace", "path": "/context", "value": context}]))
         n += 1

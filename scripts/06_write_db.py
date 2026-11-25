@@ -17,12 +17,14 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from config import (
     DB_PATH, SCHEMA_FILE, SNAPSHOT_FILE, PENDING_FILE, GATE_RESULTS_FILE,
-    MT_OUTPUTS_FILE, AUTO_METRICS_FILE, LLM_JUDGE_FILE, MOCK,
+    MT_OUTPUTS_FILE, AUTO_METRICS_FILE, LLM_JUDGE_FILE, MOCK, ENGINES,
 )
 from common import load_strata, extract_tokens, export_csvs
 
 
 def get_run_id():
+    if os.environ.get("MT_EVAL_RUN_ID"):  # replay: one run per historical batch
+        return os.environ["MT_EVAL_RUN_ID"]
     commit_sha = os.environ.get("GITHUB_SHA", "mock" if MOCK else "local")[:7]
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     return f"{ts}_{commit_sha}"
@@ -42,8 +44,9 @@ def load(path, default):
 
 def main():
     run_id = get_run_id()
-    ts = datetime.now(timezone.utc).isoformat()
-    trigger = "mock" if MOCK else ("ci" if os.environ.get("GITHUB_SHA") else "local")
+    ts = os.environ.get("MT_EVAL_RUN_TS") or datetime.now(timezone.utc).isoformat()
+    trigger = ("replay" if os.environ.get("MT_EVAL_RUN_ID") else
+               "mock" if MOCK else ("ci" if os.environ.get("GITHUB_SHA") else "local"))
     strata = load_strata()
 
     con = ensure_db()
@@ -102,7 +105,12 @@ def main():
     # Only mark a string as processed if this run actually handled it: it got at
     # least one MT output, or a WORKING gate deliberately held it for review.
     # A failed API call must never hide a string from the next run.
-    translated = {m["string_id"] for m in load(MT_OUTPUTS_FILE, [])}
+    # every engine must have produced output; a string missing one engine is
+    # retried next run instead of entering the comparison incomplete
+    engines_per = {}
+    for m in load(MT_OUTPUTS_FILE, []):
+        engines_per.setdefault(m["string_id"], set()).add(m["engine"])
+    translated = {sid for sid, es in engines_per.items() if set(ENGINES) <= es}
     held = {g["string_id"] for g in load(GATE_RESULTS_FILE, [])
             if g["gate_label"] == "needs_review" and not str(g.get("reason", "")).startswith("gate call failed")}
     snapshot = load(SNAPSHOT_FILE, {})

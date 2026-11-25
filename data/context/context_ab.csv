@@ -1,0 +1,101 @@
+﻿item_id,context_key,source_en,mt_zh,has_error,error_note
+c001,colors.transparent,Transparent,透明的,1,fluency：颜色标签“透明的”不够自然，应为“透明”。
+c002,labels.large,Large,大,0,
+c003,chat.viewAsMermaid,View as Mermaid,以 Mermaid 查看,0,
+c004,imageExportDialog.label.scale,Scale,比例,0,
+c005,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",单击以开始绘制多点，拖动以绘制单条直线。再次按下 {{shortcut}} 可更改箭头类型。,0,
+c006,labels.signUp,Sign up,注册,0,
+c007,toolBar.selection,Selection,选择,0,
+c008,labels.sharp,Sharp,尖角,0,
+c009,helpDialog.github,Found an issue? Submit,发现问题?提交,1,locale：中文问句中使用了半角问号。
+c010,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,你是想改去参加Excalidraw+吗？,1,accuracy：“go to”被误译为“参加”，意思不符。
+c011,labels.signUp,Sign up,注册,0,
+c012,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",在框内进行深度选择，并禁止拖动,0,
+c013,labels.sharp,Sharp,锐利,1,fluency：“锐利”不适合作为此处的 UI 选项标签。
+c014,labels.thin,Thin,薄,1,accuracy：笔画粗细语境中的 Thin 应为“细”，不是“薄”。
+c015,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",在框内进行深度选择，并禁止拖拽,0,
+c016,keys.cmd,Cmd,Cmd,0,
+c017,helpDialog.github,Found an issue? Submit,发现问题了吗？请提交,0,
+c018,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",目前仅支持<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>和<erdLink>实体关系图</erdLink>。其他类型的示意图在 Excalidraw 中将以图片形式呈现。,0,
+c019,labels.sharp,Sharp,夏普,1,terminology：Sharp 被译为品牌名“夏普”，不符合此处 UI 术语。
+c020,helpDialog.zoomToSelection,Zoom to selection,缩放至选中内容,0,
+c021,helpDialog.zoomToSelection,Zoom to selection,缩放至选中内容,0,
+c022,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",目前仅支持<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>和<erdLink>实体关系图</erdLink>示意图。其他类型将在 Excalidraw 中以图片形式渲染。,0,
+c023,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,您在免费套餐中已达到 AI 使用上限。请尝试使用 Excalidraw+ 以获取更多功能，或者明天再来。,0,
+c024,toast.copyStyles,Copied styles.,已复制样式。,0,
+c025,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,您已达到免费套餐的AI使用限额。请尝试使用Excalidraw+以获得更多功能，或者明天再来。,0,
+c026,labels.large,Large,大,0,
+c027,labels.linkToElement,Link to object,对象链接,0,
+c028,commandPalette.shortcuts.close,Close,关闭,0,
+c029,hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point","按住 {{shortcut_1}} 可禁用绑定,按住 {{shortcut_2}} 可在固定点绑定",1,locale：中文句子中使用了半角逗号。
+c030,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.","点击可开始绘制多点线条,拖动可绘制单条线条。再次按 {{shortcut}} 可更改箭头类型。",1,accuracy：“multiple points”被译成“多点线条”，未准确表达绘制多点箭头。
+c031,labels.large,Large,大,0,
+c032,colors.transparent,Transparent,透明,0,
+c033,imageExportDialog.label.scale,Scale,比例,0,
+c034,toolBar.selection,Selection,选中内容,0,
+c035,commandPalette.shortcuts.close,Close,关闭,0,
+c036,labels.linkToElement,Link to object,链接到对象,0,
+c037,toolBar.selection,Selection,选中内容,0,
+c038,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,您是否想访问 Excalidraw+ 网站？,0,
+c039,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,"您已达到免费版的 AI 使用上限。升级到 Excalidraw+ 可获得更多额度,或明天再来。",1,locale：中文句子中使用了半角逗号。
+c040,stats.storage,Storage,存储,0,
+c041,chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,你已达到免费版的 AI 使用上限。升级体验 Excalidraw+ 可获得更多额度，或明天再来。,0,
+c042,helpDialog.zoomToSelection,Zoom to selection,缩放至选定范围,0,
+c043,progressDialog.title,Saving,保存,1,accuracy：Saving 是进行中的保存状态，应译为“正在保存”，不能只译为“保存”。
+c044,stats.storage,Storage,存储,0,
+c045,keys.cmd,Cmd,Cmd,0,
+c046,labels.linkToElement,Link to object,链接到对象,0,
+c047,hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point",按住 {{shortcut_1}} 可禁用该快捷键，或按住 {{shortcut_2}} 可在固定位置绑定该快捷键,1,accuracy：“disable binding”误译为“禁用该快捷键”，改变了原意。
+c048,helpDialog.zoomToSelection,Zoom to selection,缩放至选中内容,0,
+c049,progressDialog.title,Saving,正在保存,0,
+c050,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",目前仅支持 <FLOWCHARTLINK>流程图</FLOWCHARTLINK>、<SEQUENCELINK>序列图</SEQUENCELINK>、<CLASSLINK>类图</CLASSLINK> 和 <ERDLINK>实体关系图</ERDLINK>。其他类型的示意图在 Excalidraw 中将以图片形式呈现。,1,placeholder：占位标签名称被改为大写，必须保持原样。
+c051,toast.copyStyles,Copied styles.,样式已复制。,0,
+c052,labels.signUp,Sign up,注册,0,
+c053,toolBar.selection,Selection,选择,0,
+c054,keys.enter,Enter,输入,1,accuracy：Enter 在此处是键盘按键名，应保留为“Enter”，不能译为“输入”。
+c055,chat.viewAsMermaid,View as Mermaid,以 Mermaid 形式查看,0,
+c056,keys.enter,Enter,Enter,0,
+c057,colors.gray,Gray,灰色,0,
+c058,stats.total,Total,总计,0,
+c059,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,您是想改去访问 Excalidraw+ 吗？,0,
+c060,keys.cmd,Cmd,Cmd,0,
+c061,labels.sharp,Sharp,锐利,1,fluency：“锐利”不适合作为此处的 UI 选项标签。
+c062,colors.gray,Gray,灰色,0,
+c063,helpDialog.github,Found an issue? Submit,发现问题?请提交,1,locale：中文问句中使用了半角问号。
+c064,progressDialog.title,Saving,正在保存,0,
+c065,imageExportDialog.label.scale,Scale,缩放比例,0,
+c066,hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point","按住 {{shortcut_1}} 可禁用绑定,按住 {{shortcut_2}} 可绑定到固定点",1,locale：中文句子中使用了半角逗号。
+c067,labels.large,Large,大,0,
+c068,toast.copyStyles,Copied styles.,复制的样式。,0,
+c069,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging","框选并深度选择,同时禁止拖动",1,locale：中文句子中使用了半角逗号。
+c070,stats.total,Total,总计,0,
+c071,progressDialog.title,Saving,正在保存,0,
+c072,helpDialog.github,Found an issue? Submit,发现问题了吗？请提交,0,
+c073,commandPalette.shortcuts.close,Close,关闭,0,
+c074,imageExportDialog.label.scale,Scale,缩放,0,
+c075,labels.linkToElement,Link to object,链接到对象,0,
+c076,stats.storage,Storage,存储大小,0,
+c077,keys.enter,Enter,Enter,0,
+c078,keys.cmd,Cmd,Cmd,0,
+c079,labels.thin,Thin,细,0,
+c080,chat.viewAsMermaid,View as Mermaid,以Mermaid视角查看,1,fluency：“以 Mermaid 视角查看”表达不自然，不适合作为 UI 标签。
+c081,colors.transparent,Transparent,透明,0,
+c082,stats.storage,Storage,存储,0,
+c083,stats.total,Total,总计,0,
+c084,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.","点击可开始绘制多点箭头,拖动可绘制单线条箭头。再次按 {{shortcut}} 可更改箭头类型。",1,locale：中文句子中使用了半角逗号。
+c085,welcomeScreen.app.center_heading_plus,Did you want to go to the Excalidraw+ instead?,您是想前往 Excalidraw+ 吗?,1,locale：中文句末使用了半角问号。
+c086,hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point",按住 {{shortcut_1}} 可禁用绑定，或按住 {{shortcut_2}} 可在固定点进行绑定,0,
+c087,stats.total,Total,总计,0,
+c088,labels.signUp,Sign up,注册,0,
+c089,labels.thin,Thin,细,0,
+c090,colors.gray,Gray,灰色,0,
+c091,mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",目前仅支持 <FLOWCHARTLINK>流程图</FLOWCHARTLINK>、<SEQUENCELINK>序列图</SEQUENCELINK>、<CLASSLINK>类图</CLASSLINK> 和 <ERDLINK>实体关系图</ERDLINK>。其他类型的示意图将在 Excalidraw 中以图片形式显示。,1,placeholder：占位标签名称被改为大写，必须保持原样。
+c092,labels.thin,Thin,细,0,
+c093,toast.copyStyles,Copied styles.,已复制样式。,0,
+c094,chat.viewAsMermaid,View as Mermaid,以 Mermaid 格式查看,0,
+c095,helpDialog.deepBoxSelect,"Deep select within box, and prevent dragging",在框内深度选择，并阻止拖动,0,
+c096,hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",单击以开始绘制多点，拖动以绘制单条直线。再次按下 {{快捷键}} 可更改箭头类型。,1,placeholder：{{shortcut}} 被翻译为 {{快捷键}}，占位符必须保持原样。
+c097,colors.transparent,Transparent,透明,0,
+c098,keys.enter,Enter,输入,1,accuracy：Enter 在此处是键盘按键名，应保留为“Enter”，不能译为“输入”。
+c099,commandPalette.shortcuts.close,Close,关闭,0,
+c100,colors.gray,Gray,灰色,0,

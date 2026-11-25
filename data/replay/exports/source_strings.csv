@@ -1,0 +1,158 @@
+﻿string_id,source_text,text_hash,stratum,tags,batch,has_placeholder,tier,first_seen_run_id
+labels.polygon.breakPolygon,Break polygon,281ce11e5b13,,,,0,1,replay_2025Q2
+labels.polygon.convertToPolygon,Convert to polygon,247163b1624e,,,,0,1,replay_2025Q2
+labels.tab,Tab,90ddf1963abb,,,,0,1,replay_2025Q2
+labels.shapeSwitch,Switch shape,b0555133ae77,,,,0,1,replay_2025Q2
+search.frames,Frames,2c447e8d0598,short,noninferiority_holdout,5,0,1,replay_2025Q2
+search.texts,Texts,48e0ef1e260d,,,,0,1,replay_2025Q2
+toolBar.lasso,Lasso selection,e7ae92740654,short,short,2,0,1,replay_2025Q2
+toolBar.convertElementType,Toggle shape type,592de50ad8a3,medium,,1,0,1,replay_2025Q2
+hints.lineEditor_line_info,Double-click or press {{shortcut}} to edit points,dc09431f1ca8,placeholder_markup,placeholder,1,0,2,replay_2025Q2
+colorPicker.color,Color,6b73191a0a4b,short,noninferiority_holdout,5,0,1,replay_2025Q2
+library.search.inputPlaceholder,Search library,21a933ab0f78,short,short,3,0,1,replay_2025Q3
+library.search.heading,Library matches,e009f10bfa68,,,,0,1,replay_2025Q3
+library.search.noResults,No matching items found...,eca6a26ea64f,,,,0,1,replay_2025Q3
+library.search.clearSearch,Clear search,3b7ea51793e9,,,,0,1,replay_2025Q3
+buttons.saveLibNames,Save name(s) and exit,a23d6cc28340,medium,noninferiority_holdout,5,0,1,replay_2025Q3
+buttons.publishLibrary,Rename or publish,d17e17d7533c,medium,noninferiority_holdout,5,0,1,replay_2025Q3
+alerts.localStorageQuotaExceeded,Browser storage quota exceeded. Changes will not be saved.,48691fd76101,error,noninferiority_holdout,5,0,1,replay_2025Q3
+hints.dismissSearch,{{shortcut}} to dismiss search,46348f54f4aa,placeholder_markup,placeholder,3,1,2,replay_2025Q4
+hints.canvasPanning,"To move canvas, hold {{shortcut_1}} or {{shortcut_2}} while dragging, or use the hand tool",0937d42de3b1,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.arrowTool,"Click to start multiple points, drag for single line. Press {{shortcut}} again to change arrow type.",21abfb7dba6e,placeholder_markup,placeholder;long,1,1,2,replay_2025Q4
+hints.arrowBindModifiers,"Hold {{shortcut_1}} to disable binding, or {{shortcut_2}} to bind at a fixed point",0e4067d5dda2,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.text_selected,Double-click or press {{shortcut}} to edit text,c65c26c4c6c7,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.text_editing,Press {{shortcut_1}} or {{shortcut_2}} to finish editing,67df8e54b1f7,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.linearElementMulti,Click on last point or press {{shortcut_1}} or {{shortcut_2}} to finish,9b2bbdb26357,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.lockAngle,You can constrain angle by holding {{shortcut}},7e78b24c9ab9,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.resize,"You can constrain proportions by holding {{shortcut_1}} while resizing,
+hold {{shortcut_2}} to resize from the center",d38542ec3033,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.resizeImage,"You can resize freely by holding {{shortcut_1}},
+hold {{shortcut_2}} to resize from the center",8c76f5916f0c,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.rotate,You can constrain angles by holding {{shortcut}} while rotating,d0a9f7777763,medium,placeholder,3,1,2,replay_2025Q4
+hints.lineEditor_info,Hold {{shortcut_1}} and Double-click or press {{shortcut_2}} to edit points,1c9feb52d587,medium,placeholder,1,1,2,replay_2025Q4
+hints.lineEditor_pointSelected,"Press {{shortcut_1}} to remove point(s),
+{{shortcut_2}} to duplicate, or drag to move",0eb473ccedb3,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.lineEditor_nothingSelected,"Select a point to edit (hold {{shortcut_1}} to select multiple),
+or hold {{shortcut_2}} and click to add new points",d84a89e50355,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.bindTextToElement,{{shortcut}} to add text,e65abab122a8,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+hints.createFlowchart,{{shortcut}} to create a flowchart,2345b4df6996,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.deepBoxSelect,"Hold {{shortcut}} to deep select, and to prevent dragging",746c4f56dc5d,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.eraserRevert,Hold {{shortcut}} to revert the elements marked for deletion,e46622648dc5,placeholder_markup,noninferiority_holdout,5,1,2,replay_2025Q4
+hints.disableSnapping,Hold {{shortcut}} to disable snapping,3449abe3dfab,placeholder_markup,placeholder,2,1,2,replay_2025Q4
+hints.enterCropEditor,Double click the image or press {{shortcut}} to crop the image,888b39513be0,placeholder_markup,placeholder,4,1,2,replay_2025Q4
+hints.leaveCropEditor,Click outside the image or press {{shortcut_1}} or {{shortcut_2}} to finish cropping,498521c231cd,placeholder_markup,placeholder,1,1,2,replay_2025Q4
+keys.ctrl,Ctrl,e2ee2909fe27,short,noninferiority_holdout,5,0,1,replay_2025Q4
+keys.option,Option,45aaacba7ea1,,,,0,1,replay_2025Q4
+keys.cmd,Cmd,1695b48bccfe,dnt,do_not_translate;short,1,0,1,replay_2025Q4
+keys.alt,Alt,c91da2e0203b,,,,0,1,replay_2025Q4
+keys.escape,Esc,52f878edb34f,,,,0,1,replay_2025Q4
+keys.enter,Enter,dc8659db6d41,dnt,do_not_translate;short,1,0,1,replay_2025Q4
+keys.shift,Shift,2e544a292f69,,,,0,1,replay_2025Q4
+keys.spacebar,Space,20eac5aae274,,,,0,1,replay_2025Q4
+keys.delete,Delete,e2d0a54968ea,dnt,do_not_translate;short,1,0,1,replay_2025Q4
+keys.mmb,Scroll wheel,552ec3a85cf9,short,noninferiority_holdout,5,0,1,replay_2025Q4
+labels.chartType_bar,Bar chart,e006cb3fc3d0,,,,0,1,replay_2026Q1
+labels.chartType_line,Line chart,22089151613f,,,,0,1,replay_2026Q1
+labels.chartType_radar,Radar chart,4df56b165108,short,noninferiority_holdout,5,0,1,replay_2026Q1
+labels.chartType_plaintext,Plain text,cf4166250b80,,,,0,1,replay_2026Q1
+labels.arrowhead_cardinality_one,Cardinality (one),c13fe10379e4,,,,0,1,replay_2026Q1
+labels.arrowhead_cardinality_many,Cardinality (many),390612172db6,short,short,4,0,1,replay_2026Q1
+labels.arrowhead_cardinality_one_or_many,Cardinality (one or many),69ad33f35b3b,medium,,1,0,1,replay_2026Q1
+labels.arrowhead_cardinality_exactly_one,Cardinality (exactly one),892067d04fe5,medium,,1,0,1,replay_2026Q1
+labels.arrowhead_cardinality_zero_or_one,Cardinality (zero or one),d2d1b075c273,,,,0,1,replay_2026Q1
+labels.arrowhead_cardinality_zero_or_many,Cardinality (zero or many),8798bf369175,,,,0,1,replay_2026Q1
+labels.cardinality,Cardinality,23c088c9f1c8,,,,0,1,replay_2026Q1
+labels.preferences,Preferences,66962f72a088,,,,0,1,replay_2026Q1
+labels.preferences_toolLock,Tool lock,198fabf61b96,,,,0,1,replay_2026Q1
+labels.arrowBinding,Arrow binding,78a5ba181ebf,,,,0,1,replay_2026Q1
+labels.midpointSnapping,Snap to midpoints,e11c02e0197c,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+progressDialog.title,Saving,096b73624b09,short,short,1,0,1,replay_2026Q1
+progressDialog.defaultMessage,Preparing to save...,69a1aa533c4d,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+welcomeScreen.app.center_heading,Your drawings are saved in your browser's storage.,7d4025d2fb8d,medium,noninferiority_holdout,5,0,4,replay_2026Q1
+welcomeScreen.app.center_heading_line2,Browser storage can be cleared unexpectedly.,a67f113c189c,medium,noninferiority_holdout,5,0,4,replay_2026Q1
+welcomeScreen.app.center_heading_line3,Save your work to a file regularly to avoid losing it.,835877c3b95d,medium,noninferiority_holdout,5,0,4,replay_2026Q1
+mermaid.description,"Currently only <flowchartLink>Flowchart</flowchartLink>, <sequenceLink>Sequence</sequenceLink>, <classLink>Class</classLink>, and <erdLink>Entity Relationship</erdLink> Diagrams are supported. The other types will be rendered as image in Excalidraw.",31bee267bdb0,placeholder_markup,markup;long,2,1,2,replay_2026Q1
+mermaid.label,Mermaid,1356a57a7a4b,,,,0,1,replay_2026Q1
+mermaid.inputPlaceholder,Write Mermaid diagram definition here...,b7561c4bee40,,,,0,1,replay_2026Q1
+mermaid.autoFixAvailable,Auto-fix is available,94fc68da5ac5,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+ttd.error,Error!,e7dd05a35648,,,,0,1,replay_2026Q1
+chat.inputPlaceholder,Start typing your diagram idea here... ({{shortcut}} for new line),d7b3331376bf,placeholder_markup,placeholder,1,1,2,replay_2026Q1
+chat.inputPlaceholderWithMessages,Continue refining your diagram...,226f6465fe16,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.generating,Generating...,49286f33b674,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.rateLimitRemaining,{{count}} requests left today,d60f16226230,placeholder_markup,placeholder;plural,1,1,2,replay_2026Q1
+chat.role.user,You,08b041935798,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.role.assistant,AI Assistant,0ad1b06f64f2,short,short,2,0,1,replay_2026Q1
+chat.role.system,System,6725e7bbcd28,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.aiBeta,AI Beta,5a6e20086c53,,,,0,1,replay_2026Q1
+chat.label,Chat,460b3a7da007,,,,0,1,replay_2026Q1
+chat.menu,Menu,99af6606ff9d,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.newChat,New Chat,0d33235199fb,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.deleteChat,Delete chat,93291d9c41dd,short,short,1,0,1,replay_2026Q1
+chat.deleteMessage,Delete message,87e7176a7ce7,short,short,1,0,1,replay_2026Q1
+chat.viewAsMermaid,View as Mermaid,d4c0db7fcc2a,medium,,1,0,1,replay_2026Q1
+chat.placeholder.title,Let's design your diagram,15b2645918e1,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.placeholder.description,"Describe the diagram you want to create, and we'll generate it for you.",202c914713cd,,,,0,1,replay_2026Q1
+chat.placeholder.hint,"At the moment we know Flowchart, Sequence, Class, State, and Entity Relationship diagrams.",98039ef2d16e,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.preview,Preview,324b134f57c7,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.insert,Insert,8aa318eb7eaa,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.retry,Retry,942087cc2d41,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.errors.promptTooShort,Prompt is too short (min {{min}} characters),ba1a80481952,placeholder_markup,placeholder,1,1,2,replay_2026Q1
+chat.errors.promptTooLong,Prompt is too long (max {{max}} characters),9dd4834e900b,placeholder_markup,noninferiority_holdout,5,1,2,replay_2026Q1
+chat.errors.generationFailed,Generation failed,78257562583c,short,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.errors.invalidDiagram,"Generated an invalid diagram :(. You may edit manually, retry with auto-fix, or try a different prompt.",8fcb84c4d9f8,long,long,1,0,1,replay_2026Q1
+chat.errors.fixInMermaid,Edit Mermaid manually →,8c23c1598f6c,medium,,1,0,1,replay_2026Q1
+chat.errors.aiRepair,Regenerate (auto-fix) →,adb916382d47,medium,noninferiority_holdout,5,0,1,replay_2026Q1
+chat.errors.requestAborted,Request aborted,ad320780ba4d,short,short,1,0,1,replay_2026Q1
+chat.errors.requestFailed,Request failed,cfce761befa8,,,,0,1,replay_2026Q1
+chat.errors.mermaidParseError,Mermaid syntax error,cb05ef3a65e1,,,,0,1,replay_2026Q1
+chat.rateLimit.messageLimit,You've hit your AI limit on the free plan. Try out Excalidraw+ for more or come back tomorrow.,223c6717efc1,long,long,3,0,4,replay_2026Q1
+chat.rateLimit.generalRateLimit,"Hold your horses, you're too fast for us! Please wait a moment before trying again.",3b513fca7f79,long,long,2,0,4,replay_2026Q1
+chat.rateLimit.messageLimitInputPlaceholder,You've reached your message limit,96943a607917,,,,0,1,replay_2026Q1
+chat.upsellBtnLabel,Upgrade to Plus,caf72e787a38,,,,0,1,replay_2026Q1
+labels.pressure,Pressure,1f8407f9eeb1,short,short,1,0,1,replay_2026Q2
+labels.pressure_constant,Constant,8ab253e4aab6,,,,0,1,replay_2026Q2
+labels.pressure_variable,Variable,e57e99872603,,,,0,1,replay_2026Q2
+labels.boxSelectionMode,Select on,a91557eef86d,,,,0,1,replay_2026Q2
+labels.boxSelectionContain,Wrap,70bfd7fbcdb6,,,,0,1,replay_2026Q2
+labels.boxSelectionOverlap,Overlap,38b163f9be7c,,,,0,1,replay_2026Q2
+labels.signUp,Sign up,5e2b8e96503d,short,short,1,0,1,replay_2026Q3
+labels.signIn,Sign in,bfd402b2f6f3,short,noninferiority_holdout,5,0,1,replay_2026Q3
+labels.upgrade,Upgrade,7ec0261b8e8a,,,,0,1,replay_2026Q3
+labels.textColor,Text color,4a69d0166046,,,,0,1,replay_2026Q3
+labels.you,You,08b041935798,,,,0,1,replay_2026Q3
+labels.showHints,Show hints,4781198a63a4,short,short,4,0,1,replay_2026Q3
+labels.inputDevice,Input,36ecb4f86691,,,,0,1,replay_2026Q3
+labels.inputDeviceTrackpad,Trackpad,2fb10776286d,,,,0,1,replay_2026Q3
+labels.inputDeviceMouse,Mouse,55c1520824a8,short,noninferiority_holdout,5,0,1,replay_2026Q3
+buttons.reset,Reset,daee7606b339,short,noninferiority_holdout,5,0,1,replay_2026Q3
+toolBar.stickynote,Sticky note,0e36864cb944,short,noninferiority_holdout,5,0,1,replay_2026Q3
+toolBar.autoshape,Draw to shape,42beea3798a9,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+toolBar.bucketfill,Bucket fill,bf62f8d4a444,,,,0,1,replay_2026Q3
+bucketfill.noRegion,Couldn't find an enclosed region to fill here.,3d3276d78e7b,medium,,1,0,1,replay_2026Q3
+bucketfill.tooComplex,This region is too complex to fill.,57a8bccb11dc,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+element.stickynote,Sticky note,0e36864cb944,,,,0,1,replay_2026Q3
+hints.stickynote,"Click to place a note, or drag to size it",0dbe5571a5f3,,,,0,1,replay_2026Q3
+hints.autoshape,"Draw rectangles, circles, diamonds, lines and arrows",358829d712b9,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+hints.resizeStickyNote,"hold {{shortcut_1}} to resize freely, {{shortcut_2}} to resize from the center",63873d3ec5b9,medium,placeholder,2,1,2,replay_2026Q3
+hints.toggleArrowhead,Double-click to toggle the arrowhead,d3e777a7b663,,,,0,1,replay_2026Q3
+colorPicker.invalidColor,Not a valid color,854a112b7231,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+colorPicker.invalidHexLength,"Hex code must be 3, 4, 6, or 8 characters",2f3f94127493,medium,,2,0,1,replay_2026Q3
+colorPicker.topPicksTip,Tip: drag any color onto your top picks to pin it,0674c05efcb9,,,,0,1,replay_2026Q3
+colorPicker.resetTopPicks,Reset to default top picks,93c100a81453,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+fileDrop.replace,Drop to replace content,0e370a4138d0,medium,,2,0,1,replay_2026Q3
+fileDrop.add,Drop to add to canvas,1ea0f770db73,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+fileDrop.importLibrary,Drop to import library,68bda10f04b3,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+fileDrop.replaceHint,Hold <shift>Shift</shift> to keep existing content,89995034af94,placeholder_markup,noninferiority_holdout,5,1,2,replay_2026Q3
+fileDrop.keepHint,Your existing content will be kept,7756a6d94d8a,medium,,1,0,1,replay_2026Q3
+fileDrop.libraryHint,Library files will append,b657dd61130e,,,,0,1,replay_2026Q3
+fileDrop.replacedToast,Content replaced. {{shortcut}} to undo,bb4b45ca870e,placeholder_markup,placeholder,1,1,2,replay_2026Q3
+fontList.topPicksTip,Tip: drag any font onto your top picks to pin it,b2d7417c1e62,,,,0,1,replay_2026Q3
+fontList.resetTopPicks,Reset to default top picks,93c100a81453,medium,noninferiority_holdout,5,0,1,replay_2026Q3
+labels.tryExcalidrawPlus,Try Excalidraw+,8d6a1b24e40c,short,noninferiority_holdout,5,0,,replay_2026Q4
+labels.plusFreeTrial,14-day free trial,1a01c4486278,medium,,4,0,,replay_2026Q4
+labels.removeFrame,Remove frame,14566cb700e1,short,noninferiority_holdout,5,0,,replay_2026Q4
+labels.toggleWrap,Wrap or unwrap selection,aa2518d568b3,,,,0,,replay_2026Q4
+hints.cycleSelection,"{{shortcut}}-click to cycle selection, or drag to duplicate",5d8361974043,placeholder_markup,placeholder,1,1,,replay_2026Q4
+mermaid.loadError,Couldn't load Mermaid. Check your internet connection and try again.,21496d609e0f,medium,,1,0,,replay_2026Q4
+mermaid.loadErrorReload,Couldn't load Mermaid. Reload the page to try again.,9b09f68f3146,,,,0,,replay_2026Q4
+mermaid.reload,Reload,bdc090ec61e3,,,,0,,replay_2026Q4

@@ -1,0 +1,76 @@
+name: Upstream strings -> MT, QE, Crowdin, pull request
+
+# Continuous localization trigger. Excalidraw (upstream) adds or edits English
+# strings -> this workflow notices, runs only those strings through the
+# pipeline, pushes them to Crowdin with code/PR context and route/tier labels,
+# and opens a pull request with the updated source file and reports.
+# A person reviews and merges; nothing ships without that.
+on:
+  schedule:
+    - cron: "17 15 * * 1"   # Mondays 15:17 UTC; costs nothing when upstream has no new strings
+  workflow_dispatch: {}
+
+concurrency: upstream-sync
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check upstream for new or changed strings
+        id: upstream
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/upstream_sync.py
+
+      - name: Context packets (code usage + PR for every key)
+        if: steps.upstream.outputs.changed == 'true'
+        run: |
+          sed -i 's/^PINNED = .*/PINNED = "'"$(python -c "import json;print(json.load(open('data/upstream_last.json'))['commit'])")"'"/' scripts/context_packets.py
+          python scripts/context_packets.py --src "$RUNNER_TEMP/excalidraw"
+          git checkout scripts/context_packets.py
+
+      - name: Pipeline on the new strings (gate -> MT -> metrics -> judge -> route -> repair)
+        if: steps.upstream.outputs.changed == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_TRANSLATE_API_KEY: ${{ secrets.GOOGLE_TRANSLATE_API_KEY }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+        run: python scripts/run_pipeline.py
+
+      - name: Push to Crowdin (source + context, MT + route comments, labels)
+        if: steps.upstream.outputs.changed == 'true'
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+        run: |
+          python scripts/crowdin_push.py
+          python scripts/crowdin_push_mt.py --auto-approve
+          python scripts/crowdin_labels.py --only-new --batch "upstream-$(python -c "import json;print(json.load(open('data/upstream_last.json'))['commit'][:7])")"
+
+      - name: Open the pull request
+        if: steps.upstream.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: l10n/upstream-sync
+          add-paths: |
+            locales/en.json
+            data/upstream_last.json
+            data/last_processed_en.json
+            data/context/packets.json
+            data/exports/
+          commit-message: "l10n: sync ${{ steps.upstream.outputs.count }} upstream strings"
+          title: "l10n: ${{ steps.upstream.outputs.count }} new/changed upstream strings"
+          body-path: data/upstream_changes.md
+          labels: l10n, automated

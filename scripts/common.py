@@ -152,6 +152,43 @@ _CJK = r"[一-鿿]"
 _HALF_WIDTH_PUNCT = re.compile(rf"{_CJK}[,?!:;()]|[,?!;()]{_CJK}")
 
 
+_FULL_WIDTH = {",": "，", "?": "？", "!": "！", ":": "：", ";": "；", "(": "（", ")": "）"}
+_PROTECTED = re.compile(r"\{\{[^}]*\}\}|<[^>]+>|https?://[^\s<>\"]+")
+
+
+def fix_zh_punct(mt_text):
+    """Auto-fix: half-width , ? ! : ; ( ) next to Chinese -> full-width.
+    Deterministic and safe: never touches placeholders, tags or URLs, and never
+    touches punctuation between Latin/digits (1,000 / 12:30 / Ctrl+C). Spaces
+    around a converted mark are dropped (full-width marks carry their own space).
+    Returns (fixed_text, number_of_marks_changed)."""
+    text = mt_text or ""
+    shielded = [False] * len(text)
+    for m in _PROTECTED.finditer(text):
+        for i in range(m.start(), m.end()):
+            shielded[i] = True
+    is_cjk = lambda c: bool(re.match(_CJK, c))
+    out, n, i = [], 0, 0
+    while i < len(text):
+        c = text[i]
+        if c in _FULL_WIDTH and not shielded[i]:
+            j = len(out) - 1
+            while j >= 0 and out[j] == " ":
+                j -= 1
+            prev = out[j] if j >= 0 else ""
+            k = i + 1
+            while k < len(text) and text[k] == " ":
+                k += 1
+            nxt = text[k] if k < len(text) else ""
+            if is_cjk(prev) or is_cjk(nxt):
+                del out[j + 1:]                      # spaces before the mark
+                out.append(_FULL_WIDTH[c]); n += 1
+                i = k                                # spaces after the mark
+                continue
+        out.append(c); i += 1
+    return "".join(out), n
+
+
 def locale_check(mt_text):
     """Return {'locale_ok': bool, 'locale_detail': str} for zh-CN punctuation."""
     clean = re.sub(r"\{\{[^}]*\}\}|<[^>]+>", "", mt_text or "")

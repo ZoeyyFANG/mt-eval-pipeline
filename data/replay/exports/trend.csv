@@ -1,0 +1,8 @@
+﻿batch,date,new,changed,processed,gate_auto_approve_%,gate_needs_context_%,gate_needs_review_%,google_mean_sev,google_flagged_%,google_placeholder_fail_%,google_term_adherence_%,deepl_mean_sev,deepl_flagged_%,deepl_placeholder_fail_%,deepl_term_adherence_%,claude_mean_sev,claude_flagged_%,claude_placeholder_fail_%,claude_term_adherence_%,auto_ship_%,to_people_%,routes,picked_engine,audit_n,audit_errors_per_100
+2025Q2,2025-06-30,10,0,10,40.0,60.0,0.0,2.0,30.0,0.0,66.7,1.4,10.0,0.0,100.0,1.5,20.0,0.0,100.0,90.0,10.0,spot_check 9; repair 1,deepl 10,9,0.0
+2025Q3,2025-09-30,6,1,7,57.1,42.9,0.0,2.14,42.9,0.0,33.3,2.0,42.9,0.0,100.0,2.0,42.9,0.0,100.0,57.1,42.9,spot_check 4; full_review 3,deepl 6; google 1,4,0.0
+2025Q4,2025-12-28,11,21,32,0.0,100.0,0.0,3.53,62.5,34.4,100.0,2.31,31.2,18.8,100.0,1.59,25.0,0.0,100.0,0.0,68.8,full_review 21; dnt_check 10; mandatory_review 1,deepl 15; claude 6; google 1,0,
+2026Q1,2026-03-30,56,2,58,62.1,37.9,0.0,2.26,38.6,1.7,42.1,1.67,22.4,1.7,97.4,1.36,12.1,0.0,94.7,67.2,32.8,spot_check 39; full_review 10; transcreation 5; repair 3; mandatory_review 1,deepl 51; claude 7,10,0.0
+2026Q2,2026-06-29,6,0,6,0.0,100.0,0.0,3.17,66.7,0.0,,2.33,33.3,0.0,,1.5,16.7,0.0,,83.3,16.7,spot_check 5; repair 1,deepl 4; claude 2,5,20.0
+2026Q3,2026-09-30,33,1,34,67.6,32.4,0.0,2.44,50.0,0.0,55.0,2.0,41.2,0.0,100.0,1.79,29.4,0.0,100.0,64.7,35.3,spot_check 22; full_review 12,deepl 27; claude 5; google 2,10,0.0
+2026Q4,2026-11-03,8,0,8,75.0,25.0,0.0,3.5,62.5,12.5,50.0,2.0,37.5,0.0,100.0,1.5,25.0,0.0,100.0,50.0,50.0,spot_check 4; full_review 3; transcreation 1,deepl 7; claude 1,4,0.0

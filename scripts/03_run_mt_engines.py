@@ -52,9 +52,15 @@ def _deepl_host_headers():
 _DEEPL_GLOSSARY = {}
 
 
+class GlossaryError(RuntimeError):
+    """Setup problem, not a per-string failure: stop the step instead of
+    producing a batch with one engine silently missing."""
+
+
 def deepl_glossary_id():
-    """Reuse a DeepL glossary whose name carries the termbase hash; create it if the
-    termbase changed. Old glossaries are left in place (free plan allows several)."""
+    """Reuse a DeepL glossary whose name carries the termbase hash. If the termbase
+    changed, delete this pipeline's stale glossaries (DeepL Free holds only one)
+    and upload the current one."""
     if "id" in _DEEPL_GLOSSARY:
         return _DEEPL_GLOSSARY["id"]
     entries = deepl_entries()
@@ -66,10 +72,16 @@ def deepl_glossary_id():
         if g["name"] == name and g.get("ready"):
             _DEEPL_GLOSSARY["id"] = g["glossary_id"]
             return g["glossary_id"]
+    for g in existing.json().get("glossaries", []):
+        if g["name"].startswith("mt-eval-termbase-"):   # only ours, never anything else
+            requests.delete(f"https://{host}/v2/glossaries/{g['glossary_id']}",
+                            headers=headers, timeout=20).raise_for_status()
+            print(f"[mt] deleted stale DeepL glossary {g['name']} (termbase changed)")
     resp = requests.post(f"https://{host}/v2/glossaries", headers=headers, timeout=20,
                          json={"name": name, "source_lang": "en", "target_lang": "zh",
                                "entries": entries, "entries_format": "tsv"})
-    resp.raise_for_status()
+    if not resp.ok:
+        raise GlossaryError(f"DeepL glossary upload failed: {resp.status_code} {resp.text[:200]}")
     gid = resp.json()["glossary_id"]
     print(f"[mt] created DeepL glossary {name} ({resp.json().get('entry_count')} entries)")
     _DEEPL_GLOSSARY["id"] = gid
@@ -133,6 +145,8 @@ def main():
             try:
                 mt_text = (mock_translate(engine, item["source_text"]) if MOCK
                            else ENGINE_FUNCS[engine](item["source_text"]))
+            except GlossaryError as e:
+                sys.exit(f"[mt] stopping: {e}. Nothing from this step was saved.")
             except Exception as e:
                 failures += 1
                 print(f"[mt] {engine} failed on {item['string_id']}: {e}")

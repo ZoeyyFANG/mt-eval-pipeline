@@ -1,0 +1,4 @@
+﻿item_id,old,new,note,by,date
+c018,1,0,contradicted its own note (placeholder：占位标签名称被改为大写，必须保持原样。); translation is correct,"claude (consistency check, requested by Zoey)",2026-11-24
+c049,1,0,contradicted its own note (accuracy：Saving 是进行中的保存状态，应译为“正在保存”，不能只译); translation is correct,"claude (consistency check, requested by Zoey)",2026-11-24
+c071,1,0,contradicted its own note (accuracy：Saving 是进行中的保存状态，应译为“正在保存”，不能只译); translation is correct,"claude (consistency check, requested by Zoey)",2026-11-24

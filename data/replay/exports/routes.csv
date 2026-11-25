@@ -1,0 +1,158 @@
+﻿string_id,route,engine,mt_text,severity,rule_flags,reason,tier,tier_reason,route_untiered
+labels.polygon.breakPolygon,spot_check,deepl,拆分多边形,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.polygon.convertToPolygon,spot_check,deepl,转换为多边形,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.tab,spot_check,deepl,Tab,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.shapeSwitch,spot_check,deepl,切换形状,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+search.frames,repair,deepl,画框,4,,best severity 4 >= 4,1,default,repair
+search.texts,spot_check,deepl,文本,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+toolBar.lasso,spot_check,deepl,套索选择,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+toolBar.convertElementType,spot_check,deepl,切换形状类型,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+hints.lineEditor_line_info,full_review,deepl,双击或按{{shortcut}}来编辑点,3,,"rules pass, severity 3",2,placeholder or markup: a broken token breaks the UI,full_review
+colorPicker.color,spot_check,deepl,颜色,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+library.search.inputPlaceholder,full_review,deepl,搜索素材库,3,,"rules pass, severity 3",1,default,full_review
+library.search.heading,full_review,deepl,素材库匹配结果,3,,"rules pass, severity 3",1,default,full_review
+library.search.noResults,spot_check,deepl,未找到匹配的项目...,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+library.search.clearSearch,spot_check,deepl,清除搜索,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+buttons.saveLibNames,full_review,deepl,保存名称并退出,3,,"rules pass, severity 3",1,default,full_review
+buttons.publishLibrary,spot_check,deepl,重命名或发布,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+alerts.localStorageQuotaExceeded,spot_check,google,浏览器存储空间已用尽。更改将无法保存。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+hints.dismissSearch,full_review,claude,按 {{shortcut}} 关闭搜索,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.canvasPanning,full_review,deepl,要移动画布，请在拖动时按住 {{shortcut_1}} 或 {{shortcut_2}}，或者使用“抓手工具”,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.arrowTool,mandatory_review,claude,"点击可创建多点线条,拖动可创建单条线条。再次按 {{shortcut}} 可更改箭头类型。",3,"punctuation(条,)",every candidate fails a rule check,2,placeholder or markup: a broken token breaks the UI,mandatory_review
+hints.arrowBindModifiers,full_review,google,按住 {{shortcut_1}} 可禁用绑定，或按住 {{shortcut_2}} 可绑定到固定点。,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.text_selected,full_review,claude,双击或按 {{shortcut}} 编辑文本,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.text_editing,full_review,deepl,按 {{shortcut_1}} 或 {{shortcut_2}} 完成编辑,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.linearElementMulti,full_review,deepl,点击最后一点，或按{{shortcut_1}}或{{shortcut_2}}以完成操作,2,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.lockAngle,full_review,claude,按住 {{shortcut}} 可限制角度,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.resize,full_review,deepl,"调整大小时按住 {{shortcut_1}} 可保持比例，
+按住 {{shortcut_2}} 可从中心开始调整大小",1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.resizeImage,full_review,deepl,"按住 {{shortcut_1}} 即可自由调整大小，
+按住 {{shortcut_2}} 则可从中心开始调整大小",1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.rotate,full_review,deepl,旋转时按住 {{shortcut}} 键可限制角度,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.lineEditor_info,full_review,deepl,按住 {{shortcut_1}} 并双击，或按 {{shortcut_2}} 来编辑点,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.lineEditor_pointSelected,full_review,deepl,"按 {{shortcut_1}} 删除点，
+按 {{shortcut_2}} 复制，或拖动以移动",1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.lineEditor_nothingSelected,full_review,deepl,"选择一个点进行编辑（按住 {{shortcut_1}} 可选择多个点），
+或按住 {{shortcut_2}} 并单击以添加新点",1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.bindTextToElement,full_review,claude,按 {{shortcut}} 添加文本,3,,"rules pass, severity 3",2,placeholder or markup: a broken token breaks the UI,full_review
+hints.createFlowchart,full_review,deepl,{{shortcut}} 用于创建流程图,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.deepBoxSelect,full_review,deepl,按住 {{shortcut}} 可进行深度选择，并防止拖动,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.eraserRevert,full_review,deepl,按住 {{shortcut}} 可撤销已标记为删除的元素,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.disableSnapping,full_review,deepl,按住 {{shortcut}} 可禁用吸附功能,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.enterCropEditor,full_review,claude,双击图片或按 {{shortcut}} 裁剪图片,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.leaveCropEditor,full_review,deepl,点击图片外侧，或按{{shortcut_1}}或{{shortcut_2}}键以完成图片裁剪,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+keys.ctrl,dnt_check,,Ctrl,,,keyboard key: ship as printed,1,default,dnt_check
+keys.option,dnt_check,,Option,,,keyboard key: ship as printed,1,default,dnt_check
+keys.cmd,dnt_check,,Cmd,,,keyboard key: ship as printed,1,default,dnt_check
+keys.alt,dnt_check,,Alt,,,keyboard key: ship as printed,1,default,dnt_check
+keys.escape,dnt_check,,Esc,,,keyboard key: ship as printed,1,default,dnt_check
+keys.enter,dnt_check,,Enter,,,keyboard key: ship as printed,1,default,dnt_check
+keys.shift,dnt_check,,Shift,,,keyboard key: ship as printed,1,default,dnt_check
+keys.spacebar,dnt_check,,Space,,,keyboard key: ship as printed,1,default,dnt_check
+keys.delete,dnt_check,,Delete,,,keyboard key: ship as printed,1,default,dnt_check
+keys.mmb,dnt_check,,Scroll wheel,,,keyboard key: ship as printed,1,default,dnt_check
+labels.chartType_bar,full_review,deepl,条形图表,3,,"rules pass, severity 3",1,default,full_review
+labels.chartType_line,mandatory_review,deepl,折线图,1,terminology(missing:chart),every candidate fails a rule check,1,default,mandatory_review
+labels.chartType_radar,spot_check,deepl,雷达图表,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+labels.chartType_plaintext,spot_check,deepl,纯文本,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.arrowhead_cardinality_one,full_review,deepl,基数（一）,3,,"rules pass, severity 3",1,default,full_review
+labels.arrowhead_cardinality_many,spot_check,deepl,基数（多）,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.arrowhead_cardinality_one_or_many,repair,deepl,基数（一个或多个）,4,,best severity 4 >= 4,1,default,repair
+labels.arrowhead_cardinality_exactly_one,spot_check,deepl,基数（恰好一个）,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.arrowhead_cardinality_zero_or_one,repair,deepl,基数（零或一）,4,,best severity 4 >= 4,1,default,repair
+labels.arrowhead_cardinality_zero_or_many,full_review,deepl,基数（零或多个）,3,,"rules pass, severity 3",1,default,full_review
+labels.cardinality,repair,deepl,基数,4,,best severity 4 >= 4,1,default,repair
+labels.preferences,spot_check,deepl,首选项,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.preferences_toolLock,spot_check,deepl,工具锁,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.arrowBinding,full_review,deepl,箭头绑定,3,,"rules pass, severity 3",1,default,full_review
+labels.midpointSnapping,spot_check,deepl,吸附到中点,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+progressDialog.title,spot_check,claude,正在保存,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+progressDialog.defaultMessage,spot_check,deepl,正在准备保存...,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+welcomeScreen.app.center_heading,transcreation,deepl,您的绘图已保存在浏览器的存储中。,1,,tier 4 (high value: first impression / upsell screen),4,high value: first impression / upsell screen,spot_check
+welcomeScreen.app.center_heading_line2,transcreation,deepl,浏览器存储可能会意外被清除。,1,,tier 4 (high value: first impression / upsell screen),4,high value: first impression / upsell screen,spot_check
+welcomeScreen.app.center_heading_line3,transcreation,deepl,请定期将工作保存为文件，以免丢失。,1,,tier 4 (high value: first impression / upsell screen),4,high value: first impression / upsell screen,spot_check
+mermaid.description,full_review,claude,目前仅支持<flowchartLink>流程图</flowchartLink>、<sequenceLink>时序图</sequenceLink>、<classLink>类图</classLink>和<erdLink>实体关系图</erdLink>。其他类型的示意图将在 Excalidraw 中以图像形式呈现。,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+mermaid.label,spot_check,deepl,Mermaid,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+mermaid.inputPlaceholder,spot_check,claude,在此处编写 Mermaid 示意图定义...,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+mermaid.autoFixAvailable,spot_check,deepl,提供自动修复功能,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+ttd.error,spot_check,deepl,错误！,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.inputPlaceholder,full_review,deepl,请在此处输入您的示意图构思……（{{shortcut}} 表示换行）,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+chat.inputPlaceholderWithMessages,spot_check,deepl,继续完善你的示意图……,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.generating,spot_check,deepl,正在生成...,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.rateLimitRemaining,full_review,deepl,今天还剩{{count}}次请求,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+chat.role.user,spot_check,deepl,你,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+chat.role.assistant,spot_check,deepl,AI 助手,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.role.system,spot_check,deepl,系统,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.aiBeta,spot_check,deepl,AI Beta,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.label,spot_check,deepl,聊天,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.menu,spot_check,deepl,菜单,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.newChat,spot_check,deepl,新建聊天,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.deleteChat,spot_check,claude,删除聊天,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.deleteMessage,spot_check,deepl,删除消息,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.viewAsMermaid,spot_check,claude,以 Mermaid 查看,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.placeholder.title,spot_check,claude,让我们来设计您的示意图,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.placeholder.description,spot_check,deepl,请描述您想要创建的示意图，我们将为您生成。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.placeholder.hint,spot_check,claude,目前我们支持流程图、时序图、类图、状态图和实体关系示意图。,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+chat.preview,spot_check,deepl,预览,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.insert,spot_check,deepl,插入,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.retry,spot_check,deepl,重试,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.promptTooShort,full_review,deepl,提示词过短（至少 {{min}} 个字符）,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+chat.errors.promptTooLong,full_review,deepl,提示词过长（最多 {{max}} 个字符）,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+chat.errors.generationFailed,spot_check,deepl,生成失败,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.invalidDiagram,full_review,deepl,生成的示意图不正确 :(。您可以手动编辑、使用自动修复功能重试，或者尝试其他提示词。,3,,"rules pass, severity 3",1,default,full_review
+chat.errors.fixInMermaid,spot_check,claude,手动编辑 Mermaid →,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.aiRepair,spot_check,deepl,重新生成（自动修复）→,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.requestAborted,spot_check,deepl,请求已中止,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.requestFailed,spot_check,deepl,请求失败,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.errors.mermaidParseError,spot_check,deepl,Mermaid语法错误,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.rateLimit.messageLimit,transcreation,deepl,您在免费套餐中已达到 AI 使用上限。请尝试使用 Excalidraw+ 以获取更多功能，或者明天再来。,3,,tier 4 (high value: upsell at the moment of friction),4,high value: upsell at the moment of friction,full_review
+chat.rateLimit.generalRateLimit,transcreation,deepl,慢点，你太快了，我们跟不上！请稍等片刻，然后再试一次。,1,,tier 4 (brand voice: playful idiom (Hold your horses)),4,brand voice: playful idiom (Hold your horses),spot_check
+chat.rateLimit.messageLimitInputPlaceholder,spot_check,deepl,您已达到消息发送上限,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+chat.upsellBtnLabel,spot_check,deepl,升级至Plus版,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.pressure,spot_check,deepl,压力,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.pressure_constant,spot_check,deepl,常数,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.pressure_variable,spot_check,deepl,变量,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.boxSelectionMode,repair,claude,选择,4,,best severity 4 >= 4,1,default,repair
+labels.boxSelectionContain,spot_check,claude,换行,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.boxSelectionOverlap,spot_check,deepl,重叠,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.signUp,spot_check,deepl,注册,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.signIn,spot_check,deepl,登录,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.upgrade,full_review,deepl,升级,3,,"rules pass, severity 3",1,default,full_review
+labels.textColor,spot_check,deepl,文字颜色,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.you,spot_check,deepl,你,2,,"rules pass, severity 2 <= 2",1,default,spot_check
+labels.showHints,spot_check,deepl,显示提示,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.inputDevice,spot_check,deepl,输入,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.inputDeviceTrackpad,spot_check,deepl,触控板,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.inputDeviceMouse,spot_check,deepl,鼠标,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+buttons.reset,spot_check,deepl,重置,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+toolBar.stickynote,spot_check,deepl,便签,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+toolBar.autoshape,full_review,deepl,画出形状,3,,"rules pass, severity 3",1,default,full_review
+toolBar.bucketfill,spot_check,claude,油漆桶填充,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+bucketfill.noRegion,spot_check,claude,在此处找不到可填充的封闭区域。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+bucketfill.tooComplex,spot_check,google,这个区域过于复杂，无法填充。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+element.stickynote,spot_check,deepl,便签,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+hints.stickynote,spot_check,deepl,点击放置便签，或拖动调整大小,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+hints.autoshape,spot_check,deepl,绘制矩形、圆形、菱形、直线和箭头,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+hints.resizeStickyNote,full_review,deepl,按住 {{shortcut_1}} 可自由调整大小，按住 {{shortcut_2}} 可从中心调整大小,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+hints.toggleArrowhead,full_review,deepl,双击以切换箭头端点样式,3,,"rules pass, severity 3",1,default,full_review
+colorPicker.invalidColor,spot_check,claude,不是有效的颜色,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+colorPicker.invalidHexLength,spot_check,deepl,十六进制颜色代码必须由 3、4、6 或 8 个字符组成,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+colorPicker.topPicksTip,full_review,deepl,提示：将任意颜色拖放到“常用”中即可将其固定,3,,"rules pass, severity 3",1,default,full_review
+colorPicker.resetTopPicks,full_review,deepl,重置为默认常用,3,,"rules pass, severity 3",1,default,full_review
+fileDrop.replace,spot_check,deepl,拖放以替换内容,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+fileDrop.add,spot_check,google,拖放即可添加到画布,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+fileDrop.importLibrary,full_review,deepl,拖放以导入素材库,3,,"rules pass, severity 3",1,default,full_review
+fileDrop.replaceHint,full_review,deepl,按住 <shift>Shift</shift> 键以保留现有内容,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+fileDrop.keepHint,spot_check,deepl,您现有的内容将被保留,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+fileDrop.libraryHint,full_review,deepl,素材库文件将追加,3,,"rules pass, severity 3",1,default,full_review
+fileDrop.replacedToast,full_review,claude,内容已替换。按 {{shortcut}} 撤销,1,,tier 2 never spot-checked (placeholder or markup: a broken token breaks the UI),2,placeholder or markup: a broken token breaks the UI,spot_check
+fontList.topPicksTip,full_review,deepl,提示：将任意字体拖放到“常用”中即可将其固定,3,,"rules pass, severity 3",1,default,full_review
+fontList.resetTopPicks,full_review,deepl,重置为默认常用,3,,"rules pass, severity 3",1,default,full_review
+labels.tryExcalidrawPlus,spot_check,deepl,试试 Excalidraw+,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+labels.plusFreeTrial,transcreation,deepl,14天免费试用,1,,tier 4 (high value: upsell),4,high value: upsell,spot_check
+labels.removeFrame,full_review,deepl,移除画框,3,,"rules pass, severity 3",1,default,full_review
+labels.toggleWrap,full_review,claude,包裹或取消包裹选中内容,3,,"rules pass, severity 3",1,default,full_review
+hints.cycleSelection,full_review,deepl,{{shortcut}}-单击以循环选择，或拖动以复制,3,,"rules pass, severity 3",2,placeholder or markup: a broken token breaks the UI,full_review
+mermaid.loadError,spot_check,deepl,无法加载 Mermaid。请检查您的网络连接，然后重试。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+mermaid.loadErrorReload,spot_check,deepl,无法加载“Mermaid”。请刷新页面后重试。,1,,"rules pass, severity 1 <= 2",1,default,spot_check
+mermaid.reload,spot_check,deepl,重新加载,1,,"rules pass, severity 1 <= 2",1,default,spot_check

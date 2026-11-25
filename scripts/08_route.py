@@ -6,8 +6,9 @@ Step 8: give every string exactly one route. Rules decide; the LLM only scores.
 For each string, the latest candidates from every engine are checked:
   1. keys.* (keyboard keys)            -> dnt_check       (source text, no MT)
   2. source gate said needs_review     -> human_only      (nothing pushed)
-  3. pick the best candidate: rule checks pass first, then lowest LLM severity,
-     then the engine with the lowest human-labeled error rate (from qe_labels)
+  3. half-width punctuation in a candidate is auto-fixed (common.fix_zh_punct), then re-checked
+     pick the best candidate: rule checks pass first, then lowest LLM severity,
+     then the engine with the lowest human MQM penalty (labels/mqm_annotation.csv)
   4. best candidate fails a rule       -> mandatory_review
   5. severity >= REPAIR_MIN_SEVERITY   -> repair          (agent, then review)
   6. severity <= SPOT_CHECK_MAX        -> spot_check      (10% sampled review)
@@ -25,13 +26,20 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import DB_PATH, SCHEMA_FILE, EXPORT_DIR, SPOT_CHECK_MAX_SEVERITY, REPAIR_MIN_SEVERITY
-from common import locale_check
+from common import locale_check, fix_zh_punct
+from mqm import engine_penalty_per_1000
 from terms import term_adherence
 from tiering import assign_tier, TIER_NAMES
 
 
 def engine_preference(con):
-    """Engines ordered by human-labeled error rate; falls back to mean LLM severity."""
+    """Engines ordered by human MQM penalty per 1000 words (severity-weighted,
+    docs/mqm_framework.md); else by human-labeled error rate; else mean LLM severity.
+    Routing v2 (2026-11-24): v1 used the error rate, which ranked DeepL first because it
+    makes fewer errors; MQM shows its errors are far more severe (10 Critical vs 1)."""
+    mqm = engine_penalty_per_1000()
+    if mqm:
+        return sorted(mqm, key=lambda e: mqm[e][0]), "human MQM penalty per 1000 words"
     rows = con.execute("""SELECT engine, AVG(has_error), COUNT(*) FROM qe_labels
                           GROUP BY engine HAVING COUNT(*) >= 20""").fetchall()
     if rows:
@@ -87,7 +95,15 @@ def main():
         scored = []
         for eng, mt, tok, sev in cands[sid]:
             flags = rule_flags(sid, source, mt, tok)
-            scored.append((bool(flags), sev, rank.get(eng, 99), eng, mt, flags))
+            note = []
+            if any(f.startswith("punctuation(") for f in flags):
+                # deterministic auto-fix (half-width -> full-width), then re-check;
+                # only accepted if the punctuation rule now passes
+                fixed, n = fix_zh_punct(mt)
+                fixed_flags = rule_flags(sid, source, fixed, tok)
+                if n and not any(f.startswith("punctuation(") for f in fixed_flags):
+                    mt, flags, note = fixed, fixed_flags, [f"autofix: {n} half-width punctuation -> full-width"]
+            scored.append((bool(flags), sev, rank.get(eng, 99), eng, mt, flags + note))
         scored.sort()
         failed, sev, _, eng, mt, flags = scored[0]
         if failed:
