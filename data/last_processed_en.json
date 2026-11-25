@@ -540,8 +540,8 @@
     "last_run_id": "20261123T193601Z_local"
   },
   "mermaid.description": {
-    "text_hash": "31bee267bdb0",
-    "last_run_id": "20261123T193601Z_local"
+    "text_hash": "7737ec3f9dad",
+    "last_run_id": "20261125T010930Z_a74bb8e"
   },
   "overwriteConfirm.action.exportToImage.button": {
     "text_hash": "4ca21c27fef6",
@@ -692,8 +692,8 @@
     "last_run_id": "20261123T193601Z_local"
   },
   "labels.showHints": {
-    "text_hash": "4781198a63a4",
-    "last_run_id": "20261123T193601Z_local"
+    "text_hash": "41b136b31197",
+    "last_run_id": "20261125T010930Z_a74bb8e"
   },
   "overwriteConfirm.action.excalidrawPlus.title": {
     "text_hash": "9bbb7a3bd22d",
@@ -718,5 +718,69 @@
   "toolBar.text": {
     "text_hash": "71988c4d8e08",
     "last_run_id": "20261123T193601Z_local"
+  },
+  "labels.minimap": {
+    "text_hash": "4bad6cff07d2",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "labels.zoom": {
+    "text_hash": "509c517ede79",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "labels.toggleAutoResize": {
+    "text_hash": "d4f4e380a4ea",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "buttons.zoomToFit": {
+    "text_hash": "543f1a829dea",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "hints.toggleTextAutoResize": {
+    "text_hash": "3830fa1efa84",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "toast.pastedAsSingleText": {
+    "text_hash": "b12c42344949",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "toast.splitIntoTextElements": {
+    "text_hash": "9c7fe24593fb",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.presentations": {
+    "text_hash": "cf31f39501ec",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.mcp": {
+    "text_hash": "d3aa22970a81",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.comments": {
+    "text_hash": "a6fde500b888",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.teams": {
+    "text_hash": "8db460460982",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.voiceChat": {
+    "text_hash": "9bdbc177e89d",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.withExcalidrawPlus": {
+    "text_hash": "3ec2522197c2",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.excalidrawPlusMcp": {
+    "text_hash": "5fcca3f5aae8",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.cli": {
+    "text_hash": "09a7e71138da",
+    "last_run_id": "20261125T010930Z_a74bb8e"
+  },
+  "promoBanner.cliTagline": {
+    "text_hash": "a441d6837d0d",
+    "last_run_id": "20261125T010930Z_a74bb8e"
   }
 }
