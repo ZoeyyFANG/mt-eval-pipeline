@@ -5,10 +5,13 @@ name: MT Evaluation Pipeline
 #  - weekly schedule                             -> keeps it "continuous" even with no commits
 #  - workflow_dispatch                            -> manual button in the Actions tab, for demos
 on:
-  push:
-    branches: [main]
-    paths:
-      - "locales/en.json"
+  # Push trigger retired 2026-11-24: upstream-sync.yml now handles new strings end to end
+  # (and opens a PR). Running here on the merge of that PR would start from an empty
+  # database and overwrite data/exports with empty CSVs.
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - "locales/en.json"
   # Weekly schedule paused while the project runs on a small API budget.
   # schedule:
   #   - cron: "0 6 * * 1"   # Monday 06:00 UTC

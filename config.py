@@ -27,7 +27,7 @@ LLM_JUDGE_FILE = ROOT / "data" / "_llm_judge.json"
 # --- database ---
 DB_PATH = ROOT / "db" / "pipeline.db"
 SCHEMA_FILE = ROOT / "db" / "schema.sql"
-EXPORT_DIR = ROOT / "data" / "exports"   # CSVs for Excel / Power BI to read
+EXPORT_DIR = Path(os.environ.get("MT_EVAL_EXPORT_DIR") or ROOT / "data" / "exports")   # CSVs for Excel / Power BI
 
 # --- history replay (scripts/replay_history.py sets MT_EVAL_REPLAY=1) ---
 # Same steps, separate sandbox: its own locale file, snapshot, scratch files,

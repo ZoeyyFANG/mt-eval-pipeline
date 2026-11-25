@@ -15,6 +15,10 @@ concurrency: upstream-sync
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      # CI starts from an empty database, so its exports only describe this sync.
+      # Keep them apart instead of overwriting the main run's data/exports/*.csv.
+      MT_EVAL_EXPORT_DIR: data/exports/upstream
     permissions:
       contents: write
       pull-requests: write
@@ -69,7 +73,7 @@ jobs:
             data/upstream_last.json
             data/last_processed_en.json
             data/context/packets.json
-            data/exports/
+            data/exports/upstream/
           commit-message: "l10n: sync ${{ steps.upstream.outputs.count }} upstream strings"
           title: "l10n: ${{ steps.upstream.outputs.count }} new/changed upstream strings"
           body-path: data/upstream_changes.md
